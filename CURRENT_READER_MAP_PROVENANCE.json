@@ -23,7 +23,7 @@
   "parent_manifest_sha256": "07a85859cdba492f67a6874af52723ee6c8ae5150fcca00af6dec9086d780a0d",
   "rights": "Coauthor and MHI permission have been reported by the corresponding author; external redistribution scope, outgoing licensing and final release confirmation remain pending.",
   "scientific_model_native_owner_analysis_bootstrap_here": 0,
-  "status": "PREPARED_NOT_PUBLIC",
+  "status": "PUBLIC_REPOSITORY_VERIFIED",
   "tables": 9,
   "editorial_revision": {
     "scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
@@ -57,5 +57,6 @@
   },
   "retained_previous_Dark_paper_receipt_sha256": "e5650ca73042dc8a2d307e703cabbd70bcc7d37e544f8cf4965f4ae76f8051a4",
   "retained_prior_current_Dark_paper_receipt_sha256": "c28e6d04d25b5a5465729347b01198681fdafed15be30cc476e44bb5621527c1",
-  "public_preparation": "Author-owned licenses proposed for final confirmation; upstream identities, licenses and scientific HOLDs retain their original limits"
+  "public_preparation": "Exact scope and author-owned licenses approved by corresponding author; repository PUBLIC and access without sign-in verified on 13 October 2026 JST. Upstream identities, licenses and scientific HOLDs retain their original limits.",
+  "public_status_observed_utc": "2026-10-12T20:58:29.492598+00:00"
 }

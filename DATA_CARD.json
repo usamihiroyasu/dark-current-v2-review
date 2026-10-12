@@ -47,7 +47,7 @@
     "scope": "LICENSE_SCOPE.md"
   },
   "paper_location": "paper/main.tex and paper/main.pdf; named and anonymous manuscripts are different format variants of the same study.",
-  "publication_approval": "Coauthor and MHI permission reported by corresponding author. This exact public candidate awaits final visibility/license confirmation.",
+  "publication_approval": "Coauthor and MHI permission reported by corresponding author. The corresponding author approved this exact public scope and the scoped licenses on 13 October 2026 JST; repository public visibility was verified. Third-party materials retain their original terms.",
   "purpose": "Reproduce recorded stratified clone-null and target-utility audits for the Dark Current replacement candidate.",
   "release_contains": "Saved verdict metadata, finite owned code stimuli, source, figures, analyses and provenance. Original benchmark prompts/responses are excluded.",
   "release_omits": [

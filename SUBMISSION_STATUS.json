@@ -18,5 +18,12 @@
     "pages": 21
   },
   "historical_metadata": "Earlier artifact cards/verification receipts retain their original preparation dates; current edition and license scope are specified here and in LICENSE_SCOPE.md",
-  "scientific_execution_this_update": 0
+  "scientific_execution_this_update": 0,
+  "repository": {
+    "url": "https://github.com/usamihiroyasu/dark-current-v2-review",
+    "visibility": "PUBLIC",
+    "verified_utc": "2026-10-12T20:58:29.492598+00:00",
+    "verified_without_sign_in": true,
+    "release_authority": "Corresponding author approved the exact repository scope and scoped licenses on 13 October 2026 JST"
+  }
 }
