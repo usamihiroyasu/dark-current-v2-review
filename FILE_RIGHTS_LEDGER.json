@@ -19,7 +19,7 @@
       "component": "readiness_metadata",
       "path": "ARTIFACT_CARD.md",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "71427f1d9ade6f8a184dfa917e9e6575a195ced4bc86306966f4c8a8fa218370"
+      "sha256": "d8d847c476431eff25214fd4060509213cf44834ff3152b200223a973159018d"
     },
     {
       "additional_scope": null,
@@ -33,7 +33,7 @@
       "component": "new_research_assets",
       "path": "CITATION.cff",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "4b5d88de35d9af297e0dcb4a4ba5d1b07e7db780f3f9a7812a308df4d7d0f739"
+      "sha256": "6b7158941dbcce4ab1007bbebefc894bc793712b3419a268aec2ccd01d888dc9"
     },
     {
       "additional_scope": null,
@@ -68,7 +68,7 @@
       "component": "readiness_metadata",
       "path": "CURRENT_READER_MAP_PROVENANCE.json",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "d1d837d0591dcf7bce65f8bc0fa0401f94020ff07856689e24dfe7641b895f7f"
+      "sha256": "56c58a05fb20c3fd86b57671eee8d4a0f57936005ba625f47ac44e339e27486a"
     },
     {
       "path": "CURRENT_READING_REVISION.json",
@@ -89,7 +89,7 @@
       "component": "readiness_metadata",
       "path": "DATA_CARD.json",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "f4e406a97cd3e2ec42ba2b5c1801c05a6f7f718d47a217b4891228933cb5c7de"
+      "sha256": "5a99f30c3f433a575d0262bdc89ea22251d348e2365eb50ee0a063b14df10368"
     },
     {
       "additional_scope": null,
@@ -145,7 +145,7 @@
       "component": "new_research_assets",
       "path": "LICENSE_NOT_SELECTED.md",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "1d0b7f7dee6d73351f091a6fb0d94b975c38503392529fbd1a8fdc199a162054"
+      "sha256": "830b57a093cebafef5e5ac892092e0e08aeec1a9d7317b727cd36aff38b1e07a"
     },
     {
       "additional_scope": "Text-free author-created metadata only; no model weights or upstream raw benchmark/response text.",
@@ -159,14 +159,14 @@
       "component": "readiness_metadata",
       "path": "PAPER_EVIDENCE_MAP.csv",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "e767a1c9742631ac8b4d01035a52821893a498c2d0e5f5793fdb77f6fb0081bc"
+      "sha256": "230645acc7a5064650218ffe51bb1f11c645e0ee57370fcfba9a910360a123fc"
     },
     {
       "additional_scope": null,
       "component": "readiness_metadata",
       "path": "PAPER_EVIDENCE_MAP.json",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "5c6bc25b25a04e93671e4a646cf2340d9aefc87b41746a4cd57e73563ac47b63"
+      "sha256": "061ea64650c199ad19552b9e60c6bee5fbe7981c7aeb2066742ca8d5ba76849d"
     },
     {
       "additional_scope": null,
@@ -187,14 +187,14 @@
       "component": "new_research_assets",
       "path": "README.md",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "65d4b813bb4e430c6d94313042d9075b08db5c8c56759dbf07ec990f52609f53"
+      "sha256": "73a27a7a4043e6a328b0e91ce15636f8a513ae62b39c8c6348b2b7bb25cfe54f"
     },
     {
       "additional_scope": null,
       "component": "readiness_metadata",
       "path": "REPRODUCTION_MAP.md",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "3bed43b66125d494293b2d0cdd1e8845415a5e979c27a0ddec70a5950485008c"
+      "sha256": "f5125d699f6bc0107b8d76e7ce317b6836c5f4d8554e2d7f9cce329567a93903"
     },
     {
       "additional_scope": null,
@@ -212,7 +212,7 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "59160153eed0b0e2cdb4b394132295bfe064f08ae98b91f788796e78b248cd7a",
+      "sha256": "590c2fce9443393a32052ab97e6e0513f0c3095ba984e5f5d8ca4ac8ae8c5d86",
       "component": "reader_documentation",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
       "additional_scope": "Author-written reader guide; no new raw dataset or result payload"
@@ -236,7 +236,7 @@
       "component": "prior_public_preprint",
       "path": "UPSTREAM_LICENSES.md",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "607898e8edb3243ed820ba524451eaa91de8c733c3453bd52da8ced62fb38429"
+      "sha256": "c5518647bf9be0f12c441c41d1e3c6c104c42f501b6b8a7a0489ee5080a9f638"
     },
     {
       "additional_scope": null,
@@ -831,14 +831,14 @@
       "component": "manuscript_revision",
       "path": "paper/main.pdf",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "cecdf42cd7644bad377d60e26cd868a9b2c4ec121917ecba57680c1051b5e17f"
+      "sha256": "dcaa925250f2b33b91487694e8e1dc126576960a301e8a7e3c3ce0a15edcf376"
     },
     {
       "additional_scope": null,
       "component": "manuscript_revision",
       "path": "paper/main.tex",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+      "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
     },
     {
       "additional_scope": null,
@@ -1119,6 +1119,27 @@
       "path": "verify_release.py",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
       "sha256": "6346f7595421484a3443cd774f80312e3bd5e678ccad32795bcd1e5a554bff26"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "5a00be1236abfdf55f3bc8802ee871e011a058cd1caa86db9c4b0e51fd2b6ec1",
+      "component": "readiness_metadata",
+      "public_decision": "PENDING_EXACT_PUBLIC_RELEASE_CONFIRMATION",
+      "additional_scope": "Current scoped author-owned licenses/submission status; third-party terms retained"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "sha256": "767b4cbc75d50d4da7cc80b1c4f5d3d51faebfbe2f42d2f4354398c401182ff2",
+      "component": "readiness_metadata",
+      "public_decision": "PENDING_EXACT_PUBLIC_RELEASE_CONFIRMATION",
+      "additional_scope": "Current scoped author-owned licenses/submission status; third-party terms retained"
+    },
+    {
+      "path": "SUBMISSION_STATUS.json",
+      "sha256": "b5e9baf58622070590e9effac59a1630ae5a9fdf326946619a812b610080ccda",
+      "component": "readiness_metadata",
+      "public_decision": "PENDING_EXACT_PUBLIC_RELEASE_CONFIRMATION",
+      "additional_scope": "Current scoped author-owned licenses/submission status; third-party terms retained"
     }
   ],
   "hash_binding": "All non-self files carry their current SHA256. The release manifest hashes this ledger; its own hash is in the external terminal receipt.",
@@ -1128,5 +1149,6 @@
     "FILE_RIGHTS_LEDGER.json",
     "RELEASE_MANIFEST.json"
   ],
-  "status": "COMPLETE_FILE_COVERAGE_PENDING_RIGHTS_DECISIONS"
+  "status": "COMPLETE_FILE_COVERAGE_PENDING_RIGHTS_DECISIONS",
+  "current_outgoing_scope": "LICENSE_SCOPE.md; final public approval pending; historical public_decision fields retain original preparation scope"
 }

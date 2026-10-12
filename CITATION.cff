@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the associated manuscript when the release is approved."
+message: "Please cite the associated manuscript."
 title: "LLM Judges Have Dark Current: Stratified Null and Utility Tests for LLM Judge Reliability"
 type: software
 authors:
@@ -14,5 +14,5 @@ authors:
 identifiers:
   - type: other
     value: "arXiv:2606.15610"
-version: "2026-10-13-private-review"
+version: "2026-10-13-submitted"
 abstract: "Stratified audits of output validity, exact-clone preferences, and target-selection utility, with study-specific saved evidence and reproducibility routes."

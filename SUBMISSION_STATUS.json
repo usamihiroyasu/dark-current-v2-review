@@ -1,0 +1,22 @@
+{
+  "schema": "dark-current-submission-status-v1",
+  "manuscript_title": "LLM Judges Have Dark Current: Stratified Null and Utility Tests for LLM Judge Reliability",
+  "TMLR": {
+    "submitted": "2026-10-13 JST",
+    "status": "Submitted; no decision claimed"
+  },
+  "arxiv": {
+    "id": "2606.15610",
+    "intended_version": 2,
+    "status": "Replacement submitted; announcement pending"
+  },
+  "named_manuscript": {
+    "source": "paper/main.tex",
+    "source_sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610",
+    "pdf": "paper/main.pdf",
+    "pdf_sha256": "dcaa925250f2b33b91487694e8e1dc126576960a301e8a7e3c3ce0a15edcf376",
+    "pages": 21
+  },
+  "historical_metadata": "Earlier artifact cards/verification receipts retain their original preparation dates; current edition and license scope are specified here and in LICENSE_SCOPE.md",
+  "scientific_execution_this_update": 0
+}

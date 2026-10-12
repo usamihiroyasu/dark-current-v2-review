@@ -2,11 +2,11 @@
   "current_manuscript": {
     "figures": 4,
     "pages": 21,
-    "pdf_sha256": "cecdf42cd7644bad377d60e26cd868a9b2c4ec121917ecba57680c1051b5e17f",
-    "source_sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507",
+    "pdf_sha256": "dcaa925250f2b33b91487694e8e1dc126576960a301e8a7e3c3ce0a15edcf376",
+    "source_sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610",
     "tables": 9,
     "parent_scientific_receipt_sha256": "ec05342958f70e0efb8a3d59c8b362e47333a2dbb1029731b749ef0ce37aa230",
-    "editorial_scope": "Five prose passages condensed; data, equations, references and figures unchanged; changed-edition PDFs compiled",
+    "editorial_scope": "Exact submitted named arXiv source/PDF; current status/licensing documentation; no scientific change",
     "template": "TMLR preprint style"
   },
   "figures": 4,
@@ -56,5 +56,6 @@
     "science_native_model_bootstrap_here": 0
   },
   "retained_previous_Dark_paper_receipt_sha256": "e5650ca73042dc8a2d307e703cabbd70bcc7d37e544f8cf4965f4ae76f8051a4",
-  "retained_prior_current_Dark_paper_receipt_sha256": "c28e6d04d25b5a5465729347b01198681fdafed15be30cc476e44bb5621527c1"
+  "retained_prior_current_Dark_paper_receipt_sha256": "c28e6d04d25b5a5465729347b01198681fdafed15be30cc476e44bb5621527c1",
+  "public_preparation": "Author-owned licenses proposed for final confirmation; upstream identities, licenses and scientific HOLDs retain their original limits"
 }

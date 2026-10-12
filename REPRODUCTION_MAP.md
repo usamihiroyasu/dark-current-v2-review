@@ -1,6 +1,6 @@
 # Reproduction routes
 
-The [manuscript](paper/main.pdf), [evidence map](PAPER_EVIDENCE_MAP.json), and [configuration map](STUDY_CONFIGURATION_MAP.json) connect the current paper to its study-specific assets. This private author-review repository has not been publicly released.
+The [manuscript](paper/main.pdf), [evidence map](PAPER_EVIDENCE_MAP.json), and [configuration map](STUDY_CONFIGURATION_MAP.json) connect the current paper to its study-specific assets. The named manuscript is the submitted arXiv v2 replacement edition.
 
 ## Saved records and file integrity
 
@@ -38,4 +38,4 @@ Figures and scientific records are unchanged by the prose revision. Rendering a 
 
 The controlled A0/A1 table and historical parser figure lack a public primary-record/tabulation route. The complete historical live request profile is outside this export. Raw benchmark text, generated candidate bodies, original responses, weights, and private operating information are excluded. A new inference run requires its own upstream sources, serving contract, and frozen protocol; the quick checks do not supply a general cross-model runner.
 
-Source labels and finite-domain truth are separate targets. The 51 human-equivalence items remain unlabelled and excluded. Native weights/context, unseen-task performance, human semantic truth, and deployment-loss reduction are outside the saved-record checks. See the [dataset scope](DATASHEET.md), [configuration map](STUDY_CONFIGURATION_MAP.json), and [rights ledger](FILE_RIGHTS_LEDGER.json) before reuse. Outgoing licensing and public-release approval remain pending.
+Source labels and finite-domain truth are separate targets. The 51 human-equivalence items remain unlabelled and excluded. Native weights/context, unseen-task performance, human semantic truth, and deployment-loss reduction are outside the saved-record checks. See the [dataset scope](DATASHEET.md), [configuration map](STUDY_CONFIGURATION_MAP.json), and [rights ledger](FILE_RIGHTS_LEDGER.json) before reuse. See [license scope](LICENSE_SCOPE.md) for reuse conditions.

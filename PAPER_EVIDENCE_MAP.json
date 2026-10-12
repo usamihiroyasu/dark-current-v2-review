@@ -3,7 +3,7 @@
   "status": "CURRENT_13_OBJECTS_INDEXED_WITH_EXPLICIT_GAPS",
   "paper": {
     "path": "paper/main.tex",
-    "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+    "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
   },
   "studies": {
     "V5": {
@@ -227,7 +227,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+        "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
       },
       "studies": [
         "V5",
@@ -258,7 +258,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+        "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
       },
       "studies": [],
       "scope": "A0/A1 corrected point estimates; legacy primary-record and tabulation command not mapped in this public root.",
@@ -273,7 +273,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+        "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
       },
       "studies": [],
       "scope": "A0/A1 strata and legacy reused-item parser diagnostic; not the V8 parser result.",
@@ -323,7 +323,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+        "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
       },
       "studies": [
         "V5"
@@ -416,7 +416,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+        "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
       },
       "studies": [
         "V5",
@@ -434,7 +434,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+        "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
       },
       "studies": [
         "local_output_hold"
@@ -465,7 +465,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+        "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
       },
       "studies": [
         "held_source485"
@@ -492,7 +492,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+        "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
       },
       "studies": [
         "held_source485"
@@ -527,7 +527,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
+        "sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610"
       },
       "studies": [],
       "scope": "Study-specific artifact and served-ID overview; not a model comparison or weight-byte certificate",
@@ -551,7 +551,7 @@
   },
   "paper_pdf": {
     "path": "paper/main.pdf",
-    "sha256": "cecdf42cd7644bad377d60e26cd868a9b2c4ec121917ecba57680c1051b5e17f"
+    "sha256": "dcaa925250f2b33b91487694e8e1dc126576960a301e8a7e3c3ce0a15edcf376"
   },
   "this_revision": {
     "scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
@@ -576,5 +576,15 @@
     "new_science": 0,
     "figure_changes": 0,
     "conversation_labels": 0
+  },
+  "submitted_edition": {
+    "arxiv_id": "2606.15610",
+    "intended_version": 2,
+    "submission_utc": "2026-10-12",
+    "announcement_pending": true,
+    "source_sha256": "c3c4f312d3eb001cd9eef74f031fcc2c6b044ff3768da4da688fde2bed3ee610",
+    "pdf_sha256": "dcaa925250f2b33b91487694e8e1dc126576960a301e8a7e3c3ce0a15edcf376",
+    "pages": 21,
+    "scientific_change": false
   }
 }

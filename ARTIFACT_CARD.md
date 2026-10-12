@@ -1,6 +1,6 @@
 # Dark Current artifact card
 
-**Private author-review candidate. No publication or submission has occurred.**
+**Submitted manuscript edition.** The [current submission record](SUBMISSION_STATUS.json) identifies the named source/PDF. Later paragraphs in this card retain historical preparation snapshots; the current [license scope](LICENSE_SCOPE.md) supersedes earlier unselected-license status.
 
 Reproduces recorded stratified clone-null and target-utility audits for the Dark Current replacement candidate using saved verdict metadata, finite owned code stimuli, source, figures, analyses and provenance.
 
