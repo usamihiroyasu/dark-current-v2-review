@@ -1,0 +1,26 @@
+% Generated from the canonical fresh-item analysis. Reused-item studies remain
+% secondary evidence; the distinct-answer extension is outside the current results.
+\begin{table}[t]
+\caption{Fresh-item results on 102 matched tasks. Clone cells report false preferences and exact one-sided 95\% upper bounds; signal cells report chosen-answer success and one-sided 95\% task-bootstrap lower bounds. The fixed utility threshold is .75.}
+\label{tab:fresh-primary}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.0pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llccccl}
+\toprule
+Configuration & Criterion & Clone FP [upper] & Holm $p$ & Signal [lower] & Utility gate & Joint result \\
+\midrule
+Qwen2.5-32B & neutral & 0/102 [.029] & .021 & .824 [.779] & pass & both gates pass \\
+Qwen2.5-32B & strict  & 0/102 [.029] & .021 & .588 [.539] & miss & clone gate only \\
+Qwen3.6-35B & neutral & 0/102 [.029] & .021 & .873 [.833] & pass & both gates pass \\
+Qwen3.6-35B & strict  & 0/102 [.029] & .021 & .794 [.745] & miss & clone gate only \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+Both judge evaluations completed all 612 prespecified calls without retry. Qwen2.5 had one invalid signal response (1/612, 0.16\%) and Qwen3.6 had none, so both pass the fixed 1\% configuration gate. All four clone cells had 0/102 false preferences. Both neutral arms passed the utility gate, whereas both strict arms missed it. The gate implements a declared selection loss in which invalid, tie, and wrong verdicts count as failures. The strict lower bounds were .539 for Qwen2.5 and .745 for Qwen3.6; the latter falls .005 below the prespecified threshold and supports non-certification rather than practical uselessness.
+
+In the prespecified criterion tests, the strict-minus-neutral signal statistic is $-0.235$ for Qwen2.5 (Holm $p=2\!\times\!10^{-5}$) and $-0.078$ for Qwen3.6 (Holm $p=.00028$). Neither order statistic rejects in the secondary order/interaction family (Holm $p=.192$ for both). The criterion-by-order statistic is $0.353$ for Qwen2.5 (Holm $p=4\!\times\!10^{-5}$) and $-0.059$ for Qwen3.6 (Holm $p=.264$). For Qwen2.5, neutral AB/BA success is .873/.775 and strict success is .461/.716: the loss concentrates in AB. These schedule-wide sharp-null tests do not distinguish criterion-dependent order sensitivity from carryover or serving drift.
+
+The reused-item studies are reported separately from the fresh-item study. Schedule reordering reproduced all 816 valid clone/signal verdicts, and all four replication clone/utility cells passed. The gpt-oss evaluation was excluded after 33/612 invalid parser outputs despite .980 neutral signal success.

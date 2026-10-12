@@ -1,0 +1,16 @@
+% Fail-closed construct-audit release switch.
+% Current branch: labels have not been collected/validated.
+\newcommand{\AIIReleaseState}{\texttt{PENDING\_OR\_INVALID}}
+\newcommand{\AIIReleaseText}{At manuscript freeze, no valid primary audit file had been released; the state is \AIIReleaseState. The current release therefore fixes $\pi_e=0$ and contains no EFP estimate; a positive-$\pi_e$ term can enter only a separately versioned release after a valid PASS.}
+%
+% PASS branch -- use only after all three required files, codes, item IDs, and
+% hashes validate; primary FAIL+UNCERTAIN <= 2 before outcome access:
+% \renewcommand{\AIIReleaseState}{\texttt{PASS}}
+% Prepare a separately versioned EFP/risk release. Use ROBUST_HEADLINE_PASS only if the union of
+% non-PASS items across all three required raters is also <= 2.
+%
+% HOLD branch -- use for FAIL+UNCERTAIN >= 3:
+% \renewcommand{\AIIReleaseState}{\texttt{HOLD\_CONSTRUCT\_FAILURE}}
+% Keep EFP outside the current release and report frozen counts.
+% Incomplete, hash/ID mismatch, or post-outcome labeling remains
+% PENDING_OR_INVALID and cannot be repaired by relabeling this version.

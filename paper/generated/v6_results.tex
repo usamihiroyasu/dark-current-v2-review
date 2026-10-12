@@ -1,0 +1,31 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrrr}
+\toprule
+Configuration & Criterion & DC/96 & Upper & $p_{\mathrm{Holm}}$ & EFP/96 & Invalid/480 \\
+\midrule
+Qwen3.8 & neutral & 0 & 0.0307 & 0.0436 & 0 & 0 \\
+Qwen3.8 & strict & 0 & 0.0307 & 0.0436 & 0 & 0 \\
+gpt-oss & neutral & 0 & 0.0307 & 0.0436 & 0 & 0 \\
+gpt-oss & strict & 0 & 0.0307 & 0.0436 & 0 & 0 \\
+Nemotron & neutral & 0 & 0.0307 & 0.0436 & 0 & 1 \\
+Nemotron & strict & 0 & 0.0307 & 0.0436 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\medskip
+\begin{tabular}{llrrrrl}
+\toprule
+Configuration & Criterion & Utility & Lower & 95\% interval & AB/BA & Joint \\
+\midrule
+Qwen3.8 & neutral & 0.9635 & 0.9375 & $[0.9323,0.9896]$ & 95/90 & Pass \\
+Qwen3.8 & strict & 0.9531 & 0.9271 & $[0.9219,0.9792]$ & 94/89 & Pass \\
+gpt-oss & neutral & 1.0000 & 1.0000 & $[1.0000,1.0000]$ & 96/96 & Pass \\
+gpt-oss & strict & 1.0000 & 1.0000 & $[1.0000,1.0000]$ & 96/96 & Pass \\
+Nemotron & neutral & 0.9948 & 0.9844 & $[0.9844,1.0000]$ & 95/96 & Pass \\
+Nemotron & strict & 0.9896 & 0.9792 & $[0.9740,1.0000]$ & 96/94 & Pass \\
+\bottomrule
+\end{tabular}
+\caption{Complete finite-code results. Each cell has 480/480 calls, 96 clone tasks, 96 equivalence tasks with both orders, and 96 signal tasks with both orders. Upper is the marginal one-sided 95\% clone bound; EFP counts any adverse equivalence pair. Every equivalence class is 96 ties and zero other classes. AB/BA gives signal successes out of 96 per order. Lower is the one-sided 95\% stratified bootstrap utility bound; the two-sided interval is descriptive. Joint Pass denotes the frozen useful-low-null gate, with operational completeness and invalid rates also passing. No population calibration is claimed.}
+\label{tab:v6-results}
+\end{table}

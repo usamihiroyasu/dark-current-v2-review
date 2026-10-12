@@ -1,0 +1,31 @@
+\begin{table}[!htbp]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lllrrrl}
+\toprule
+Configuration & Criterion & Arm & Adverse/32 & $U_a$ & $U_p$ & Difference [95\% interval] \\
+\midrule
+Qwen3.8 & neutral & Equiv. & 7 & 1.0000 & 0.8594 & $-0.1406\;[-0.1875,-0.0938]$ \\
+Qwen3.8 & neutral & Signal & 4 & 0.9219 & 0.9844 & $0.0625\;[0.0312,0.0938]$ \\
+Qwen3.8 & strict & Equiv. & 1 & 1.0000 & 0.9688 & $-0.0312\;[-0.0938,0.0000]$ \\
+Qwen3.8 & strict & Signal & 4 & 0.9219 & 0.9844 & $0.0625\;[0.0312,0.0938]$ \\
+gpt-oss & neutral & Equiv. & 0 & 1.0000 & 1.0000 & $0.0000\;[0.0000,0.0000]$ \\
+gpt-oss & neutral & Signal & 0 & 1.0000 & 1.0000 & $0.0000\;[0.0000,0.0000]$ \\
+gpt-oss & strict & Equiv. & 0 & 1.0000 & 1.0000 & $0.0000\;[0.0000,0.0000]$ \\
+gpt-oss & strict & Signal & 0 & 1.0000 & 1.0000 & $0.0000\;[0.0000,0.0000]$ \\
+\bottomrule
+\end{tabular}
+\medskip
+\begin{tabular}{llrrrr}
+\toprule
+Held configuration & Criterion/arm & Calls/128 & Full tasks/32 & Invalid absent/present & Status \\
+\midrule
+Nemotron & neutral/equiv. & 86 & 6 & 0/0 & HOLD \\
+Nemotron & neutral/signal & 78 & 4 & 1/0 & HOLD \\
+Nemotron & strict/equiv. & 78 & 5 & 0/0 & HOLD \\
+Nemotron & strict/signal & 78 & 4 & 1/0 & HOLD \\
+\bottomrule
+\end{tabular}
+\caption{All twelve context-audit cells, including four held cells. Each admitted cell has 128/128 calls, 32 complete tasks, and zero invalid output. Adverse counts a canonical context change in either order or invalidity among four responses. $U_a$ and $U_p$ are task-averaged success in absent and present contexts. Paired intervals are descriptive, from the frozen 20,000-replicate bootstrap. The four Nemotron cells report only coverage and invalidity; partial task groups do not yield performance estimates.}
+\label{tab:v7-results}
+\end{table}

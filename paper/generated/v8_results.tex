@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrr}
+\toprule
+Configuration & Criterion & Clone adverse/102 & Upper & $p_{\mathrm{Holm}}$ \\
+\midrule
+Qwen3.8 & neutral & 0 & 0.0289 & 0.0214 \\
+Qwen3.8 & strict & 0 & 0.0289 & 0.0214 \\
+gpt-oss & neutral & 2 & 0.0604 & 0.1103 \\
+gpt-oss & strict & 0 & 0.0289 & 0.0214 \\
+\bottomrule
+\end{tabular}
+\medskip
+\begin{tabular}{llrrrrl}
+\toprule
+Configuration & Criterion & Utility & Lower & 95\% interval & AB/BA & Joint \\
+\midrule
+Qwen3.8 & neutral & 0.9069 & 0.8676 & $[0.8578,0.9510]$ & 96/89 & Pass \\
+Qwen3.8 & strict & 0.8971 & 0.8578 & $[0.8529,0.9363]$ & 96/87 & Pass \\
+gpt-oss & neutral & 0.8922 & 0.8529 & $[0.8431,0.9363]$ & 94/88 & Not certified \\
+gpt-oss & strict & 0.8676 & 0.8235 & $[0.8137,0.9167]$ & 94/83 & Pass \\
+\bottomrule
+\end{tabular}
+\caption{Re-evaluation of the same 102 benchmark rows on two new served configurations (V8). Every cell has 306/306 calls: 102 clone calls and two ordered signal calls per task. Upper is the marginal one-sided 95\% clone bound; the fixed Holm family contains all four clone cells. Lower is the one-sided stratified bootstrap utility bound; two-sided intervals are descriptive. AB/BA lists successes out of 102 per order. All 1,224 calls have verified response identities and valid outputs. The neutral gpt-oss cell fails the fixed null certificate while passing the utility gate; its point rate below .05 is not sufficient to certify a rate below .05. This result does not establish that its true clone-adverse rate exceeds .05.}
+\label{tab:v8-results}
+\end{table}
