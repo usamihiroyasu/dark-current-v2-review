@@ -1,0 +1,485 @@
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7","row":1155,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":104,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c","row":992,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":12,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":615,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1115,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":478,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1279,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":381,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":652,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":165,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"44596994fe1702fd19f3dea048e63f3f6b9bdc18300437db5ad3c5a455864631","row":833,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":29,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1328,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1131,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":260,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"44596994fe1702fd19f3dea048e63f3f6b9bdc18300437db5ad3c5a455864631","row":820,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":122,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":699,"subset":"Math"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477","row":1178,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":46,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":606,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1644,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":908,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":15,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":814,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":166,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":304,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":434,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":529,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":486,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":541,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1569,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1744,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":276,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":241,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":483,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1568,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":905,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1715,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":574,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":210,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":569,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":61,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":322,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1614,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1541,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1587,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1347,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":759,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":681,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":438,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1858,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1591,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7","row":1163,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":587,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1370,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":101,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":43,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1094,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":570,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893","row":1241,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":510,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":410,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1812,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1604,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":96,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":225,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":764,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":723,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1780,"subset":"Ties"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":423,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":543,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":249,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":539,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1751,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":719,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":287,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":382,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1790,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1786,"subset":"Ties"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":309,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1516,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893","row":1227,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1567,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":533,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":284,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":725,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":636,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":44,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":531,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":562,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1098,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":27,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":349,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c","row":988,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":310,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1125,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":493,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":866,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":326,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":847,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893","row":1242,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":464,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":203,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":553,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1397,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1290,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":191,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1646,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1428,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1601,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":878,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":691,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":85,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":617,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":682,"subset":"Math"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"c7d8e7de16ef35b7656e9adbd395c1b9a22b3fc6b63f0ab56a0b575d5fc52307","row":932,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":279,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"d0fc4ae90093c84d11f3f22d172bf9857dccdf6a4770747f82b71efb14ffd8be","row":958,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":693,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1427,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":607,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":661,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":58,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":362,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":586,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1373,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1101,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":355,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":840,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":201,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":481,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":557,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c","row":974,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"c7d8e7de16ef35b7656e9adbd395c1b9a22b3fc6b63f0ab56a0b575d5fc52307","row":930,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1090,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":131,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":115,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"c8fb01402b2d2153ca6e2a62735904b89e0b9d3d9817e07fca50a8de869874a8","row":1222,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":857,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":206,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893","row":1234,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7","row":1153,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":163,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":429,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":460,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":218,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":722,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1716,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":450,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1142,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1610,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":521,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1607,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":794,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":503,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1399,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":477,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":509,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1840,"subset":"Ties"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":360,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":726,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":30,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":236,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":187,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":437,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":752,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":170,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":25,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477","row":1186,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1796,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":484,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1828,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1365,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":278,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":578,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":385,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1750,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":890,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1774,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":701,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":107,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":684,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":281,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1643,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":558,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":897,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1132,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":312,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1844,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1740,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1337,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":674,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1432,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":454,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":399,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1662,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1106,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":1,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1460,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7","row":1151,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":299,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":618,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":868,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"c8fb01402b2d2153ca6e2a62735904b89e0b9d3d9817e07fca50a8de869874a8","row":1212,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":601,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":624,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1570,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1289,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1271,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1721,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1288,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":544,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":425,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":311,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":177,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1832,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":554,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":16,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":28,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1798,"subset":"Ties"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":159,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":739,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":248,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":247,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":817,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":468,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":323,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":870,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7","row":1162,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1838,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":608,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":918,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":619,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":567,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477","row":1199,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1105,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c","row":983,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1457,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1326,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":245,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":337,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1119,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":520,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":198,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"c7d8e7de16ef35b7656e9adbd395c1b9a22b3fc6b63f0ab56a0b575d5fc52307","row":925,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1306,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":436,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1760,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1073,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":306,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1585,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"c7d8e7de16ef35b7656e9adbd395c1b9a22b3fc6b63f0ab56a0b575d5fc52307","row":922,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1822,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1733,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":234,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":616,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1334,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":440,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":690,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":589,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":524,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":99,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1846,"subset":"Ties"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":358,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":458,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477","row":1172,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":106,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":264,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":375,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":112,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":275,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893","row":1243,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1420,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":345,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1392,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":769,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":378,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":344,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":505,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":64,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":760,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":664,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1515,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":513,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":71,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":609,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"d0fc4ae90093c84d11f3f22d172bf9857dccdf6a4770747f82b71efb14ffd8be","row":956,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":874,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477","row":1189,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"c8fb01402b2d2153ca6e2a62735904b89e0b9d3d9817e07fca50a8de869874a8","row":1218,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":597,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":164,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":566,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":87,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2","row":1056,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":288,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":501,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1723,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":48,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":599,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":511,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":235,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":137,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":14,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":317,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1128,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":724,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1388,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1296,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":753,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1444,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":396,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":490,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1770,"subset":"Ties"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":318,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":766,"subset":"Math"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1143,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":291,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":93,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":906,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":426,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":67,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":595,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"c8fb01402b2d2153ca6e2a62735904b89e0b9d3d9817e07fca50a8de869874a8","row":1216,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1126,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1649,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":907,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2","row":1046,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":213,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":657,"subset":"Math"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1096,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":786,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1501,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":542,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":186,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":398,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":232,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1824,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":627,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1339,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":633,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":545,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":182,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":714,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":507,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":274,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"c7d8e7de16ef35b7656e9adbd395c1b9a22b3fc6b63f0ab56a0b575d5fc52307","row":927,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1766,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":563,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":538,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c","row":1011,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":519,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1735,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1545,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":495,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":502,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":559,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":293,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1308,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":771,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":625,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1613,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":116,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893","row":1226,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":397,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1782,"subset":"Ties"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":412,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":129,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1360,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":419,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":730,"subset":"Math"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7","row":1145,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1622,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":463,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1738,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1277,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":41,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1726,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":150,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":480,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c","row":1016,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":525,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2","row":1055,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":188,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":394,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7","row":1157,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1089,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1121,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1113,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1772,"subset":"Ties"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":384,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":610,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1429,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1818,"subset":"Ties"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":199,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":630,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":301,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1127,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1100,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1621,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":10,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":549,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":392,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c","row":1020,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1435,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"44596994fe1702fd19f3dea048e63f3f6b9bdc18300437db5ad3c5a455864631","row":829,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1800,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":556,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1437,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":258,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477","row":1171,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1378,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":63,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1305,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477","row":1187,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":367,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":745,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":18,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":731,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":4,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"d0fc4ae90093c84d11f3f22d172bf9857dccdf6a4770747f82b71efb14ffd8be","row":946,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":89,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":45,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":456,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":49,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"44596994fe1702fd19f3dea048e63f3f6b9bdc18300437db5ad3c5a455864631","row":827,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893","row":1266,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":584,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":880,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1129,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1704,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":233,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1595,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":24,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":220,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":224,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":420,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1110,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":482,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":497,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1659,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":313,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":428,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":895,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c","row":1104,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":856,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2","row":1057,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1860,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":718,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1583,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1268,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":415,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":692,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":120,"subset":"Factuality"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":302,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2","row":1062,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1663,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":442,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1788,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1361,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":634,"subset":"Precise IF"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893","row":1235,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"d0fc4ae90093c84d11f3f22d172bf9857dccdf6a4770747f82b71efb14ffd8be","row":948,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":431,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":871,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":52,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1602,"subset":"Focus"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":736,"subset":"Math"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":407,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1776,"subset":"Ties"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":673,"subset":"Math"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1414,"subset":"Focus"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c","row":1031,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5","row":887,"subset":"Safety"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276","row":202,"subset":"Factuality"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":1586,"subset":"Focus"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":449,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2","row":1043,"subset":"Safety"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"c7d8e7de16ef35b7656e9adbd395c1b9a22b3fc6b63f0ab56a0b575d5fc52307","row":940,"subset":"Safety"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":550,"subset":"Precise IF"}
+{"available_proxy_fields":[],"proxy_group_sha256":null,"row":602,"subset":"Precise IF"}
+{"available_proxy_fields":["method"],"proxy_group_sha256":"59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa","row":365,"subset":"Factuality"}
+{"available_proxy_fields":["category","subcategory"],"proxy_group_sha256":"0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2","row":1039,"subset":"Safety"}

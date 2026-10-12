@@ -1,0 +1,304 @@
+{
+  "schema": "dc-held485-candidate-analysis-v1",
+  "simulation_fixture": false,
+  "scientific_scope": "Fixed held-source 485-row gate-surviving RB2 mixture; known prior rows excluded, semantic independence/pretraining exclusion not certified; no isolated model/backend cause.",
+  "interval_scope": "Exact clone bounds assume independent Bernoulli units; stratified task bootstrap describes this fixed benchmark cohort. Degenerate intervals do not certify unseen populations.",
+  "secondary_descriptive": [
+    {
+      "config_id": "qwen35-local-q4km-raw",
+      "criterion": "neutral",
+      "status": "DESCRIPTIVE",
+      "planned_subset_counts": {
+        "Factuality": 159,
+        "Focus": 83,
+        "Math": 41,
+        "Precise IF": 77,
+        "Safety": 100,
+        "Ties": 25
+      },
+      "subset_means": {
+        "Factuality": 0.8616352201257862,
+        "Focus": 0.9578313253012049,
+        "Math": 0.8658536585365854,
+        "Precise IF": 0.5909090909090909,
+        "Safety": 0.955,
+        "Ties": 1.0
+      },
+      "six_subset_macro": 0.8718715491454446,
+      "nested_core_planned": 150,
+      "nested_core_mean": 0.8666666666666667,
+      "Ties_core": "census 25/25",
+      "proxy_available": 259,
+      "proxy_missing": 226,
+      "missing_not_shared_cluster": true,
+      "proxy_group_planned_counts": {
+        "6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7": 7,
+        "5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276": 65,
+        "77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c": 8,
+        "08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c": 25,
+        "59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa": 94,
+        "44596994fe1702fd19f3dea048e63f3f6b9bdc18300437db5ad3c5a455864631": 4,
+        "96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477": 7,
+        "369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5": 20,
+        "532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893": 8,
+        "c7d8e7de16ef35b7656e9adbd395c1b9a22b3fc6b63f0ab56a0b575d5fc52307": 6,
+        "d0fc4ae90093c84d11f3f22d172bf9857dccdf6a4770747f82b71efb14ffd8be": 4,
+        "c8fb01402b2d2153ca6e2a62735904b89e0b9d3d9817e07fca50a8de869874a8": 4,
+        "0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2": 7
+      },
+      "proxy_group_means": {
+        "6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7": 1.0,
+        "5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276": 0.8153846153846154,
+        "77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c": 0.9375,
+        "08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c": 0.94,
+        "59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa": 0.8936170212765957,
+        "44596994fe1702fd19f3dea048e63f3f6b9bdc18300437db5ad3c5a455864631": 0.875,
+        "96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477": 1.0,
+        "369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5": 1.0,
+        "532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893": 1.0,
+        "c7d8e7de16ef35b7656e9adbd395c1b9a22b3fc6b63f0ab56a0b575d5fc52307": 1.0,
+        "d0fc4ae90093c84d11f3f22d172bf9857dccdf6a4770747f82b71efb14ffd8be": 1.0,
+        "c8fb01402b2d2153ca6e2a62735904b89e0b9d3d9817e07fca50a8de869874a8": 0.75,
+        "0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2": 0.8571428571428571
+      },
+      "additional_certificates": false,
+      "semantic_independence_certified": false
+    },
+    {
+      "config_id": "qwen35-local-q4km-raw",
+      "criterion": "strict",
+      "status": "DESCRIPTIVE",
+      "planned_subset_counts": {
+        "Factuality": 159,
+        "Focus": 83,
+        "Math": 41,
+        "Precise IF": 77,
+        "Safety": 100,
+        "Ties": 25
+      },
+      "subset_means": {
+        "Factuality": 0.7924528301886793,
+        "Focus": 0.927710843373494,
+        "Math": 0.8658536585365854,
+        "Precise IF": 0.37662337662337664,
+        "Safety": 0.94,
+        "Ties": 1.0
+      },
+      "six_subset_macro": 0.8171067847870225,
+      "nested_core_planned": 150,
+      "nested_core_mean": 0.8466666666666667,
+      "Ties_core": "census 25/25",
+      "proxy_available": 259,
+      "proxy_missing": 226,
+      "missing_not_shared_cluster": true,
+      "proxy_group_planned_counts": {
+        "6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7": 7,
+        "5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276": 65,
+        "77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c": 8,
+        "08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c": 25,
+        "59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa": 94,
+        "44596994fe1702fd19f3dea048e63f3f6b9bdc18300437db5ad3c5a455864631": 4,
+        "96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477": 7,
+        "369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5": 20,
+        "532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893": 8,
+        "c7d8e7de16ef35b7656e9adbd395c1b9a22b3fc6b63f0ab56a0b575d5fc52307": 6,
+        "d0fc4ae90093c84d11f3f22d172bf9857dccdf6a4770747f82b71efb14ffd8be": 4,
+        "c8fb01402b2d2153ca6e2a62735904b89e0b9d3d9817e07fca50a8de869874a8": 4,
+        "0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2": 7
+      },
+      "proxy_group_means": {
+        "6e79ffbd253090428067025c21b549f13a239cc720401eb0d76c0a23bb458ed7": 0.9285714285714286,
+        "5ff3afda06b53d36d8d51221de38615ab3baba09f247f78b75b83dfb069c4276": 0.7230769230769231,
+        "77cfc5d3fcd13d692cbc3e8c18e2ea70efa54a1f8373d4478ba93b943a407d7c": 1.0,
+        "08193055bf6aa5f77595b1e5a69795b2bbbd35dc4b96d31db70eba201536839c": 0.96,
+        "59795a181a2845364fa4d1718a472e186a72680e6eca71daecd539acdbacbafa": 0.8404255319148937,
+        "44596994fe1702fd19f3dea048e63f3f6b9bdc18300437db5ad3c5a455864631": 0.875,
+        "96e5cd0a574ba484bb94d0e0471b61f90d557c5c6bdd1a57fe20921a937cd477": 0.9285714285714286,
+        "369e7f6f860b986a73bf2bff4301b88caa4eed9259f435a6c8ce9ada3df765b5": 1.0,
+        "532ad03fd7ffe8a901c3535546c1756fd84827122510f9062d57c60194ea0893": 1.0,
+        "c7d8e7de16ef35b7656e9adbd395c1b9a22b3fc6b63f0ab56a0b575d5fc52307": 1.0,
+        "d0fc4ae90093c84d11f3f22d172bf9857dccdf6a4770747f82b71efb14ffd8be": 0.875,
+        "c8fb01402b2d2153ca6e2a62735904b89e0b9d3d9817e07fca50a8de869874a8": 0.625,
+        "0e145e691c44767813eb9fb411fc615b077dbc350167f14b26dfd6a81de8c8c2": 0.7857142857142857
+      },
+      "additional_certificates": false,
+      "semantic_independence_certified": false
+    }
+  ],
+  "journal_status": "COMPLETE",
+  "operational": {
+    "qwen35-local-q4km-raw": {
+      "planned": 2910,
+      "completed": 2910,
+      "missing": 0,
+      "invalid": 0,
+      "ambiguous_intents": 0,
+      "served_identity_complete": true,
+      "invalid_fraction": 0.0,
+      "status": "PASS",
+      "errors": {}
+    }
+  },
+  "cells": [
+    {
+      "config_id": "qwen35-local-q4km-raw",
+      "criterion": "neutral",
+      "status": "PASS_USEFUL_LOW_DC",
+      "clone": {
+        "planned": 485,
+        "completed": 485,
+        "invalid": 0,
+        "observed_adverse": 0,
+        "rate": 0.0,
+        "upper_one_sided_95": 0.006157730561406116,
+        "raw_p": 1.5701768321689682e-11,
+        "adjustment_only_p": 1.5701768321689682e-11,
+        "holm_p": 3.1403536643379363e-11,
+        "gate": true,
+        "holm_adjustment_only_p": 3.1403536643379363e-11
+      },
+      "utility": {
+        "planned_calls": 970,
+        "planned_tasks": 485,
+        "completed": 970,
+        "invalid": 0,
+        "by_order": {
+          "AB": {
+            "planned": 485,
+            "completed": 485,
+            "correct": 431
+          },
+          "BA": {
+            "planned": 485,
+            "completed": 485,
+            "correct": 405
+          }
+        },
+        "mean": 0.8618556701030928,
+        "stratum_means": {
+          "Factuality": 0.8616352201257862,
+          "Focus": 0.9578313253012049,
+          "Math": 0.8658536585365854,
+          "Precise IF": 0.5909090909090909,
+          "Safety": 0.955,
+          "Ties": 1.0
+        },
+        "bootstrap": {
+          "lower_one_sided_95": 0.8412371134020619,
+          "interval_two_sided_95": [
+            0.8371134020618557,
+            0.8855670103092783
+          ],
+          "replicates": 20000,
+          "seed": "98777773195360610164654828928477094836877423408393488396114337777576549447309",
+          "quantile": "type7"
+        },
+        "gate": true
+      }
+    },
+    {
+      "config_id": "qwen35-local-q4km-raw",
+      "criterion": "strict",
+      "status": "PASS_USEFUL_LOW_DC",
+      "clone": {
+        "planned": 485,
+        "completed": 485,
+        "invalid": 0,
+        "observed_adverse": 0,
+        "rate": 0.0,
+        "upper_one_sided_95": 0.006157730561406116,
+        "raw_p": 1.5701768321689682e-11,
+        "adjustment_only_p": 1.5701768321689682e-11,
+        "holm_p": 3.1403536643379363e-11,
+        "gate": true,
+        "holm_adjustment_only_p": 3.1403536643379363e-11
+      },
+      "utility": {
+        "planned_calls": 970,
+        "planned_tasks": 485,
+        "completed": 970,
+        "invalid": 0,
+        "by_order": {
+          "AB": {
+            "planned": 485,
+            "completed": 485,
+            "correct": 395
+          },
+          "BA": {
+            "planned": 485,
+            "completed": 485,
+            "correct": 378
+          }
+        },
+        "mean": 0.7969072164948454,
+        "stratum_means": {
+          "Factuality": 0.7924528301886793,
+          "Focus": 0.927710843373494,
+          "Math": 0.8658536585365854,
+          "Precise IF": 0.37662337662337664,
+          "Safety": 0.94,
+          "Ties": 1.0
+        },
+        "bootstrap": {
+          "lower_one_sided_95": 0.7742268041237114,
+          "interval_two_sided_95": [
+            0.7701030927835052,
+            0.822680412371134
+          ],
+          "replicates": 20000,
+          "seed": "18377355149824933725069505044605622616027088902809871012881705614854344094903",
+          "quantile": "type7"
+        },
+        "gate": true
+      }
+    }
+  ],
+  "paired_criterion_descriptive": {
+    "qwen35-local-q4km-raw": {
+      "status": "DESCRIPTIVE",
+      "tasks": 485,
+      "strict_minus_neutral": -0.06494845360824743
+    }
+  },
+  "usage": {
+    "qwen35-local-q4km-raw": {
+      "known_token_sums": {
+        "prompt_tokens": 2477434,
+        "completion_tokens": 17460
+      },
+      "rows_missing_either_usage_field": 0,
+      "observed_terminals": 2910,
+      "latency_median_seconds": 0.6217660210095346
+    }
+  },
+  "parser_diagnostic": {
+    "qwen35-local-q4km-raw": {
+      "legacy_aligned_valid": 2910,
+      "legacy_valid_strict_invalid": 0,
+      "primary_reclassification": false
+    }
+  },
+  "holm_family_size": 2,
+  "inputs": {
+    "manifest_sha256": "32b24413c8c6036b8815124d540d1d7bd07de4ebec281880aa1b1fa8557bf8e8",
+    "journal_sha256": "bb9deb9473a18e71a117c7c319719d3549e4b914abcee75c7568bfdd5df6c904",
+    "analyzer_sha256": "c79f9caaeb3759e69197e4cb3b53dd91bc3a75c50b4d82c2ae657ead8178ba3a",
+    "helpers_sha256": "c6b25ada3f88228bbe62e55b93c479c38a5769a74ae093dfe351f5388737fc13",
+    "progress_sha256": "c7732dbe0a3db2e5a6d73732112fa237660f0c4870b17aa2c605ce1befb0c1b0",
+    "source_hashes": {
+      "native_adapter.py": "8bf0faeb9f954b4d785114324e362f8a7768233c2aef70e417521b0dbe7c2f00",
+      "renderer.py": "43d4c16b8974e080cb857cad936e2072c5ecac31263ab6251d5ad07408e5039a",
+      "analyze_v8.py": "c79f9caaeb3759e69197e4cb3b53dd91bc3a75c50b4d82c2ae657ead8178ba3a",
+      "v8_stats_helpers.py": "c6b25ada3f88228bbe62e55b93c479c38a5769a74ae093dfe351f5388737fc13",
+      "configs.json": "25adcb3e55fa1159fba3de1a8eed7568f5db150cf4f07687cb2dddc3f6fa054e",
+      "GGUF_CHAT_TEMPLATE.txt": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "run_v8.py": "a2e4d2eef4f05de9ad2bd5dc8d758e88e84418884a92d5c3ba4df30545fdf1b2",
+      "selected_metadata.jsonl": "d5f398ea98eca5e51e97da61001004a54a334459b36f594a65ba87b43ef776b3",
+      "proxy_metadata.jsonl": "f2b9935a2160126fa114a37a1e05113e56ad3cc020934ddd1c9e02f6d61c4b15",
+      "input_token_ledger.json": "f8ddd9b3ea0414ca91df9beb1392f3cd17df3fe14e8651dd009132c5806b0ef1",
+      "pairs_private.jsonl": "3b663c7bc535b39ebb6e7f040a21002248c888c413a994b634d31ac30eecabc2",
+      "calls.jsonl": "ff9c688e141ef6620ee9cba0ceddff6fa3b64465f9b6ec88ac61fe7d70be0de2",
+      "PROTOCOL.md": "2d7b88e7f5b257d3dc1b9530cec9d85dec9325988ebde29f423fc3a18a140528"
+    }
+  }
+}

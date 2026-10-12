@@ -1,0 +1,52 @@
+{
+  "schema": "held485-recorded-config-v1",
+  "configs": [
+    {
+      "id": "qwen35-local-q4km-raw",
+      "served_model": "qwen3.5:35b-a3b",
+      "request_parameters": {
+        "model": "qwen3.5:35b-a3b",
+        "stream": false,
+        "raw": true,
+        "think": false,
+        "keep_alive": "1m",
+        "options": {
+          "temperature": 0,
+          "seed": 2026101002,
+          "num_predict": 2048,
+          "num_ctx": 32768
+        }
+      }
+    }
+  ],
+  "planned_tasks": 485,
+  "planned_calls": 2910,
+  "criterion_holm_family_size": 2,
+  "invalid_ceiling": 0.01,
+  "parser_rescue": false,
+  "forced_json_schema": false,
+  "source_manifest_sha256": "32b24413c8c6036b8815124d540d1d7bd07de4ebec281880aa1b1fa8557bf8e8",
+  "observed_analysis_sha256": "abf9435a3e4166d098ea3acba7ac73e647d6ec9fc203432149076d54d5740e28",
+  "records_sha256": "3b48658c5efe5eae9f61c5451238cdcd22ea3d4b26adc37e2e52a93de057528e",
+  "calls_metadata_sha256": "de5ed0414b67fcd96c6b4b557ed7f33a6ea2823a89cbc268ee73e934adf0e2c9",
+  "selected_metadata_sha256": "d5f398ea98eca5e51e97da61001004a54a334459b36f594a65ba87b43ef776b3",
+  "proxy_metadata_sha256": "f2b9935a2160126fa114a37a1e05113e56ad3cc020934ddd1c9e02f6d61c4b15",
+  "tag_sha256": "4af949f8bdf0543fe696700bd9dd31b4fc68888a423a8ce5dc0d2c97ed178197",
+  "server_binary_sha256": "add45eb02df0252fb888549d277a66d6b551801869140d1c280bf11689e81b77",
+  "model_blob_sha256": "2abd0d805943fa113f934d1ae4f2d5a749b5d4fe2a0a9c64b645c1df15868da7",
+  "ollama_version": "0.35.0",
+  "upstream_checkpoint_identity": "UNVERIFIED",
+  "full_license_chain": "UNVERIFIED_WEIGHTS_EXCLUDED",
+  "bootstrap_recomputation_in_this_projection": 0,
+  "request_raw_replay": "NOT_INCLUDED",
+  "target": "Source preference on frozen filter-surviving mixture; not human truth or semantic independence",
+  "subset_counts": {
+    "Factuality": 159,
+    "Focus": 83,
+    "Math": 41,
+    "Precise IF": 77,
+    "Safety": 100,
+    "Ties": 25
+  },
+  "utility_family_adjustment": "NONE_POINTWISE_WORKING_GATES; HOLM_CLONE_ONLY"
+}
