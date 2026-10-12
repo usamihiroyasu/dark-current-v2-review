@@ -1,0 +1,174 @@
+{
+  "scope": "Descriptive source alignment per subset; one configuration; two dependent orders per task; not semantic accuracy or six certificates.",
+  "rows": [
+    {
+      "subset": "Factuality",
+      "tasks": 159,
+      "signal_calls_per_criterion": 318,
+      "neutral_correct": 274,
+      "strict_correct": 252,
+      "neutral_alignment": 0.8616352201257862,
+      "strict_alignment": 0.7924528301886793
+    },
+    {
+      "subset": "Focus",
+      "tasks": 83,
+      "signal_calls_per_criterion": 166,
+      "neutral_correct": 159,
+      "strict_correct": 154,
+      "neutral_alignment": 0.9578313253012049,
+      "strict_alignment": 0.927710843373494
+    },
+    {
+      "subset": "Math",
+      "tasks": 41,
+      "signal_calls_per_criterion": 82,
+      "neutral_correct": 71,
+      "strict_correct": 71,
+      "neutral_alignment": 0.8658536585365854,
+      "strict_alignment": 0.8658536585365854
+    },
+    {
+      "subset": "Precise IF",
+      "tasks": 77,
+      "signal_calls_per_criterion": 154,
+      "neutral_correct": 91,
+      "strict_correct": 58,
+      "neutral_alignment": 0.5909090909090909,
+      "strict_alignment": 0.37662337662337664
+    },
+    {
+      "subset": "Safety",
+      "tasks": 100,
+      "signal_calls_per_criterion": 200,
+      "neutral_correct": 191,
+      "strict_correct": 188,
+      "neutral_alignment": 0.955,
+      "strict_alignment": 0.94
+    },
+    {
+      "subset": "Ties",
+      "tasks": 25,
+      "signal_calls_per_criterion": 50,
+      "neutral_correct": 50,
+      "strict_correct": 50,
+      "neutral_alignment": 1.0,
+      "strict_alignment": 1.0
+    }
+  ],
+  "primary": [
+    {
+      "config_id": "qwen35-local-q4km-raw",
+      "criterion": "neutral",
+      "status": "PASS_USEFUL_LOW_DC",
+      "clone": {
+        "planned": 485,
+        "completed": 485,
+        "invalid": 0,
+        "observed_adverse": 0,
+        "rate": 0.0,
+        "upper_one_sided_95": 0.006157730561406116,
+        "raw_p": 1.5701768321689682e-11,
+        "adjustment_only_p": 1.5701768321689682e-11,
+        "holm_p": 3.1403536643379363e-11,
+        "gate": true,
+        "holm_adjustment_only_p": 3.1403536643379363e-11
+      },
+      "utility": {
+        "planned_calls": 970,
+        "planned_tasks": 485,
+        "completed": 970,
+        "invalid": 0,
+        "by_order": {
+          "AB": {
+            "planned": 485,
+            "completed": 485,
+            "correct": 431
+          },
+          "BA": {
+            "planned": 485,
+            "completed": 485,
+            "correct": 405
+          }
+        },
+        "mean": 0.8618556701030928,
+        "stratum_means": {
+          "Factuality": 0.8616352201257862,
+          "Focus": 0.9578313253012049,
+          "Math": 0.8658536585365854,
+          "Precise IF": 0.5909090909090909,
+          "Safety": 0.955,
+          "Ties": 1.0
+        },
+        "bootstrap": {
+          "lower_one_sided_95": 0.8412371134020619,
+          "interval_two_sided_95": [
+            0.8371134020618557,
+            0.8855670103092783
+          ],
+          "replicates": 20000,
+          "seed": "98777773195360610164654828928477094836877423408393488396114337777576549447309",
+          "quantile": "type7"
+        },
+        "gate": true
+      }
+    },
+    {
+      "config_id": "qwen35-local-q4km-raw",
+      "criterion": "strict",
+      "status": "PASS_USEFUL_LOW_DC",
+      "clone": {
+        "planned": 485,
+        "completed": 485,
+        "invalid": 0,
+        "observed_adverse": 0,
+        "rate": 0.0,
+        "upper_one_sided_95": 0.006157730561406116,
+        "raw_p": 1.5701768321689682e-11,
+        "adjustment_only_p": 1.5701768321689682e-11,
+        "holm_p": 3.1403536643379363e-11,
+        "gate": true,
+        "holm_adjustment_only_p": 3.1403536643379363e-11
+      },
+      "utility": {
+        "planned_calls": 970,
+        "planned_tasks": 485,
+        "completed": 970,
+        "invalid": 0,
+        "by_order": {
+          "AB": {
+            "planned": 485,
+            "completed": 485,
+            "correct": 395
+          },
+          "BA": {
+            "planned": 485,
+            "completed": 485,
+            "correct": 378
+          }
+        },
+        "mean": 0.7969072164948454,
+        "stratum_means": {
+          "Factuality": 0.7924528301886793,
+          "Focus": 0.927710843373494,
+          "Math": 0.8658536585365854,
+          "Precise IF": 0.37662337662337664,
+          "Safety": 0.94,
+          "Ties": 1.0
+        },
+        "bootstrap": {
+          "lower_one_sided_95": 0.7742268041237114,
+          "interval_two_sided_95": [
+            0.7701030927835052,
+            0.822680412371134
+          ],
+          "replicates": 20000,
+          "seed": "18377355149824933725069505044605622616027088902809871012881705614854344094903",
+          "quantile": "type7"
+        },
+        "gate": true
+      }
+    }
+  ],
+  "analysis_sha256": "abf9435a3e4166d098ea3acba7ac73e647d6ec9fc203432149076d54d5740e28"
+}

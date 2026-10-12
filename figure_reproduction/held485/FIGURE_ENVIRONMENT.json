@@ -1,0 +1,14 @@
+{
+  "actual": {
+    "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.4.4.1)]",
+    "matplotlib": "3.10.8",
+    "numpy": "2.5.3",
+    "pillow": "12.3.0"
+  },
+  "source_sha256": "d0ec7e0c8cfb7e096e7e496a58c58cb696899668a222b8ec3f3f649f2de49765",
+  "data_sha256": "65bec821e1c274c42aa3731e882796ad5fbc5a596213ece14003fd28e116be4c",
+  "render_called_for_new_figure": 1,
+  "old_figure_replays": 0,
+  "existing_runtime_reused": true,
+  "initial_dependency_HOLD": "RENDER_DEPENDENCY_HOLD.json"
+}
