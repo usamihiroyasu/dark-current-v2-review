@@ -1,0 +1,160 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cacioli(2026)]{cacioli2026signal}
+Jon-Paul Cacioli.
+\newblock {LLM}s as signal detectors: Sensitivity, bias, and the
+  temperature-criterion analogy.
+\newblock arXiv preprint arXiv:2603.14893, 2026.
+
+\bibitem[Choi et~al.(2026)Choi, Park, Cho, Park, and Kim]{choi2026irt}
+Junhyuk Choi, Sohhyung Park, Chanhee Cho, Hyeonchu Park, and Bugeun Kim.
+\newblock Diagnosing the reliability of {LLM-as-a-Judge} via item response
+  theory.
+\newblock In \emph{Proceedings of the 43rd International Conference on Machine
+  Learning}, volume 306 of \emph{Proceedings of Machine Learning Research},
+  pp.\  20279--20309. PMLR, 2026.
+\newblock URL \url{https://proceedings.mlr.press/v306/choi26n.html}.
+
+\bibitem[Dev et~al.(2026)Dev, Sloan, Kavner, Kong, and Sandler]{dev2026harness}
+Sunishchal Dev, Andrew Sloan, Joshua Kavner, Nicholas Kong, and Morgan Sandler.
+\newblock Judge reliability harness: Stress testing the reliability of {LLM}
+  judges.
+\newblock arXiv preprint arXiv:2603.05399, 2026.
+
+\bibitem[Gebru et~al.(2021)Gebru, Morgenstern, Vecchione, Vaughan, Wallach,
+  Daum{\'e}~III, and Crawford]{gebru2018datasheets}
+Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer~Wortman Vaughan,
+  Hanna Wallach, Hal Daum{\'e}~III, and Kate Crawford.
+\newblock {Datasheets for Datasets}.
+\newblock \emph{Communications of the ACM}, 64\penalty0 (12):\penalty0 86--92,
+  2021.
+\newblock \doi{10.1145/3458723}.
+\newblock URL \url{https://doi.org/10.1145/3458723}.
+
+\bibitem[Guerdan et~al.(2025)Guerdan, Barocas, Holstein, Wallach, Wu, and
+  Chouldechova]{guerdan2025indeterminacy}
+Luke Guerdan, Solon Barocas, Kenneth Holstein, Hanna Wallach, Steven Wu, and
+  Alexandra Chouldechova.
+\newblock Validating {LLM-as-a-Judge} systems under rating indeterminacy.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38, pp.\  112282--112350, 2025.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2025/hash/a309239c11a28c597d050bd4a1752d32-Abstract-Conference.html}.
+
+\bibitem[Gupta \& Kumar(2026)Gupta and Kumar]{gupta2026conformal}
+Manan Gupta and Dhruv Kumar.
+\newblock Diagnosing {LLM} judge reliability: Conformal prediction sets and
+  transitivity violations.
+\newblock arXiv preprint arXiv:2604.15302, 2026.
+
+\bibitem[Landesberg(2026)]{landesberg2026bestofn}
+Eddie Landesberg.
+\newblock When {LLM} judge scores look good but best-of-{N} decisions fail.
+\newblock arXiv preprint arXiv:2603.12520, 2026.
+
+\bibitem[Landesberg \& Narayan(2025)Landesberg and
+  Narayan]{landesberg2026causal}
+Eddie Landesberg and Manjari Narayan.
+\newblock Causal judge evaluation: Calibrated surrogate metrics for {LLM}
+  systems.
+\newblock arXiv preprint arXiv:2512.11150, 2025.
+
+\bibitem[Malik et~al.(2026)Malik, Pyatkin, Land, Morrison, Smith, Hajishirzi,
+  and Lambert]{malik2026rewardbench2}
+Saumya Malik, Valentina Pyatkin, Sander Land, Jacob Morrison, Noah~A. Smith,
+  Hannaneh Hajishirzi, and Nathan Lambert.
+\newblock {RewardBench 2}: Advancing reward model evaluation.
+\newblock In \emph{International Conference on Learning Representations}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2506.01937}.
+
+\bibitem[Mitchell et~al.(2019)Mitchell, Wu, Zaldivar, Barnes, Vasserman,
+  Hutchinson, Spitzer, Raji, and Gebru]{mitchell2018modelcards}
+Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman,
+  Ben Hutchinson, Elena Spitzer, Inioluwa~Deborah Raji, and Timnit Gebru.
+\newblock {Model Cards for Model Reporting}.
+\newblock In \emph{Proceedings of the Conference on Fairness, Accountability,
+  and Transparency}, pp.\  220--229. ACM, 2019.
+\newblock \doi{10.1145/3287560.3287596}.
+
+\bibitem[Norman et~al.(2026)Norman, Rivera, and Hughes]{norman2026reliability}
+Justin~D. Norman, Michael~U. Rivera, and D.~Alex Hughes.
+\newblock Reliability without validity: A systematic, large-scale evaluation of
+  {LLM-as-a-Judge} models across agreement, consistency, and bias.
+\newblock arXiv preprint arXiv:2606.19544v1, 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.19544v1}.
+
+\bibitem[Shi et~al.(2025)Shi, Ma, Liang, Diao, Ma, and
+  Vosoughi]{shi2025positionbias}
+Lin Shi, Chiyu Ma, Wenhua Liang, Xingjian Diao, Weicheng Ma, and Soroush
+  Vosoughi.
+\newblock Judging the judges: A systematic study of position bias in
+  {LLM-as-a-Judge}.
+\newblock In \emph{Proceedings of the 14th International Joint Conference on
+  Natural Language Processing and the 4th Conference of the Asia-Pacific
+  Chapter of the Association for Computational Linguistics}, pp.\  292--314,
+  Mumbai, India, 2025. The Asian Federation of Natural Language Processing and
+  The Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2025.ijcnlp-long.18}.
+\newblock URL \url{https://aclanthology.org/2025.ijcnlp-long.18/}.
+
+\bibitem[Wang et~al.(2025)Wang, Yuan, Chuang, Wang, Liu, Cusick, Kulkarni, Ji,
+  Ibrahim, and Hu]{wang2025dhp}
+Yicheng Wang, Jiayi Yuan, Yu-Neng Chuang, Zhuoer Wang, Yingchi Liu, Mark
+  Cusick, Param Kulkarni, Zhengping Ji, Yasser Ibrahim, and Xia Hu.
+\newblock {DHP} benchmark: Are {LLM}s good {NLG} evaluators?
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  NAACL 2025}, pp.\  8094--8109. Association for Computational Linguistics,
+  2025.
+\newblock \doi{10.18653/v1/2025.findings-naacl.451}.
+\newblock URL \url{https://aclanthology.org/2025.findings-naacl.451/}.
+
+\bibitem[Ye et~al.(2025)Ye, Wang, Huang, Chen, Zhang, Moniz, Gao, Geyer, Huang,
+  Chen, Chawla, and Zhang]{ye2025justice}
+Jiayi Ye, Yanbo Wang, Yue Huang, Dongping Chen, Qihui Zhang, Nuno Moniz, Tian
+  Gao, Werner Geyer, Chao Huang, Pin-Yu Chen, Nitesh~V. Chawla, and Xiangliang
+  Zhang.
+\newblock Justice or prejudice? quantifying biases in {LLM-as-a-Judge}.
+\newblock In \emph{International Conference on Learning Representations}, 2025.
+\newblock URL \url{https://openreview.net/forum?id=3GTtZFiajM}.
+
+\bibitem[Zhang et~al.(2026)Zhang, Li, Tan, Zeng, Shan, Li, and
+  Ren]{zhang2026judgment}
+Zheng Zhang, Lufei Li, Xinyue Tan, Yuanhao Zeng, Ziwei Shan, Yexin Li, and Kan
+  Ren.
+\newblock From judgment quality to downstream utility: Rethinking
+  llm-as-a-judge for open-ended tasks, 2026.
+\newblock URL \url{https://arxiv.org/abs/2609.37145}.
+
+\bibitem[Zhao et~al.(2024)Zhao, Wang, and Peng]{zhao2024inconsistency}
+Xiutian Zhao, Ke~Wang, and Wei Peng.
+\newblock Measuring the inconsistency of large language models in preferential
+  ranking.
+\newblock In \emph{KnowLLM 2024}, pp.\  171--176, 2024.
+\newblock \doi{10.18653/v1/2024.knowllm-1.14}.
+\newblock URL \url{https://aclanthology.org/2024.knowllm-1.14/}.
+
+\bibitem[Zheng et~al.(2023)Zheng, Chiang, Sheng, Zhuang, Wu, Zhuang, Lin, Li,
+  Li, Xing, Zhang, Gonzalez, and Stoica]{zheng2023mtbench}
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao
+  Zhuang, Zi~Lin, Zhuohan Li, Dacheng Li, Eric~P. Xing, Hao Zhang, Joseph~E.
+  Gonzalez, and Ion Stoica.
+\newblock Judging {LLM-as-a-Judge} with {MT-Bench} and {Chatbot Arena}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~36, pp.\  46595--46623. Curran Associates, Inc., 2023.
+\newblock URL
+  \url{https://papers.nips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html}.
+
+\bibitem[Zheng et~al.(2025)Zheng, Pang, Du, Liu, Jiang, and Lin]{zheng2025null}
+Xiaosen Zheng, Tianyu Pang, Chao Du, Qian Liu, Jing Jiang, and Min Lin.
+\newblock Cheating automatic {LLM} benchmarks: Null models achieve high win
+  rates.
+\newblock In \emph{International Conference on Learning Representations}, 2025.
+\newblock URL
+  \url{https://proceedings.iclr.cc/paper_files/paper/2025/hash/9adc8ada9183f4b9a007a02773fd8114-Abstract-Conference.html}.
+
+\end{thebibliography}
