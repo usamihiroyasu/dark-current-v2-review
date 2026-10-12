@@ -1,0 +1,42 @@
+[
+  {
+    "id": "flash",
+    "served_model": "qwen3.8-flash-next",
+    "request_parameters": {
+      "model": "flash",
+      "temperature": 0,
+      "stream": false,
+      "max_tokens": 2048,
+      "reasoning_effort": "none",
+      "chat_template_kwargs": {
+        "thinking": false,
+        "enable_thinking": false,
+        "reasoning_effort": "none"
+      }
+    }
+  },
+  {
+    "id": "gpt-oss",
+    "served_model": "openai/gpt-oss-120b",
+    "request_parameters": {
+      "model": "gpt-oss",
+      "temperature": 0,
+      "stream": false,
+      "max_tokens": 2048,
+      "reasoning_effort": "low"
+    }
+  },
+  {
+    "id": "nemotron",
+    "served_model": "nemotron-3-super",
+    "request_parameters": {
+      "model": "nemotron",
+      "temperature": 0,
+      "stream": false,
+      "max_tokens": 2048,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  }
+]

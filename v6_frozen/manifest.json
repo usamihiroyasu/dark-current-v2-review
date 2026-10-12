@@ -1,0 +1,61 @@
+{
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed_namespace": "manifest_sha256/config_id/criterion/utility",
+  "configs": [
+    {
+      "id": "flash",
+      "request_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false,
+          "reasoning_effort": "none",
+          "thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "flash",
+        "reasoning_effort": "none",
+        "stream": false,
+        "temperature": 0
+      },
+      "served_model": "qwen3.8-flash-next"
+    },
+    {
+      "id": "gpt-oss",
+      "request_parameters": {
+        "max_tokens": 2048,
+        "model": "gpt-oss",
+        "reasoning_effort": "low",
+        "stream": false,
+        "temperature": 0
+      },
+      "served_model": "openai/gpt-oss-120b"
+    },
+    {
+      "id": "nemotron",
+      "request_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "nemotron",
+        "stream": false,
+        "temperature": 0
+      },
+      "served_model": "nemotron-3-super"
+    }
+  ],
+  "cutoff_utc": "2026-10-08T20:35:00Z",
+  "dc_family_size": 6,
+  "files": {
+    "../V6_PROTOCOL.md": "23270b4423aabc6b08960c4a1dd05dee4c2e5051f8448cab879c3ca43a152943",
+    "../scripts/build_oracle_suite.py": "5db237335afe9ba7f3aee52aee89dc987f398261f7dc4f34063263a5b9a00947",
+    "../scripts/run_v6.py": "62426e0488330d86d07f84dba4bb226bdfd5fe81dc9897b33797420f48d992aa",
+    "../scripts/verify_oracle_suite.py": "651350c4136232195dc1b91eb63b881624366b90938ef204a99a14ce9714cb60",
+    "INDEPENDENT_ORACLE_RECEIPT.json": "eceeeba84d46675762b37b60791688283bf172ae4bf7b0223b208bccda20692d",
+    "configs.json": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534",
+    "items.jsonl": "38185717cbeba2f5a1306d7bb71ae59323082b7fd2f596d0bc61f892f9f82242",
+    "schedule.jsonl": "1ec560664881006f51fffb5b04e3fd4e7df8fb7d1a1aa241f5af769295fc7ada"
+  },
+  "schema_version": "dc-v6-frozen-v1",
+  "slots_per_config": 960,
+  "status": "FROZEN_BEFORE_SCIENTIFIC_DISPATCH"
+}

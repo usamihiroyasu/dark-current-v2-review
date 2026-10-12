@@ -1,0 +1,17 @@
+{
+  "families": {
+    "clamp": 12,
+    "count_equal": 12,
+    "count_gt": 12,
+    "floor_div": 12,
+    "interval_contains": 12,
+    "parity_sum": 12,
+    "rotate_left": 12,
+    "shifted_sum": 12
+  },
+  "hashes": {
+    "audit_sha256": "934d0ef392abc50292f65205d0ef92ba202a288158b35b262395d7ca891f7f50",
+    "items_sha256": "38185717cbeba2f5a1306d7bb71ae59323082b7fd2f596d0bc61f892f9f82242"
+  },
+  "total_items": 96
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS_INDEPENDENT_EXHAUSTIVE_ORACLE",
+  "items": 96,
+  "domain_cases": 51960,
+  "candidate_checks": 155880,
+  "items_sha256": "38185717cbeba2f5a1306d7bb71ae59323082b7fd2f596d0bc61f892f9f82242",
+  "verifier_sha256": "651350c4136232195dc1b91eb63b881624366b90938ef204a99a14ce9714cb60",
+  "scope": "eight fixed templates, declared finite input domains; not human preference"
+}
