@@ -1,0 +1,43 @@
+{
+  "source_sha256": "82f84e63e013eada19619f6e9d674f16a685bcf6d520654c5aa341fd4bc59ff9",
+  "source_label": "tab:fresh-primary",
+  "scope": "Published-table rounded values and marginal one-sided bounds; no statistics recomputed.",
+  "rows": [
+    {
+      "model": "Qwen2.5-32B",
+      "criterion": "neutral",
+      "clone_point": 0,
+      "clone_upper_rounded": 0.029,
+      "utility_rounded": 0.824,
+      "utility_lower_rounded": 0.779,
+      "utility_gate": "pass"
+    },
+    {
+      "model": "Qwen2.5-32B",
+      "criterion": "strict",
+      "clone_point": 0,
+      "clone_upper_rounded": 0.029,
+      "utility_rounded": 0.588,
+      "utility_lower_rounded": 0.539,
+      "utility_gate": "miss"
+    },
+    {
+      "model": "Qwen3.6-35B",
+      "criterion": "neutral",
+      "clone_point": 0,
+      "clone_upper_rounded": 0.029,
+      "utility_rounded": 0.873,
+      "utility_lower_rounded": 0.833,
+      "utility_gate": "pass"
+    },
+    {
+      "model": "Qwen3.6-35B",
+      "criterion": "strict",
+      "clone_point": 0,
+      "clone_upper_rounded": 0.029,
+      "utility_rounded": 0.794,
+      "utility_lower_rounded": 0.745,
+      "utility_gate": "miss"
+    }
+  ]
+}
