@@ -1,0 +1,34 @@
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad="0.10", nodesep="0.32", ranksep="0.25", splines=ortho, fontname="Helvetica"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, color="#30343B", fontcolor="#20242A", fillcolor="#F5F7F9", penwidth=1.1, margin="0.09,0.06"];
+  edge [fontname="Helvetica", fontsize=8, color="#4B5563", fontcolor="#374151", arrowsize=0.58, penwidth=1.0];
+
+  source [label="Prespecified benchmark items + responses"];
+  strata [label="Matched tests\nexact clone | quality signal", fillcolor="#EAF2FA", color="#2E5F87"];
+  treatment [label="Criterion: neutral/strict\nOrder: A first/B first"];
+
+  diagnostic [label="Reused-item studies\ninitial study + schedule replication", fillcolor="#FFF4E8", color="#A15C17"];
+  primary [label="Fresh-item primary study\n102 prespecified items", fillcolor="#EAF7EE", color="#2D7A4B"];
+
+  judge [label="Fixed judge configuration J\ncheckpoint + template + rubric\n+ decoder + parser + backend", fillcolor="#EAF2FA", color="#2E5F87"];
+  outcome [label="Outcome\nA | tie | B | invalid"];
+  estimate [label="Stratified estimates\nnull | order | criterion | signal"];
+  gates [label="Release gates\nvalid output | selection utility", fillcolor="#F2EEFA", color="#6550A2"];
+  risk [label="Decision loss\nprevalence x loss x outcome", fillcolor="#FFF6E5", color="#946200"];
+  efp [label="Distinct-answer extension\nindependent semantic audit required\nexcluded from current evidence", style="rounded,filled,dashed", fillcolor="#F3F4F6", color="#9CA3AF", fontcolor="#6B7280"];
+
+  source -> strata -> treatment;
+  treatment -> diagnostic;
+  treatment -> primary;
+  diagnostic -> judge;
+  primary -> judge;
+  judge -> outcome -> estimate -> risk;
+  gates -> estimate [color="#6550A2"];
+  source -> efp [style=dashed, color="#9CA3AF", constraint=false];
+  efp -> risk [style=dashed, color="#9CA3AF"];
+
+  {rank=same; source; strata; treatment}
+  {rank=same; diagnostic; primary}
+  {rank=same; judge; outcome}
+  {rank=same; gates; estimate; risk}
+}
