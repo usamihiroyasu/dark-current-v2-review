@@ -1,0 +1,36 @@
+{
+  "configs": [
+    {
+      "id": "devstral-small2-ollama-q4km",
+      "request_parameters": {
+        "keep_alive": "1m",
+        "model": "devstral-small-2:latest",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026101001,
+          "temperature": 0
+        },
+        "stream": false
+      },
+      "served_model": "devstral-small-2:latest"
+    }
+  ],
+  "criterion_holm_family_size": 2,
+  "cutoff_utc": "2026-10-10T00:23:45.073308+00:00",
+  "forced_json_schema": false,
+  "frozen_utc": "2026-10-09T22:53:45.073308+00:00",
+  "invalid_ceiling": 0.01,
+  "model_blob_sha256": "c580819bed79c92d01a42227bd6d8fd66b9ec60d5329f5eb73f812f156af7807",
+  "observed_analysis_sha256": "3965d4a61496ea2c71433967b12b38436a94d7e59b338adca769f914b4f42387",
+  "ollama_version": "0.35.0",
+  "parser_rescue": false,
+  "planned_calls": 612,
+  "planned_tasks": 102,
+  "records_sha256": "199d80175221ee0de7a197714baa4d40017fc1d7d1a5d3da26bcc19290a5d3ae",
+  "redistribution_license_chain": "UNVERIFIED_WEIGHTS_EXCLUDED",
+  "schema": "local-held-config-metadata-v1",
+  "source_manifest_sha256": "6780134d9b5e6927d37b27a8b8be3a1558c9000ccf60b5fb13a37c1f40b20210",
+  "tag_sha256": "24277f07f62db8f9cb68e9dfc679ea1818a7fbac47a50eff0a701d3f645b63c8",
+  "upstream_checkpoint_identity": "UNVERIFIED"
+}

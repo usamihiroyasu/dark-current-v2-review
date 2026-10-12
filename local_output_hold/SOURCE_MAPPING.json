@@ -1,0 +1,8 @@
+{
+  "parent_campaign_manifest_sha256": "6780134d9b5e6927d37b27a8b8be3a1558c9000ccf60b5fb13a37c1f40b20210",
+  "parent_journal_sha256": "fec54a6149fa00ebe029347399f331d37139ba6a42d5337dc4ae73c175ffb6c2",
+  "parent_analysis_sha256": "1eb859247303f1fee141a4ae7c330e348a7c48e5e1ca42329f6cb252e511fcfc",
+  "independent_actual_proof_sha256": "5c2e350aab726fa05ba4fceceeb086c402217ce67eebe67884329f70007415fa",
+  "export": "Terminal metadata whitelist, literal LF boundaries, unchanged valid/winner fields; content, private paths, raw responses and original requests excluded.",
+  "no_scientific_reanalysis": true
+}

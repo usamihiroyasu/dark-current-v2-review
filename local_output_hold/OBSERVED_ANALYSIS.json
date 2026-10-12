@@ -1,0 +1,127 @@
+{
+  "cells": [
+    {
+      "clone": {
+        "completed": 102,
+        "gate": null,
+        "holm_p": 1.0,
+        "invalid": 22,
+        "observed_adverse": 22,
+        "planned": 102,
+        "rate": null,
+        "raw_p": 1.0,
+        "upper_one_sided_95": null
+      },
+      "config_id": "devstral-small2-ollama-q4km",
+      "criterion": "neutral",
+      "status": "HOLD",
+      "utility": {
+        "bootstrap": null,
+        "by_order": {
+          "AB": {
+            "completed": 102,
+            "correct": 15,
+            "planned": 102
+          },
+          "BA": {
+            "completed": 102,
+            "correct": 18,
+            "planned": 102
+          }
+        },
+        "completed": 204,
+        "gate": null,
+        "invalid": 166,
+        "mean": null,
+        "planned_calls": 204,
+        "planned_tasks": 102,
+        "stratum_means": null
+      }
+    },
+    {
+      "clone": {
+        "completed": 102,
+        "gate": null,
+        "holm_p": 1.0,
+        "invalid": 0,
+        "observed_adverse": 0,
+        "planned": 102,
+        "rate": null,
+        "raw_p": 1.0,
+        "upper_one_sided_95": null
+      },
+      "config_id": "devstral-small2-ollama-q4km",
+      "criterion": "strict",
+      "status": "HOLD",
+      "utility": {
+        "bootstrap": null,
+        "by_order": {
+          "AB": {
+            "completed": 102,
+            "correct": 55,
+            "planned": 102
+          },
+          "BA": {
+            "completed": 102,
+            "correct": 65,
+            "planned": 102
+          }
+        },
+        "completed": 204,
+        "gate": null,
+        "invalid": 23,
+        "mean": null,
+        "planned_calls": 204,
+        "planned_tasks": 102,
+        "stratum_means": null
+      }
+    }
+  ],
+  "holm_family_size": 2,
+  "interval_scope": "Exact clone bounds assume independent Bernoulli units; stratified task bootstrap describes this fixed benchmark cohort. Degenerate intervals do not certify unseen populations.",
+  "journal_status": "COMPLETE",
+  "operational": {
+    "devstral-small2-ollama-q4km": {
+      "ambiguous_intents": 0,
+      "completed": 612,
+      "errors": {},
+      "invalid": 211,
+      "invalid_fraction": 0.34477124183006536,
+      "missing": 0,
+      "planned": 612,
+      "served_identity_complete": true,
+      "status": "HOLD"
+    }
+  },
+  "origin_analysis_sha256": "1eb859247303f1fee141a4ae7c330e348a7c48e5e1ca42329f6cb252e511fcfc",
+  "origin_manifest_sha256": "6780134d9b5e6927d37b27a8b8be3a1558c9000ccf60b5fb13a37c1f40b20210",
+  "paired_criterion_descriptive": {
+    "devstral-small2-ollama-q4km": {
+      "status": "HOLD",
+      "strict_minus_neutral": null,
+      "tasks": null
+    }
+  },
+  "parser_diagnostic": {
+    "devstral-small2-ollama-q4km": {
+      "legacy_aligned_valid": 401,
+      "legacy_valid_strict_invalid": 0,
+      "primary_reclassification": false
+    }
+  },
+  "public_scope": "Metadata/count reconstruction of operational HOLD only; no live inference or statistical certification.",
+  "schema": "dc-devstral-local-rb2-analysis-v1",
+  "scientific_scope": "One named local quantized configuration re-evaluation on previously used 102 benchmark rows; not fresh items, no human semantic-equivalence validation, no isolated domain/rubric/model causal effect.",
+  "simulation_fixture": false,
+  "usage": {
+    "devstral-small2-ollama-q4km": {
+      "known_token_sums": {
+        "completion_tokens": 4517,
+        "prompt_tokens": 485592
+      },
+      "latency_median_seconds": 3.4137887084507383,
+      "observed_terminals": 612,
+      "rows_missing_either_usage_field": 0
+    }
+  }
+}
