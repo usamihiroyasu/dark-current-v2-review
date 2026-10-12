@@ -1,0 +1,17 @@
+{
+  "status": "PASS_HISTORICAL_ORACLE_RECORD_REAGGREGATION",
+  "tasks": 40,
+  "recorded_oracle_healthy": 20,
+  "joint_pass": 4,
+  "discordant": 0,
+  "residual": 16,
+  "resample_pass": 0,
+  "additional_attempts_per_arm": 4,
+  "source_sha256": {
+    "probe_oracle_health.json": "3c8c2631321323aca100cc9d8abcfc073297c1038f153bf19aa9e9122f5eaa1b",
+    "paired_book98_results.jsonl": "cb31543ad91b6d03bcaf432e329971fe80a5e6fdb43bcd8d8f5bd8fc058f86be",
+    "resample16_results.jsonl": "5dc19974e6d6eae7f1e8babcea173e55345d38a3ee7ef4a430fc22b302457db0"
+  },
+  "join": "Original100character taskkey uniquely maps all40full taskstrings; fulltasksetmatches residual16. TaskandtestSHA derivativesonlypublic.",
+  "scope": "Retained recorded health/pass flags reaggregated; oracle/code execution not rerun and semantic completeness not established."
+}

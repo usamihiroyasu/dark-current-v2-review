@@ -1,0 +1,27 @@
+{
+  "status": "PASS_HISTORICAL_RECORD_REANALYSIS",
+  "source_sha256": "1f07ee9b5e746a021629fc530bfd74634b105e1667746fdf42bc314bbff7e1ae",
+  "records": 580,
+  "tasks": 145,
+  "table": {
+    "GS=1,GE=0": 392,
+    "GS=1,GE=1": 137,
+    "GS=0,GE=0": 35,
+    "GS=0,GE=1": 16
+  },
+  "task_GE_histogram": {
+    "0": 80,
+    "1": 19,
+    "2": 19,
+    "3": 12,
+    "4": 15
+  },
+  "candidate_return_code_counts": {
+    "1": 426,
+    "0": 153,
+    "-9": 1
+  },
+  "timeout": 0,
+  "infrastructure_error": 0,
+  "scope": "Source receipt hash matched; static audit and recorded subprocess terminal predicates recomputed. Original candidate code/sandbox execution not rerun. Raw output tails and operational metadata excluded from public derivative."
+}

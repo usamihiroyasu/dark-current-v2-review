@@ -1,0 +1,386 @@
+[
+  {
+    "task_sha256": "894add3241eabe089a2e73db771cf5620d3e6c56c374248690113bf8e1bc1093",
+    "canonical_test_sha256": "aa032e593649a43f5ff38b511827a1184e08eb52354f8b9e922c67c36ea05981",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "421b5cdb2c50f7632e5bc06d8e61265c60e77ea1ba4c207bbf555ae29115affc",
+    "canonical_test_sha256": "71da14ee7fc51148838f174e54ed86a527651767b9cada69cc90cf5e5f83c421",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "951b33d5d92d18799bec4bae0d8ed617fcb19a7535db2979e980b86af8ae8ffe",
+    "canonical_test_sha256": "7f20ea2dfcb961f2de863272e1a502616f1b0e782f78cbcbf30f7808177a8c75",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "92cdd36ff6a7dbc50faf751e27a2ff0c9225516fd679f54bb42c6708b1ca622f",
+    "canonical_test_sha256": "b7db82f2f4ac0d57b9d644ef6e3a8377a4c4c4a26f8dd9d965c341d7d3a11b57",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "59b6eea46e1f5d9d0f69e2737a69b1db25b77c560d46015c246b4dcabf39677c",
+    "canonical_test_sha256": "e72873b2c45b15b7fa0a168439084a2fb94b286c582f9557f69ea6e1c8486ee4",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "d39da209a3bdec3db0837255ed0a8902026757def5de7ef8319eea0ecbfb1d4c",
+    "canonical_test_sha256": "10f10e0d8e7a37c4fd6a2aab3ed89e89aace01380a1f213b070a40d3fa25288b",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "78ed0d2f00c255fae316adae20b799c168d8bcdb835111f1a6196080644ceba1",
+    "canonical_test_sha256": "add038a472e14107965c955c72841f68ecdccfb92467122c151c7f7bba3c763d",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "6c81ec1039c1c5379fc381e130b8c1615c84591b2385cf435356b2f00f5258f1",
+    "canonical_test_sha256": "24e0ba33d9e603d5a14f9468c13ffb010f8ecfbd6db19d49e8b1391ab1b5c3e3",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "388fcbeb844797b06bc8bd5369260c6f7d5d3f929e617dbc52c3f57338102745",
+    "canonical_test_sha256": "8a659b4b1cc33914202a07d777dbdaef0c2419b02b9a01c4e389429c99a024d3",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "20781241e7f87744dd6c9a5384e552c609c39709c2ab429fb29732a637f4e6c7",
+    "canonical_test_sha256": "b24f9bca4a6aa7491bf267d93de66443deddefc2e83c582706283e4ab6ec1742",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": true,
+    "coder_pass_recorded": true,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "b5de8a67d9f2cb34c12e65ffead3742e6d20dc1d84aaacfab50c9e05266ecb56",
+    "canonical_test_sha256": "6d580ed0e4698f28737bb60cb52ae441726bdb51e1f180698f02dfd64061a966",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "ce86158c85cfe33c6e82f805453899ce78e0706f587150f1ace40a0b8f02f537",
+    "canonical_test_sha256": "2e00736f4578bda040001ebc4bb85f18ac4703260cd0323fd1585f81ea151a77",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": true,
+    "coder_pass_recorded": true,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "b888e7284d3f1c0595b24880f9ea15d93c1fe5c958a6b56dd608f4181f376d71",
+    "canonical_test_sha256": "2af0a5a3969c8bd436a2d891e4174243950b6206162dae2aab7929601b003256",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "d45beacfb10656337c357fdc8706bc8bfefb52ca61f7f854cb86810b43138963",
+    "canonical_test_sha256": "b30dd2060ace78974c5ad81abe673609a5f64938dab6e83ff847c3e5fc0419b4",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "5e693999e2cdb6fe352f4562c458ca8d7267fca8745c9304f38d4229f84eaaa3",
+    "canonical_test_sha256": "2ab6b36097eef547660f837a4cd89415ce3a4b0938fc554dc78687aac1ac75ac",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "bd05514fa98200a49fccb7f0d84742ee6e122f3e370a718263d20cf2229671a6",
+    "canonical_test_sha256": "47c3cad7b3542ceb5f21f9e409bde136a9e89e7ce73c2f1a6e6854077433a9cc",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "b594b3988b329d481382f4213ef76e27941da9c741fad44db3a0407e8a0b6576",
+    "canonical_test_sha256": "7f6bf3e0aa4ebb066ce5c48f275f9a5d7fba700664515f371a65615b7ba89b4a",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "bd078c08e4175a4a442d6cadb824429060499b63e81ccef2378e32e8e47126ff",
+    "canonical_test_sha256": "8e26feb992e55d1d067293d3e2f2524c087326e53a982f7378f11fb3b6dee7bd",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "ed827f14b19920d980d3e15df104560a2cece28c795d73402a0e3fadc6890d70",
+    "canonical_test_sha256": "f81e75fd48f00d351f1a06b00f92f7d8f98547aa73d719e1e14c6db2bd948941",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "b11341b0882b5816f034b8fa6e1a12e94ea139c5ed2a529b6bc6f4f09aa19bd0",
+    "canonical_test_sha256": "a7c2cc2094bac32d9aaefa8fc1ab4a6ce2f719364a571b0b4bb57a2877952d20",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "29e5c27fffa24dcc638ecbe370ab92afd774385d876db55abab6a3fa9c663f8c",
+    "canonical_test_sha256": "89d16c002ec445a848bafd03afa9a04b9b0aaa3ac4dbb5f43f37ec8e68f40d84",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "cb3a34c8fc780d965ab43288684ceb9baa1da3e34a00aad64cfc058e77718d91",
+    "canonical_test_sha256": "ae01c54d4155ff0bafcdc6dec0a013fdcda0c086efdaad5588408618c90af17e",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "316db581fe14e00551cbd94bb244eaae35d872e561aae35d3bf1c3a6c70c4bb3",
+    "canonical_test_sha256": "8f4b80ab54472cd65feaf90cbf5bb6d30b29468eadb05e41434aa2429d80528d",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "6d6859b8b0618783e05adf3530a49b4ed072d14951b5e03a0f6c2d751e9d32d8",
+    "canonical_test_sha256": "7c762688cbe9480afd153222b423f2ddcd585dfde03b36a502130fd000b8c32d",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "102b14ab4ba7973eefc867f4781776471eed23e6cdf461e49ca7659839090d21",
+    "canonical_test_sha256": "078d9f222a8228f568f7a584f7106986ed85e0bcc4e693ad98807c80194f4d9c",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "9a20593935fcb4d49a1eefdb0ce7cae0e8c29f7b1f18a468ccd79bbf603a535a",
+    "canonical_test_sha256": "21f0a98e2acff1f66f3b462f8fc73ef6321e303ba8c79cc7c691dfa5d95e522d",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "36669517c78a7d63e4bbb08ce7d4b1d3fbd0d5411ec5f43f7cc71079c5f075f8",
+    "canonical_test_sha256": "8d0fcac93af13f9846150867616e0fab7c3b3b0317e89261e03afbc0cfdd0a90",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "64656b4108ee8aad44f474d9a3a923ddd204b890fae4b758bb4fa3c93becf174",
+    "canonical_test_sha256": "2b2700435eb4a663cfe831787256aa6d5385504f6fc196ee7a599530657a41fe",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "5667ca489a8db9ac192b0ea5467bc5033ed34edfd7b52d2ff9f6ae08453c428d",
+    "canonical_test_sha256": "8e63859a070ea9206f9bf7abb6377b8e99fb009d8dc5b8bd2f742236acf49ede",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "fd31027f23b0cb8112d591ea7550a3fd2f274bb11abfcc7e0d6dbade0db8f8a8",
+    "canonical_test_sha256": "583d68cd2e456e51126c1eb4e99ede9c29cc969ed850ec707c9365096041a76c",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": true,
+    "coder_pass_recorded": true,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "1d1e1b6fa7298625cfa5535eb7e2f6336f42b6a3e722146790974fe4c5d00b3d",
+    "canonical_test_sha256": "ed950cac65863e1549f5bd911a6bd8a9003c9d27b1edc777c9ae83dee11648f4",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "af23efff9409be3e86764d9ffe7c47d636800a4cdea5bb5bb084438e747a4622",
+    "canonical_test_sha256": "5213c9bc1b670cb8cb7904835a47b33121e366bc458632257e05013aad4e72e2",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "7700db31d37b097e4be547941d8aea00c3978d449d8372f659d26cd92452dbfb",
+    "canonical_test_sha256": "6a0deb008155a72b9cbb32061ac4345909d7777845eba44a010d202c37d62496",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "d88321e1261098c6946666cd1896863c7e53821563379a8bd77ae43b4426f6ca",
+    "canonical_test_sha256": "5c288ac25b84e48cc3dc4be23ab1d7a1bb559d8f271325d8ff200c1371881174",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "aa2238a95c9b462d1cf634f7151deab17a65f405a8d1a60b098472dae902e85b",
+    "canonical_test_sha256": "99e6e8eacf0c8dcdfd65314d47493126866f3793f12ce7762606eecc4e215889",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "88a1414e090abde70396b986e3c5814e2afa65145199cb99b2f1d8ee157fbd3d",
+    "canonical_test_sha256": "7db3b43ab929640c5842ec9977678e97e02c81851c9c1a24e324b7f4793a053e",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "1186f0681261f5020efbea3c689b2ca846a293d96e9fab5a9b6e93ae5f724abb",
+    "canonical_test_sha256": "a609d5e5ccde1c9e9179b7de1c073a9bd876fda088d5b673d4ba8d10c097ea75",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "f30f98d41a234f53c8e134cdde6d27142330d0b15ac7d5591bd0e1e9ac0650b2",
+    "canonical_test_sha256": "ba41863042e4287532fdac9eca232ce0a0f7efc85e6811b400e76e878a492bf6",
+    "oracle_healthy_recorded": false,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": false
+  },
+  {
+    "task_sha256": "7be5084e817fe9de51db1e3f84d1ffb82b6941fd1f4041d141d86afd9c3de4ab",
+    "canonical_test_sha256": "a9d23b9b3a9e03ed9b53b5557d9eca0c4f0a5a89120d1065e6a47b492d092d2e",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": false,
+    "coder_pass_recorded": false,
+    "entered_resampling": true,
+    "resample_q38_tries_recorded": 4,
+    "resample_coder_tries_recorded": 4,
+    "resample_q38_pass_recorded": false,
+    "resample_coder_pass_recorded": false
+  },
+  {
+    "task_sha256": "2e8bbd03c1f479bdb92f084814ac74bfdbd25983f35ff8ef90182e96453f97c2",
+    "canonical_test_sha256": "d49490230b9fae47693fbd35b6d9d3d6d083a4642d3428b9f8c4f33c0bcb3929",
+    "oracle_healthy_recorded": true,
+    "q38_pass_recorded": true,
+    "coder_pass_recorded": true,
+    "entered_resampling": false
+  }
+]

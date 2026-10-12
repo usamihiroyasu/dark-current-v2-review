@@ -1,0 +1,18 @@
+{
+  "status": "PASS_SAME_CANDIDATE_IDENTITY_JOIN",
+  "candidate_rows": 580,
+  "identity_keys": [
+    "candidate_index",
+    "task_id",
+    "sample_index",
+    "code_sha256"
+  ],
+  "v1_sha256": "3785a28709a4e46dcea5b2d5c03a12952c2b0f30615e845b09f2adb9759a085e",
+  "v2_sha256": "1f07ee9b5e746a021629fc530bfd74634b105e1667746fdf42bc314bbff7e1ae",
+  "GE_transition_counts": {
+    "0->0": 427,
+    "1->1": 99,
+    "0->1": 54
+  },
+  "scope": "Recorded v1 and v2 outcomes joined; no historical execution rerun. No claim that stream order is the only possible source of per-run differences."
+}
