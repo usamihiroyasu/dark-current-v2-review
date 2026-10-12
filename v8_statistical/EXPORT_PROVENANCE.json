@@ -1,0 +1,18 @@
+{
+  "schema": "v8-metadata-statistical-export-v1",
+  "status": "PREPARED_NOT_PUBLIC",
+  "scope": "Offline statistical replay; raw benchmark prompts/candidates and live transport excluded. Original manifest, journal and progress commitments preserved. No reconstruction of request payloads is claimed.",
+  "original_analyzer_sha256": "03534434f71c1f427e00d270a0069616c0cc8d9df4425b704b5d35b7bf6fafd0",
+  "original_calls_sha256": "14d660724a848d3f0c88d1bd9ea2f34e53476abe5056f8a4e30020a784d1bdf4",
+  "statistical_aggregation_body_sha256": "0c30227b9b7ed4d26b52ae6cd4f25cb7d513b9c492feb412db1d48304ca6e3bc",
+  "sole_analysis_output_difference": "inputs.analyzer_sha256 records this verified public source substitution; all other fields must match",
+  "files": {
+    "expected_analysis.json": "7310f5f9a76360c6aa152118a2ca2c8e79c419f74f7d506cff05ac826fe5a32a",
+    "calls_metadata.jsonl": "b33fc810151f2e3997e0df9e41a4ee2ec7a03b92e969e31fcc56e6cf41a33337",
+    "v8_stats_helpers.py": "85792690921837557ef52898a43ece4042c1127b69497260f75e88fe8d6554e6",
+    "journal.jsonl": "23f7b183409ad342dec289e83deb74465e17da9212932aeb2f5aca906fef97f9",
+    "manifest.json": "28537f1ee41e6d80ee5640c0febc649511f6df747330dab4bf5086544dec8148",
+    "progress.json": "5e49e6a7a58d0ec54cb31cb7eee2dc5c421306341a9517f2415442296d82c198",
+    "analyze_v8_public.py": "39d0bbdedda99ff96395732286dfa00916039ef313bb1cb29985f9e9d3ff8d3b"
+  }
+}

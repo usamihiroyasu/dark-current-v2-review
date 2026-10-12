@@ -1,0 +1,55 @@
+{
+  "configs": [
+    {
+      "id": "flash",
+      "request_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false,
+          "reasoning_effort": "none",
+          "thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "flash",
+        "reasoning_effort": "none",
+        "stream": false,
+        "temperature": 0
+      },
+      "served_model": "qwen3.8-flash-next"
+    },
+    {
+      "id": "gpt-oss",
+      "request_parameters": {
+        "max_tokens": 2048,
+        "model": "gpt-oss",
+        "reasoning_effort": "low",
+        "stream": false,
+        "temperature": 0
+      },
+      "served_model": "openai/gpt-oss-120b"
+    }
+  ],
+  "created_at_utc": "2026-10-08T20:48:23.889940+00:00",
+  "cutoff_utc": "2026-10-08T22:18:23.889940+00:00",
+  "files": {
+    "PROTOCOL.md": "3f4a7bbac9341cad3efef5b26d25a01d94cd8ac26b66cada771789f8e6d45458",
+    "V8_DATA_VERIFICATION.json": "21e64a5a581348afa7c6f7e6d9a39f228d5ffc7a80738054933ce61eccd03e24",
+    "V8_INDEPENDENT_VERIFICATION.json": "75586e0bfa2b7703c92f3403cf90855c4f67edf027824a20cb20aa457e27b47b",
+    "analyze_v8.py": "03534434f71c1f427e00d270a0069616c0cc8d9df4425b704b5d35b7bf6fafd0",
+    "calls.jsonl": "14d660724a848d3f0c88d1bd9ea2f34e53476abe5056f8a4e30020a784d1bdf4",
+    "configs.json": "165a84759d1e8f208c65060a8a833df6c9c1f87cd572e87f4aed6da072a8c0c2",
+    "pairs_v5.jsonl": "51d633ab70ebda8a6ed2836b3e15aa0d63023ab51e01002c9c62556fb4d1a5cf",
+    "renderer.py": "43d4c16b8974e080cb857cad936e2072c5ecac31263ab6251d5ad07408e5039a",
+    "run_v8.py": "cb1950084726090351df8765df319a77de9682bf74da360da9f6de4445734a0e",
+    "schedule_v5.jsonl": "fa07cff66c7d45dd4c95b8fbc679083fc2a50e2f3cca1188a69cc94c681070be",
+    "selected_items_v5.jsonl": "b3a319d01e20ab60fd493c8bd8d167bf93b023ffa70419e88a76d052abbc44e0",
+    "source_precommit_manifest_v5.json": "39fce0700a3138d959287f568737fc08510112972b614ea6dfd67fe1fdba0272",
+    "v8_stats_helpers.py": "85792690921837557ef52898a43ece4042c1127b69497260f75e88fe8d6554e6"
+  },
+  "local_precommit_only": true,
+  "planned_calls": 1224,
+  "planned_tasks": 102,
+  "prior_outcome_cohort": true,
+  "publication": "AUTHOR_REVIEW_REQUIRED",
+  "schema": "dc-v8-benchmark-bridge-manifest-v1",
+  "status": "FROZEN_BEFORE_NEW_RESULTS"
+}

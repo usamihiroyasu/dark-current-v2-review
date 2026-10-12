@@ -1,0 +1,316 @@
+{
+  "schema": "dc-v8-benchmark-bridge-analysis-v1",
+  "simulation_fixture": false,
+  "scientific_scope": "Crossconfiguration re-evaluation on previously used 102 benchmark rows; not fresh items, no human semantic-equivalence validation, no isolated domain/rubric/model causal effect.",
+  "interval_scope": "Exact clone bounds assume independent Bernoulli units; stratified task bootstrap describes this fixed benchmark cohort. Degenerate intervals do not certify unseen populations.",
+  "journal_status": "COMPLETE",
+  "operational": {
+    "flash": {
+      "planned": 612,
+      "completed": 612,
+      "missing": 0,
+      "invalid": 0,
+      "ambiguous_intents": 0,
+      "served_identity_complete": true,
+      "invalid_fraction": 0.0,
+      "status": "PASS",
+      "errors": {}
+    },
+    "gpt-oss": {
+      "planned": 612,
+      "completed": 612,
+      "missing": 0,
+      "invalid": 0,
+      "ambiguous_intents": 0,
+      "served_identity_complete": true,
+      "invalid_fraction": 0.0,
+      "status": "PASS",
+      "errors": {}
+    }
+  },
+  "cells": [
+    {
+      "config_id": "flash",
+      "criterion": "neutral",
+      "status": "PASS_USEFUL_LOW_DC",
+      "clone": {
+        "planned": 102,
+        "completed": 102,
+        "invalid": 0,
+        "observed_adverse": 0,
+        "rate": 0.0,
+        "upper_one_sided_95": 0.028942819582926327,
+        "raw_p": 0.0053432776213514326,
+        "holm_p": 0.02137311048540573,
+        "gate": true
+      },
+      "utility": {
+        "planned_calls": 204,
+        "planned_tasks": 102,
+        "completed": 204,
+        "invalid": 0,
+        "by_order": {
+          "AB": {
+            "planned": 102,
+            "completed": 102,
+            "correct": 96
+          },
+          "BA": {
+            "planned": 102,
+            "completed": 102,
+            "correct": 89
+          }
+        },
+        "mean": 0.9068627450980392,
+        "stratum_means": {
+          "Factuality": 0.8235294117647058,
+          "Focus": 0.9705882352941176,
+          "Math": 0.9117647058823529,
+          "Precise IF": 0.7352941176470589,
+          "Safety": 1.0,
+          "Ties": 1.0
+        },
+        "bootstrap": {
+          "lower_one_sided_95": 0.8676470588235294,
+          "interval_two_sided_95": [
+            0.857843137254902,
+            0.9509803921568628
+          ],
+          "replicates": 20000,
+          "seed": "82506317265398905995308250013098896535753314861047140408743305058219748174074",
+          "quantile": "type7"
+        },
+        "gate": true
+      }
+    },
+    {
+      "config_id": "flash",
+      "criterion": "strict",
+      "status": "PASS_USEFUL_LOW_DC",
+      "clone": {
+        "planned": 102,
+        "completed": 102,
+        "invalid": 0,
+        "observed_adverse": 0,
+        "rate": 0.0,
+        "upper_one_sided_95": 0.028942819582926327,
+        "raw_p": 0.0053432776213514326,
+        "holm_p": 0.02137311048540573,
+        "gate": true
+      },
+      "utility": {
+        "planned_calls": 204,
+        "planned_tasks": 102,
+        "completed": 204,
+        "invalid": 0,
+        "by_order": {
+          "AB": {
+            "planned": 102,
+            "completed": 102,
+            "correct": 96
+          },
+          "BA": {
+            "planned": 102,
+            "completed": 102,
+            "correct": 87
+          }
+        },
+        "mean": 0.8970588235294118,
+        "stratum_means": {
+          "Factuality": 0.8235294117647058,
+          "Focus": 0.9705882352941176,
+          "Math": 0.9117647058823529,
+          "Precise IF": 0.7058823529411765,
+          "Safety": 0.9705882352941176,
+          "Ties": 1.0
+        },
+        "bootstrap": {
+          "lower_one_sided_95": 0.857843137254902,
+          "interval_two_sided_95": [
+            0.8529411764705882,
+            0.9362745098039215
+          ],
+          "replicates": 20000,
+          "seed": "95482733343441874855000947527645179873551467152622661222897529652290938444194",
+          "quantile": "type7"
+        },
+        "gate": true
+      }
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "neutral",
+      "status": "FAIL",
+      "clone": {
+        "planned": 102,
+        "completed": 102,
+        "invalid": 0,
+        "observed_adverse": 2,
+        "rate": 0.0196078431372549,
+        "upper_one_sided_95": 0.06043646283134879,
+        "raw_p": 0.11026985672872072,
+        "holm_p": 0.11026985672872072,
+        "gate": false
+      },
+      "utility": {
+        "planned_calls": 204,
+        "planned_tasks": 102,
+        "completed": 204,
+        "invalid": 0,
+        "by_order": {
+          "AB": {
+            "planned": 102,
+            "completed": 102,
+            "correct": 94
+          },
+          "BA": {
+            "planned": 102,
+            "completed": 102,
+            "correct": 88
+          }
+        },
+        "mean": 0.8921568627450981,
+        "stratum_means": {
+          "Factuality": 0.8235294117647058,
+          "Focus": 0.9411764705882353,
+          "Math": 0.9411764705882353,
+          "Precise IF": 0.7058823529411765,
+          "Safety": 0.9411764705882353,
+          "Ties": 1.0
+        },
+        "bootstrap": {
+          "lower_one_sided_95": 0.8529411764705882,
+          "interval_two_sided_95": [
+            0.8431372549019608,
+            0.9362745098039215
+          ],
+          "replicates": 20000,
+          "seed": "34392230933367942780716996298770897458237292518542170635294588223431084595914",
+          "quantile": "type7"
+        },
+        "gate": true
+      }
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "strict",
+      "status": "PASS_USEFUL_LOW_DC",
+      "clone": {
+        "planned": 102,
+        "completed": 102,
+        "invalid": 0,
+        "observed_adverse": 0,
+        "rate": 0.0,
+        "upper_one_sided_95": 0.028942819582926327,
+        "raw_p": 0.0053432776213514326,
+        "holm_p": 0.02137311048540573,
+        "gate": true
+      },
+      "utility": {
+        "planned_calls": 204,
+        "planned_tasks": 102,
+        "completed": 204,
+        "invalid": 0,
+        "by_order": {
+          "AB": {
+            "planned": 102,
+            "completed": 102,
+            "correct": 94
+          },
+          "BA": {
+            "planned": 102,
+            "completed": 102,
+            "correct": 83
+          }
+        },
+        "mean": 0.8676470588235294,
+        "stratum_means": {
+          "Factuality": 0.8235294117647058,
+          "Focus": 0.8235294117647058,
+          "Math": 0.8823529411764706,
+          "Precise IF": 0.7352941176470589,
+          "Safety": 0.9411764705882353,
+          "Ties": 1.0
+        },
+        "bootstrap": {
+          "lower_one_sided_95": 0.823529411764706,
+          "interval_two_sided_95": [
+            0.8137254901960785,
+            0.9166666666666666
+          ],
+          "replicates": 20000,
+          "seed": "79302467975481129428983672277209164971788769887387410118445540446856216512944",
+          "quantile": "type7"
+        },
+        "gate": true
+      }
+    }
+  ],
+  "paired_criterion_descriptive": {
+    "flash": {
+      "status": "DESCRIPTIVE",
+      "tasks": 102,
+      "strict_minus_neutral": -0.00980392156862745
+    },
+    "gpt-oss": {
+      "status": "DESCRIPTIVE",
+      "tasks": 102,
+      "strict_minus_neutral": -0.024509803921568627
+    }
+  },
+  "usage": {
+    "flash": {
+      "known_token_sums": {
+        "prompt_tokens": 496744,
+        "completion_tokens": 3679
+      },
+      "rows_missing_either_usage_field": 0,
+      "observed_terminals": 612,
+      "latency_median_seconds": 2.0831971665029414
+    },
+    "gpt-oss": {
+      "known_token_sums": {
+        "prompt_tokens": 506110,
+        "completion_tokens": 37659
+      },
+      "rows_missing_either_usage_field": 0,
+      "observed_terminals": 612,
+      "latency_median_seconds": 1.8698407500050962
+    }
+  },
+  "parser_diagnostic": {
+    "flash": {
+      "legacy_aligned_valid": 612,
+      "legacy_valid_strict_invalid": 0,
+      "primary_reclassification": false
+    },
+    "gpt-oss": {
+      "legacy_aligned_valid": 612,
+      "legacy_valid_strict_invalid": 0,
+      "primary_reclassification": false
+    }
+  },
+  "holm_family_size": 4,
+  "inputs": {
+    "manifest_sha256": "28537f1ee41e6d80ee5640c0febc649511f6df747330dab4bf5086544dec8148",
+    "journal_sha256": "23f7b183409ad342dec289e83deb74465e17da9212932aeb2f5aca906fef97f9",
+    "analyzer_sha256": "03534434f71c1f427e00d270a0069616c0cc8d9df4425b704b5d35b7bf6fafd0",
+    "helpers_sha256": "85792690921837557ef52898a43ece4042c1127b69497260f75e88fe8d6554e6",
+    "progress_sha256": "5e49e6a7a58d0ec54cb31cb7eee2dc5c421306341a9517f2415442296d82c198",
+    "source_hashes": {
+      "PROTOCOL.md": "3f4a7bbac9341cad3efef5b26d25a01d94cd8ac26b66cada771789f8e6d45458",
+      "V8_DATA_VERIFICATION.json": "21e64a5a581348afa7c6f7e6d9a39f228d5ffc7a80738054933ce61eccd03e24",
+      "V8_INDEPENDENT_VERIFICATION.json": "75586e0bfa2b7703c92f3403cf90855c4f67edf027824a20cb20aa457e27b47b",
+      "analyze_v8.py": "03534434f71c1f427e00d270a0069616c0cc8d9df4425b704b5d35b7bf6fafd0",
+      "calls.jsonl": "14d660724a848d3f0c88d1bd9ea2f34e53476abe5056f8a4e30020a784d1bdf4",
+      "configs.json": "165a84759d1e8f208c65060a8a833df6c9c1f87cd572e87f4aed6da072a8c0c2",
+      "pairs_v5.jsonl": "51d633ab70ebda8a6ed2836b3e15aa0d63023ab51e01002c9c62556fb4d1a5cf",
+      "renderer.py": "43d4c16b8974e080cb857cad936e2072c5ecac31263ab6251d5ad07408e5039a",
+      "run_v8.py": "cb1950084726090351df8765df319a77de9682bf74da360da9f6de4445734a0e",
+      "schedule_v5.jsonl": "fa07cff66c7d45dd4c95b8fbc679083fc2a50e2f3cca1188a69cc94c681070be",
+      "selected_items_v5.jsonl": "b3a319d01e20ab60fd493c8bd8d167bf93b023ffa70419e88a76d052abbc44e0",
+      "source_precommit_manifest_v5.json": "39fce0700a3138d959287f568737fc08510112972b614ea6dfd67fe1fdba0272",
+      "v8_stats_helpers.py": "85792690921837557ef52898a43ece4042c1127b69497260f75e88fe8d6554e6"
+    }
+  }
+}
