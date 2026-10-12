@@ -1,0 +1,20 @@
+{
+  "status": "PASS_FULL_STATISTICAL_REPLAY",
+  "V5": {
+    "result_sha256": "b3a7089c4572e46114ca29457c363b91827e6bb66677563376aaf0c382ac076b",
+    "canonical_expected_sha256": "b3a7089c4572e46114ca29457c363b91827e6bb66677563376aaf0c382ac076b",
+    "bootstrap": 20000,
+    "randomization": 99999,
+    "exact_canonical_hash_match": true
+  },
+  "V8": {
+    "result_sha256": "d7e5cbc93ff7ea1d29e3d2cb8a8c33a7137366d6e3fea134d9377f218d76bb03",
+    "original_result_sha256": "7310f5f9a76360c6aa152118a2ca2c8e79c419f74f7d506cff05ac826fe5a32a",
+    "bootstrap": 20000,
+    "every_output_field_matches_except_verified_public_analyzer_hash": true,
+    "aggregation_body_byte_identity": true,
+    "corruption_fixtures_rejected_before_bootstrap": 8,
+    "export_provenance_sha256": "47d1715e301ea676d301ed869523fd9a35f62a8d0d6aa31de984105f313b0443"
+  },
+  "scope": "Statisticalreplay, no modelrequests/inferenceinputreplay; unchangedV6/V7not rerun; preparednotpublic"
+}

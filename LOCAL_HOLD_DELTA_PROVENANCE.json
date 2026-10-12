@@ -1,0 +1,16 @@
+{
+  "actual_campaign_review_receipt_sha256": "dfb9ca74c831aebc81cb82efb002202a24804777421928591733402309830193",
+  "all_prior_scientific_record_driver_analyzer_figure_files_byte_equal": true,
+  "changed_parent_files_before_inventory": [
+    "DATASHEET.md",
+    "README.md",
+    "paper/main.pdf",
+    "paper/main.tex"
+  ],
+  "new_scientific_model_calls": 0,
+  "old_statistical_replays": 0,
+  "parent_figure_receipt_sha256": "30b5a98b884c18d5a68a01f07b7a1589bb45d71ba2c3bec27f60c2370575488c",
+  "parent_release_manifest_sha256": "85afeed0717b52562ab10b0f5db1f4006b36786cc167d2a9d6bd1a6dcf6802e4",
+  "publication": "PREPARED_NOT_PUBLIC_AUTHOR_REVIEW_REQUIRED",
+  "schema": "dark-local-operational-hold-overlay-v1"
+}

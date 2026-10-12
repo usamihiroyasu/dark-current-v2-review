@@ -1,0 +1,20 @@
+{
+  "status": "PASS_INDEPENDENT_V7_ANALYZER",
+  "perfect_1536_20000_replicates": true,
+  "all12_cells_fixed": true,
+  "partial_no_scientific_summary": true,
+  "paired_one_call_flip_1_over64": true,
+  "invalid_not_invariant": true,
+  "context_metadata_failclosed": true,
+  "production_outcomes_inspected": false,
+  "analyzer_sha256": "fce0dae9d6b2837387f7ee48a33c565a0357fa776b42ef93f804fcf9c2ba3f70",
+  "rejected_dgx_candidate": "20261008T111918-0feb859e62cd",
+  "rejection_reasons": [
+    "wrongNamespace",
+    "wrongjournalfield/schema",
+    "storedvalid not recomputed",
+    "invents canonical winner rule",
+    "zero placeholders instead of success/bootstrap",
+    "global instead of configuration gates"
+  ]
+}

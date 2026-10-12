@@ -1,0 +1,25 @@
+{
+  "status": "PASS_INDEPENDENT_ANALYZER_CHECKS",
+  "checks": {
+    "binomial_cdf_independent_rational": true,
+    "cp_bound_zero_full_and_tail_residual": true,
+    "holm_identity": true,
+    "type7_quantile": true,
+    "perfect_full_20000_replicates": true,
+    "partial_final_dangling_fixed_family_hold": true,
+    "duplicate_metadata_verdict_fail_closed": true,
+    "invalid_both_null_arms_kept_in_denominator": true
+  },
+  "analyzer_sha256": "3373faee858f1fd913047f8f840b40a5e7d39722e320d417676b6a3b7f41841e",
+  "production_outcomes_inspected": false,
+  "production_progress_only": true,
+  "rejected_dgx_candidate": "20261008T110045-49b902e0fc44",
+  "rejection_reasons": [
+    "PMF instead of lower-tail CDF",
+    "invalid confidence bound and Holm mapping",
+    "wrong journal schema",
+    "invented winner without content parse",
+    "wrong bootstrap unit and seed",
+    "dropping partial configurations"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_PLANTED_CONTRACT_CHECK",
+  "programs": 456,
+  "group_counts": {
+    "good_spec": 96,
+    "equivalent_spec": 96,
+    "bad_self_consistent": 96,
+    "bad_independent_witness": 96,
+    "bad_weak_spec_consistent": 72
+  },
+  "GE_semantic_table": {
+    "GE=1,semantic=1": 192,
+    "GE=1,semantic=0": 168,
+    "GE=0,semantic=0": 96
+  },
+  "candidate_sha256": "a150ba224da0d9df5d417ececf4abc0ebf59b38b1785ca848196509db3132d10",
+  "verification": "AST-derived assertion inputs/labels; independent direct specification over full domains; recorded subprocess verdicts reconciled. No execution or latency repeated."
+}

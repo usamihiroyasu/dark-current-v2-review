@@ -1,0 +1,15 @@
+{
+  "status": "PASS_INDEPENDENT_RUNNER_SIMULATION",
+  "intents": 2880,
+  "terminals": 2880,
+  "strict_parser_invalid_cases": 12,
+  "criterion_messages_differ": true,
+  "oracle_fields_excluded": true,
+  "all_config_slot_keys_unique": true,
+  "scope": "synthetic runner verification, no real model result",
+  "invalid_kept": true,
+  "partial_stops": true,
+  "no_rerun": true,
+  "model_mismatch_single_request_stop": true,
+  "independent_fixture_network_calls": 0
+}

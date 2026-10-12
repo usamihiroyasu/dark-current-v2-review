@@ -1,0 +1,62 @@
+{
+  "current_manuscript": {
+    "figures": 4,
+    "pages": 21,
+    "pdf_sha256": "52543e0cc05f5e8c234eb0161baa0fb7b9107b95142929ae25ba1b2a86df4ef5",
+    "source_sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc",
+    "tables": 9,
+    "parent_scientific_receipt_sha256": "ec05342958f70e0efb8a3d59c8b362e47333a2dbb1029731b749ef0ce37aa230",
+    "editorial_scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
+    "template": "TMLR preprint style"
+  },
+  "figures": 4,
+  "historical_receipts_scope": "Inherited byte-preserved receipts certify their original stages; current new export checks are held_source485/EXPORT_AND_METADATA_VERIFICATION.json",
+  "new_held485_projection": {
+    "metadata_fault_rejections": 17,
+    "public_bootstrap_or_raw_reparse": false,
+    "raw_text_response_weights_routes_excluded": true,
+    "tasks": 485,
+    "terminals": 2910
+  },
+  "paper_objects": 13,
+  "paper_source_PDF_copied_byte_exact": true,
+  "parent_manifest_sha256": "07a85859cdba492f67a6874af52723ee6c8ae5150fcca00af6dec9086d780a0d",
+  "rights": "Coauthor and MHI permission have been reported by the corresponding author; external redistribution scope, outgoing licensing and final release confirmation remain pending.",
+  "scientific_model_native_owner_analysis_bootstrap_here": 0,
+  "status": "PREPARED_NOT_PUBLIC",
+  "tables": 9,
+  "editorial_revision": {
+    "scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
+    "scientific_model_native_bootstrap": 0,
+    "manuscript_compile_render": 0,
+    "published": false,
+    "coauthor_MHI_permission": "USER_REPORTED_OBTAINED",
+    "external_terms_outgoing_license_final_release": "PENDING"
+  },
+  "activity_counts": {
+    "scientific_model_native_bootstrap_here": 0,
+    "manuscript_builds_in_reader_alignment": 0,
+    "completed_parent_abstract_edition_cold_compiles": 4,
+    "completed_parent_abstract_edition_renders": 4
+  },
+  "current_reading_edition": {
+    "scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
+    "scientific_model_native_bootstrap": 0,
+    "manuscript_compile_render": 0,
+    "published": false,
+    "coauthor_MHI_permission": "USER_REPORTED_OBTAINED",
+    "external_terms_outgoing_license_final_release": "PENDING"
+  },
+  "current_Dark_paper_receipt_sha256": "b4923b0492da60bf11cf07ed8ee0a088cab70c4f03b0dde863f0856990b2ecce",
+  "current_visual_limit": "Inherited dedicated final appendix table page; unchanged existing layout HOLD",
+  "current_reader_revision": {
+    "source_sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc",
+    "PDF_sha256": "52543e0cc05f5e8c234eb0161baa0fb7b9107b95142929ae25ba1b2a86df4ef5",
+    "source_zip_sha256": "6d128ded1726731be7efa16b45923c4f5b8c4366168b5fb6960171e4a82264d0",
+    "scope": "Updated173-word abstract; body outside abstract and scientific inputs unchanged",
+    "source": "paper/main.tex",
+    "science_native_model_bootstrap_here": 0
+  },
+  "retained_previous_Dark_paper_receipt_sha256": "e5650ca73042dc8a2d307e703cabbd70bcc7d37e544f8cf4965f4ae76f8051a4",
+  "retained_prior_current_Dark_paper_receipt_sha256": "c28e6d04d25b5a5465729347b01198681fdafed15be30cc476e44bb5621527c1"
+}

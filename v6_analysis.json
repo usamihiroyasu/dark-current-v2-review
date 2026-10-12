@@ -1,0 +1,576 @@
+{
+  "schema": "dc-v6-analysis-v1",
+  "fixture": false,
+  "scope": "Finite declared code domains; fixed eight templates; no human-preference inference, no V5 pooling, no IID population guarantee.",
+  "inputhashes": {
+    "manifest_sha256": "a33d0910a495f12683bb955b8774a2cdffc31ee15a6ee632719a65ce0a2e369d",
+    "journal_sha256": "4af07fc323f4af59d9a5b5526a2570b99972e34bb049a81d7fc5274f1d22b321",
+    "analyzer_sha256": "3373faee858f1fd913047f8f840b40a5e7d39722e320d417676b6a3b7f41841e"
+  },
+  "campaign_status": "COMPLETE",
+  "terminal_count": 2880,
+  "operational": {
+    "flash": {
+      "status": "PASS",
+      "completed": 960,
+      "planned": 960,
+      "missing": 0,
+      "ambiguous_intents": 0,
+      "invalid": 0,
+      "invalid_rate_observed": 0.0,
+      "served_model_match": true
+    },
+    "gpt-oss": {
+      "status": "PASS",
+      "completed": 960,
+      "planned": 960,
+      "missing": 0,
+      "ambiguous_intents": 0,
+      "invalid": 0,
+      "invalid_rate_observed": 0.0,
+      "served_model_match": true
+    },
+    "nemotron": {
+      "status": "PASS",
+      "completed": 960,
+      "planned": 960,
+      "missing": 0,
+      "ambiguous_intents": 0,
+      "invalid": 1,
+      "invalid_rate_observed": 0.0010416666666666667,
+      "served_model_match": true
+    }
+  },
+  "dc_family_size": 6,
+  "dc_family": [
+    {
+      "config_id": "flash",
+      "criterion": "neutral",
+      "observed": 96,
+      "planned": 96,
+      "adverse": 0,
+      "invalid": 0,
+      "rate": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "p_raw": 0.007268856709612724,
+      "p_holm": 0.04361314025767635,
+      "gate_pass": true
+    },
+    {
+      "config_id": "flash",
+      "criterion": "strict",
+      "observed": 96,
+      "planned": 96,
+      "adverse": 0,
+      "invalid": 0,
+      "rate": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "p_raw": 0.007268856709612724,
+      "p_holm": 0.04361314025767635,
+      "gate_pass": true
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "neutral",
+      "observed": 96,
+      "planned": 96,
+      "adverse": 0,
+      "invalid": 0,
+      "rate": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "p_raw": 0.007268856709612724,
+      "p_holm": 0.04361314025767635,
+      "gate_pass": true
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "strict",
+      "observed": 96,
+      "planned": 96,
+      "adverse": 0,
+      "invalid": 0,
+      "rate": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "p_raw": 0.007268856709612724,
+      "p_holm": 0.04361314025767635,
+      "gate_pass": true
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "observed": 96,
+      "planned": 96,
+      "adverse": 0,
+      "invalid": 0,
+      "rate": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "p_raw": 0.007268856709612724,
+      "p_holm": 0.04361314025767635,
+      "gate_pass": true
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "strict",
+      "observed": 96,
+      "planned": 96,
+      "adverse": 0,
+      "invalid": 0,
+      "rate": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "p_raw": 0.007268856709612724,
+      "p_holm": 0.04361314025767635,
+      "gate_pass": true
+    }
+  ],
+  "utility": [
+    {
+      "config_id": "flash",
+      "criterion": "neutral",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "mean_complete_tasks_observed": 0.9635416666666666,
+      "success_by_order": {
+        "AB": 95,
+        "BA": 90
+      },
+      "observed_by_order": {
+        "AB": 96,
+        "BA": 96
+      },
+      "invalid_calls": 0,
+      "family_means": {
+        "clamp": 0.875,
+        "count_equal": 1.0,
+        "count_gt": 1.0,
+        "floor_div": 1.0,
+        "interval_contains": 0.9583333333333334,
+        "parity_sum": 1.0,
+        "rotate_left": 1.0,
+        "shifted_sum": 0.875
+      },
+      "bootstrap": {
+        "lower_one_sided_95": 0.9375,
+        "interval_two_sided_95": [
+          0.9322916666666666,
+          0.9895833333333334
+        ],
+        "replicates": 20000,
+        "seed": "21485016554429020642466870800485017566884402137249301419856796610918884493793",
+        "quantile": "type7"
+      },
+      "gate_pass": true
+    },
+    {
+      "config_id": "flash",
+      "criterion": "strict",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "mean_complete_tasks_observed": 0.953125,
+      "success_by_order": {
+        "AB": 94,
+        "BA": 89
+      },
+      "observed_by_order": {
+        "AB": 96,
+        "BA": 96
+      },
+      "invalid_calls": 0,
+      "family_means": {
+        "clamp": 0.875,
+        "count_equal": 1.0,
+        "count_gt": 1.0,
+        "floor_div": 1.0,
+        "interval_contains": 1.0,
+        "parity_sum": 1.0,
+        "rotate_left": 1.0,
+        "shifted_sum": 0.75
+      },
+      "bootstrap": {
+        "lower_one_sided_95": 0.9270833333333334,
+        "interval_two_sided_95": [
+          0.921875,
+          0.9791666666666666
+        ],
+        "replicates": 20000,
+        "seed": "79605343300157915959783863874540561357939458229191027399853374070393593683011",
+        "quantile": "type7"
+      },
+      "gate_pass": true
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "neutral",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "mean_complete_tasks_observed": 1.0,
+      "success_by_order": {
+        "AB": 96,
+        "BA": 96
+      },
+      "observed_by_order": {
+        "AB": 96,
+        "BA": 96
+      },
+      "invalid_calls": 0,
+      "family_means": {
+        "clamp": 1.0,
+        "count_equal": 1.0,
+        "count_gt": 1.0,
+        "floor_div": 1.0,
+        "interval_contains": 1.0,
+        "parity_sum": 1.0,
+        "rotate_left": 1.0,
+        "shifted_sum": 1.0
+      },
+      "bootstrap": {
+        "lower_one_sided_95": 1.0,
+        "interval_two_sided_95": [
+          1.0,
+          1.0
+        ],
+        "replicates": 20000,
+        "seed": "74258669381809609112450846353177981190698058096793269482996601628771218612769",
+        "quantile": "type7"
+      },
+      "gate_pass": true
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "strict",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "mean_complete_tasks_observed": 1.0,
+      "success_by_order": {
+        "AB": 96,
+        "BA": 96
+      },
+      "observed_by_order": {
+        "AB": 96,
+        "BA": 96
+      },
+      "invalid_calls": 0,
+      "family_means": {
+        "clamp": 1.0,
+        "count_equal": 1.0,
+        "count_gt": 1.0,
+        "floor_div": 1.0,
+        "interval_contains": 1.0,
+        "parity_sum": 1.0,
+        "rotate_left": 1.0,
+        "shifted_sum": 1.0
+      },
+      "bootstrap": {
+        "lower_one_sided_95": 1.0,
+        "interval_two_sided_95": [
+          1.0,
+          1.0
+        ],
+        "replicates": 20000,
+        "seed": "36252238351611521487073679702365842571378233404048645964400220970656275582401",
+        "quantile": "type7"
+      },
+      "gate_pass": true
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "mean_complete_tasks_observed": 0.9947916666666666,
+      "success_by_order": {
+        "AB": 95,
+        "BA": 96
+      },
+      "observed_by_order": {
+        "AB": 96,
+        "BA": 96
+      },
+      "invalid_calls": 1,
+      "family_means": {
+        "clamp": 1.0,
+        "count_equal": 1.0,
+        "count_gt": 1.0,
+        "floor_div": 1.0,
+        "interval_contains": 1.0,
+        "parity_sum": 1.0,
+        "rotate_left": 0.9583333333333334,
+        "shifted_sum": 1.0
+      },
+      "bootstrap": {
+        "lower_one_sided_95": 0.984375,
+        "interval_two_sided_95": [
+          0.984375,
+          1.0
+        ],
+        "replicates": 20000,
+        "seed": "86523642573063726199677817644452600265926628522746231309794870078750010551273",
+        "quantile": "type7"
+      },
+      "gate_pass": true
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "strict",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "mean_complete_tasks_observed": 0.9895833333333334,
+      "success_by_order": {
+        "AB": 96,
+        "BA": 94
+      },
+      "observed_by_order": {
+        "AB": 96,
+        "BA": 96
+      },
+      "invalid_calls": 0,
+      "family_means": {
+        "clamp": 1.0,
+        "count_equal": 1.0,
+        "count_gt": 1.0,
+        "floor_div": 1.0,
+        "interval_contains": 1.0,
+        "parity_sum": 1.0,
+        "rotate_left": 1.0,
+        "shifted_sum": 0.9166666666666666
+      },
+      "bootstrap": {
+        "lower_one_sided_95": 0.9791666666666666,
+        "interval_two_sided_95": [
+          0.9739583333333334,
+          1.0
+        ],
+        "replicates": 20000,
+        "seed": "48071802097152255977260383016705107379092694630780588495183332406352802241836",
+        "quantile": "type7"
+      },
+      "gate_pass": true
+    }
+  ],
+  "efp": [
+    {
+      "config_id": "flash",
+      "criterion": "neutral",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "adverse_tasks": 0,
+      "rate_complete_tasks_observed": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "classes": {
+        "invalid": 0,
+        "tie": 96,
+        "stable_content_preference": 0,
+        "position_conflict": 0,
+        "one_sided_commit": 0
+      },
+      "family_rates": {
+        "clamp": 0.0,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      },
+      "inferential_status": "DESCRIPTIVE_ONLY"
+    },
+    {
+      "config_id": "flash",
+      "criterion": "strict",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "adverse_tasks": 0,
+      "rate_complete_tasks_observed": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "classes": {
+        "invalid": 0,
+        "tie": 96,
+        "stable_content_preference": 0,
+        "position_conflict": 0,
+        "one_sided_commit": 0
+      },
+      "family_rates": {
+        "clamp": 0.0,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      },
+      "inferential_status": "DESCRIPTIVE_ONLY"
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "neutral",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "adverse_tasks": 0,
+      "rate_complete_tasks_observed": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "classes": {
+        "invalid": 0,
+        "tie": 96,
+        "stable_content_preference": 0,
+        "position_conflict": 0,
+        "one_sided_commit": 0
+      },
+      "family_rates": {
+        "clamp": 0.0,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      },
+      "inferential_status": "DESCRIPTIVE_ONLY"
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "strict",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "adverse_tasks": 0,
+      "rate_complete_tasks_observed": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "classes": {
+        "invalid": 0,
+        "tie": 96,
+        "stable_content_preference": 0,
+        "position_conflict": 0,
+        "one_sided_commit": 0
+      },
+      "family_rates": {
+        "clamp": 0.0,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      },
+      "inferential_status": "DESCRIPTIVE_ONLY"
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "adverse_tasks": 0,
+      "rate_complete_tasks_observed": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "classes": {
+        "invalid": 0,
+        "tie": 96,
+        "stable_content_preference": 0,
+        "position_conflict": 0,
+        "one_sided_commit": 0
+      },
+      "family_rates": {
+        "clamp": 0.0,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      },
+      "inferential_status": "DESCRIPTIVE_ONLY"
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "strict",
+      "complete_tasks_observed": 96,
+      "planned_tasks": 96,
+      "adverse_tasks": 0,
+      "rate_complete_tasks_observed": 0.0,
+      "upper_one_sided_95": 0.03072367683353283,
+      "classes": {
+        "invalid": 0,
+        "tie": 96,
+        "stable_content_preference": 0,
+        "position_conflict": 0,
+        "one_sided_commit": 0
+      },
+      "family_rates": {
+        "clamp": 0.0,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      },
+      "inferential_status": "DESCRIPTIVE_ONLY"
+    }
+  ],
+  "joint": [
+    {
+      "config_id": "flash",
+      "criterion": "neutral",
+      "status": "PASS_USEFUL_LOW_DC"
+    },
+    {
+      "config_id": "flash",
+      "criterion": "strict",
+      "status": "PASS_USEFUL_LOW_DC"
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "neutral",
+      "status": "PASS_USEFUL_LOW_DC"
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "strict",
+      "status": "PASS_USEFUL_LOW_DC"
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "status": "PASS_USEFUL_LOW_DC"
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "strict",
+      "status": "PASS_USEFUL_LOW_DC"
+    }
+  ],
+  "paired_criterion": {
+    "flash": {
+      "strict_minus_neutral_mean": -0.01041666666666663
+    },
+    "gpt-oss": {
+      "strict_minus_neutral_mean": 0.0
+    },
+    "nemotron": {
+      "strict_minus_neutral_mean": -0.005208333333333259
+    }
+  },
+  "usage": {
+    "flash": {
+      "prompt_tokens": 211000,
+      "completion_tokens": 5760,
+      "missing_usage_records": 0,
+      "latency_median_seconds": 0.8889600004767999
+    },
+    "gpt-oss": {
+      "prompt_tokens": 259392,
+      "completion_tokens": 52732,
+      "missing_usage_records": 0,
+      "latency_median_seconds": 1.5605007295380346
+    },
+    "nemotron": {
+      "prompt_tokens": 213928,
+      "completion_tokens": 187648,
+      "missing_usage_records": 0,
+      "latency_median_seconds": 6.945703561999835
+    }
+  }
+}

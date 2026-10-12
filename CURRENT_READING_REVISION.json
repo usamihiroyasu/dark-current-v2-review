@@ -1,0 +1,32 @@
+{
+  "scope": "Selected final local author-review edition: updated173-word abstract, retained scientific records; not published or submitted",
+  "science_model_native_bootstrap": 0,
+  "release_state": "PREPARED_NOT_PUBLIC",
+  "paper_source": {
+    "path": "paper/main.tex",
+    "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+  },
+  "paper_pdf": {
+    "path": "paper/main.pdf",
+    "sha256": "52543e0cc05f5e8c234eb0161baa0fb7b9107b95142929ae25ba1b2a86df4ef5"
+  },
+  "evidence_map": {
+    "path": "PAPER_EVIDENCE_MAP.json",
+    "sha256": "8637a88ce6bb580426285ad650b4d94710072c79c860b6b4ada28339defac510"
+  },
+  "rights": "Coauthor and MHI permission reported obtained; external rights, outgoing licence and final release confirmation remain separate.",
+  "bibliography": {
+    "source": {
+      "path": "paper/references.bib",
+      "sha256": "83b24ef5e3d3968fd64d8243b53865775adbe12edd9c57f36bec93ab03409aac"
+    },
+    "rendered": {
+      "path": "paper/main.bbl",
+      "sha256": "d18c04b0259881f9095c088d1077b82e72d6ca91a7f228b0223cdbfd101b9345"
+    },
+    "cited_entries": 18,
+    "scope": "New citations verified only in their recorded primary-reading scope; no all-reference hallucination-free certificate"
+  },
+  "author_review_edition": "2026-10-13",
+  "canonical_role": "selected local final candidate; author release approval pending"
+}

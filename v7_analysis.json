@@ -1,0 +1,463 @@
+{
+  "schema": "dc-v7-analysis-v1",
+  "fixture": false,
+  "scope": "Exploratory third-reference context; descriptive intervals; no geometry, parity, full-triad ranking, or confirmatory H1 claim.",
+  "inputhashes": {
+    "manifest_sha256": "d2d6225a84c637c9d5a85867604e04aa2137060b3c3c3911897f4d6c0ef05ee9",
+    "journal_sha256": "a42d2d07caa459f018a68eb016389d18ec9223d463bc5a694e8e52e9a4d4d582",
+    "analyzer_sha256": "fce0dae9d6b2837387f7ee48a33c565a0357fa776b42ef93f804fcf9c2ba3f70"
+  },
+  "campaign_status": "PARTIAL_HOLD_TRANSPORT_OR_MODEL",
+  "terminal_count": 1344,
+  "operational": {
+    "flash": {
+      "status": "PASS",
+      "completed": 512,
+      "planned": 512,
+      "missing": 0,
+      "invalid": 0,
+      "ambiguous_intents": 0,
+      "served_model_match": true
+    },
+    "gpt-oss": {
+      "status": "PASS",
+      "completed": 512,
+      "planned": 512,
+      "missing": 0,
+      "invalid": 0,
+      "ambiguous_intents": 0,
+      "served_model_match": true
+    },
+    "nemotron": {
+      "status": "HOLD",
+      "completed": 320,
+      "planned": 512,
+      "missing": 192,
+      "invalid": 2,
+      "ambiguous_intents": 0,
+      "served_model_match": false
+    }
+  },
+  "cells": [
+    {
+      "config_id": "flash",
+      "criterion": "neutral",
+      "arm": "equivalence",
+      "status": "COMPLETE_DESCRIPTIVE",
+      "observed_calls": 128,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "complete_tasks_observed": 32,
+      "context_adverse_tasks": 7,
+      "context_adverse_rate": 0.21875,
+      "success_mean_by_context": {
+        "absent": 1.0,
+        "present": 0.859375
+      },
+      "paired_present_minus_absent": -0.140625,
+      "paired_bootstrap": {
+        "interval_two_sided_95": [
+          -0.1875,
+          -0.09375
+        ],
+        "seed": "33922581048118148127768159868252960703580903131533754306546037007204664601628",
+        "replicates": 20000,
+        "quantile": "type7"
+      },
+      "family_paired_means": {
+        "clamp": -0.5,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": -0.625,
+        "shifted_sum": 0.0
+      }
+    },
+    {
+      "config_id": "flash",
+      "criterion": "neutral",
+      "arm": "signal",
+      "status": "COMPLETE_DESCRIPTIVE",
+      "observed_calls": 128,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "complete_tasks_observed": 32,
+      "context_adverse_tasks": 4,
+      "context_adverse_rate": 0.125,
+      "success_mean_by_context": {
+        "absent": 0.921875,
+        "present": 0.984375
+      },
+      "paired_present_minus_absent": 0.0625,
+      "paired_bootstrap": {
+        "interval_two_sided_95": [
+          0.03125,
+          0.09375
+        ],
+        "seed": "976845279093303731405623742729525543193344736481589654339873858258520209776",
+        "replicates": 20000,
+        "quantile": "type7"
+      },
+      "family_paired_means": {
+        "clamp": 0.125,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.375
+      }
+    },
+    {
+      "config_id": "flash",
+      "criterion": "strict",
+      "arm": "equivalence",
+      "status": "COMPLETE_DESCRIPTIVE",
+      "observed_calls": 128,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "complete_tasks_observed": 32,
+      "context_adverse_tasks": 1,
+      "context_adverse_rate": 0.03125,
+      "success_mean_by_context": {
+        "absent": 1.0,
+        "present": 0.96875
+      },
+      "paired_present_minus_absent": -0.03125,
+      "paired_bootstrap": {
+        "interval_two_sided_95": [
+          -0.09375,
+          0.0
+        ],
+        "seed": "83518643174795035792810334622246494200058665820368459136169500755056148039442",
+        "replicates": 20000,
+        "quantile": "type7"
+      },
+      "family_paired_means": {
+        "clamp": -0.25,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      }
+    },
+    {
+      "config_id": "flash",
+      "criterion": "strict",
+      "arm": "signal",
+      "status": "COMPLETE_DESCRIPTIVE",
+      "observed_calls": 128,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "complete_tasks_observed": 32,
+      "context_adverse_tasks": 4,
+      "context_adverse_rate": 0.125,
+      "success_mean_by_context": {
+        "absent": 0.921875,
+        "present": 0.984375
+      },
+      "paired_present_minus_absent": 0.0625,
+      "paired_bootstrap": {
+        "interval_two_sided_95": [
+          0.03125,
+          0.09375
+        ],
+        "seed": "80269595415825878697386874873951597948735023329299101027165580807464351158372",
+        "replicates": 20000,
+        "quantile": "type7"
+      },
+      "family_paired_means": {
+        "clamp": 0.125,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.375
+      }
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "neutral",
+      "arm": "equivalence",
+      "status": "COMPLETE_DESCRIPTIVE",
+      "observed_calls": 128,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "complete_tasks_observed": 32,
+      "context_adverse_tasks": 0,
+      "context_adverse_rate": 0.0,
+      "success_mean_by_context": {
+        "absent": 1.0,
+        "present": 1.0
+      },
+      "paired_present_minus_absent": 0.0,
+      "paired_bootstrap": {
+        "interval_two_sided_95": [
+          0.0,
+          0.0
+        ],
+        "seed": "8102847705232884994140547706356210098548858379339422698538077895316301417909",
+        "replicates": 20000,
+        "quantile": "type7"
+      },
+      "family_paired_means": {
+        "clamp": 0.0,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      }
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "neutral",
+      "arm": "signal",
+      "status": "COMPLETE_DESCRIPTIVE",
+      "observed_calls": 128,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "complete_tasks_observed": 32,
+      "context_adverse_tasks": 0,
+      "context_adverse_rate": 0.0,
+      "success_mean_by_context": {
+        "absent": 1.0,
+        "present": 1.0
+      },
+      "paired_present_minus_absent": 0.0,
+      "paired_bootstrap": {
+        "interval_two_sided_95": [
+          0.0,
+          0.0
+        ],
+        "seed": "60840266313161650846275241695264117056071127502749602268752928440086605228586",
+        "replicates": 20000,
+        "quantile": "type7"
+      },
+      "family_paired_means": {
+        "clamp": 0.0,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      }
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "strict",
+      "arm": "equivalence",
+      "status": "COMPLETE_DESCRIPTIVE",
+      "observed_calls": 128,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "complete_tasks_observed": 32,
+      "context_adverse_tasks": 0,
+      "context_adverse_rate": 0.0,
+      "success_mean_by_context": {
+        "absent": 1.0,
+        "present": 1.0
+      },
+      "paired_present_minus_absent": 0.0,
+      "paired_bootstrap": {
+        "interval_two_sided_95": [
+          0.0,
+          0.0
+        ],
+        "seed": "45256936875754237290726449627155462512441059205984003550191771672443750211434",
+        "replicates": 20000,
+        "quantile": "type7"
+      },
+      "family_paired_means": {
+        "clamp": 0.0,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      }
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "strict",
+      "arm": "signal",
+      "status": "COMPLETE_DESCRIPTIVE",
+      "observed_calls": 128,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "complete_tasks_observed": 32,
+      "context_adverse_tasks": 0,
+      "context_adverse_rate": 0.0,
+      "success_mean_by_context": {
+        "absent": 1.0,
+        "present": 1.0
+      },
+      "paired_present_minus_absent": 0.0,
+      "paired_bootstrap": {
+        "interval_two_sided_95": [
+          0.0,
+          0.0
+        ],
+        "seed": "24237254001411403126694943144952780513714710819618393831304076651231109947177",
+        "replicates": 20000,
+        "quantile": "type7"
+      },
+      "family_paired_means": {
+        "clamp": 0.0,
+        "count_equal": 0.0,
+        "count_gt": 0.0,
+        "floor_div": 0.0,
+        "interval_contains": 0.0,
+        "parity_sum": 0.0,
+        "rotate_left": 0.0,
+        "shifted_sum": 0.0
+      }
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "arm": "equivalence",
+      "status": "HOLD",
+      "observed_calls": 86,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "complete_tasks_observed": 6,
+      "context_adverse_tasks": null,
+      "context_adverse_rate": null,
+      "success_mean_by_context": null,
+      "paired_present_minus_absent": null,
+      "paired_bootstrap": null,
+      "family_paired_means": null
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "arm": "signal",
+      "status": "HOLD",
+      "observed_calls": 78,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 1,
+        "present": 0
+      },
+      "complete_tasks_observed": 4,
+      "context_adverse_tasks": null,
+      "context_adverse_rate": null,
+      "success_mean_by_context": null,
+      "paired_present_minus_absent": null,
+      "paired_bootstrap": null,
+      "family_paired_means": null
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "strict",
+      "arm": "equivalence",
+      "status": "HOLD",
+      "observed_calls": 78,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "complete_tasks_observed": 5,
+      "context_adverse_tasks": null,
+      "context_adverse_rate": null,
+      "success_mean_by_context": null,
+      "paired_present_minus_absent": null,
+      "paired_bootstrap": null,
+      "family_paired_means": null
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "strict",
+      "arm": "signal",
+      "status": "HOLD",
+      "observed_calls": 78,
+      "planned_calls": 128,
+      "planned_tasks": 32,
+      "invalid_by_context": {
+        "absent": 1,
+        "present": 0
+      },
+      "complete_tasks_observed": 4,
+      "context_adverse_tasks": null,
+      "context_adverse_rate": null,
+      "success_mean_by_context": null,
+      "paired_present_minus_absent": null,
+      "paired_bootstrap": null,
+      "family_paired_means": null
+    }
+  ],
+  "usage": {
+    "flash": {
+      "prompt_tokens": 135504,
+      "completion_tokens": 3072,
+      "missing_usage_records": 0,
+      "latency_median_seconds": 0.8991021044785157
+    },
+    "gpt-oss": {
+      "prompt_tokens": 160816,
+      "completion_tokens": 33161,
+      "missing_usage_records": 0,
+      "latency_median_seconds": 2.00265939545352
+    },
+    "nemotron": {
+      "prompt_tokens": 85844,
+      "completion_tokens": 84324,
+      "missing_usage_records": 1,
+      "latency_median_seconds": 8.792808354017325
+    }
+  }
+}

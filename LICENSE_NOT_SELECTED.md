@@ -1,0 +1,1 @@
+No new outgoing license for newly prepared code and numerical data has been selected. Existing public-paper licensing is retained as provenance in UPSTREAM_LICENSES.md. This private review candidate has not been published; author approval, contribution/order, and final release scope remain to be confirmed.

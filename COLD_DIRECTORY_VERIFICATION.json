@@ -1,0 +1,9 @@
+{
+  "status": "PASS_COLD_DIRECTORY_AND_TAMPER_CHECK",
+  "relative_commitment_files_verified": [
+    "v6",
+    "v7"
+  ],
+  "item_byte_mutation_rejected": true,
+  "scope": "Fresh directory copied from explicit public candidate, not a Git worktree or model rerun. Secret-free source mapping verifies without original absolute paths."
+}

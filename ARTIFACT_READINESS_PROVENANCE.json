@@ -1,0 +1,14 @@
+{
+  "status": "DOCUMENTATION_ONLY_NEW_CANDIDATE",
+  "parent_manifest_sha256": "da01ad04becfbbfe2eb42583e323685947be172bfc0f13b24b4c649468e2833e",
+  "parent_files_count": 102,
+  "changed_parent_files": {
+    "README.md": {
+      "parent_sha256": "7aa53594556b24b234bbfe39e3cc6d4bd9b889a654b95bff2df7ed1a5c847d44",
+      "candidate_sha256": "59ae8c5339af567aa0906537b1365f5aa122d3b9b371740f131af793c826eea3"
+    }
+  },
+  "all_other_parent_files_byte_unchanged": true,
+  "new_model_native_statistical_experiments": 0,
+  "author_and_MHI_publication_approvals": "PENDING"
+}

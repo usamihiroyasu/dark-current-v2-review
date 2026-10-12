@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when the release is approved."
+title: "LLM Judges Have Dark Current: Stratified Null and Utility Tests for LLM Judge Reliability"
+type: software
+authors:
+  - family-names: Usami
+    given-names: Hiroyasu
+  - family-names: Hara
+    given-names: Keisuke
+  - family-names: Tsuboi
+    given-names: Ayato
+  - family-names: Matsuda
+    given-names: Naohiko
+identifiers:
+  - type: other
+    value: "arXiv:2606.15610"
+version: "2026-10-13-private-review"
+abstract: "Stratified audits of output validity, exact-clone preferences, and target-selection utility, with study-specific saved evidence and reproducibility routes."

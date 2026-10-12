@@ -1,0 +1,579 @@
+{
+  "schema": "dark-paper-evidence-map-v3",
+  "status": "CURRENT_13_OBJECTS_INDEXED_WITH_EXPLICIT_GAPS",
+  "paper": {
+    "path": "paper/main.tex",
+    "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+  },
+  "studies": {
+    "V5": {
+      "task_units": 102,
+      "planned_calls": 1224,
+      "observed_terminal_records": 1224,
+      "scope": "Fresh relative to preceding study rows; public benchmark contamination unresolved.",
+      "command": "python3 legacy_v5/analysis/release/verify_and_reanalyze_public_v5.py --out local-reproduction/fresh-benchmark.json",
+      "source_bindings": [
+        {
+          "path": "legacy_v5/analysis/release/public_terminal_records_v5.jsonl",
+          "sha256": "5e74de53068bdd914b745d76434bec0bd6b304d02da17d4b932338f8feabdb48"
+        },
+        {
+          "path": "legacy_v5/analysis/release/public_schedule_v5.jsonl",
+          "sha256": "9370f6019cf133a901e892a955780d0164bc9d572b15fd9457b635edf519baf4"
+        },
+        {
+          "path": "legacy_v5/analysis/release/public_provenance_receipt_v5.json",
+          "sha256": "ca3a05bcfcd53b94c81e0a8604f3afa990f52e4385a66d8141c3f0e426e3b228"
+        },
+        {
+          "path": "legacy_v5/analysis/release/public_release_manifest_v5.json",
+          "sha256": "e70e8c1bcc8da6a26b568784f0b2941f3ab1878ff5098ce1207e07cf39006732"
+        }
+      ],
+      "saved_replay_binding": {
+        "path": "DAYTIME_PUBLIC_REPLAY_RECEIPT.json",
+        "sha256": "10ed77eddb2de391b7c7c69ba95b06861222a6de85f67eb8787959de392bc006"
+      },
+      "execution_this_revision": 0
+    },
+    "V6": {
+      "task_units": 96,
+      "planned_calls": 2880,
+      "observed_terminal_records": 2880,
+      "scope": "Eight constructed families; truth restricted to declared finite domains.",
+      "command": "python3 scripts/analyze_v6.py --root v6_frozen --run v6_production --out local-reproduction/finite-code.json",
+      "source_bindings": [
+        {
+          "path": "v6_frozen/manifest.json",
+          "sha256": "a33d0910a495f12683bb955b8774a2cdffc31ee15a6ee632719a65ce0a2e369d"
+        },
+        {
+          "path": "v6_frozen/configs.json",
+          "sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534"
+        },
+        {
+          "path": "v6_frozen/items.jsonl",
+          "sha256": "38185717cbeba2f5a1306d7bb71ae59323082b7fd2f596d0bc61f892f9f82242"
+        },
+        {
+          "path": "v6_frozen/schedule.jsonl",
+          "sha256": "1ec560664881006f51fffb5b04e3fd4e7df8fb7d1a1aa241f5af769295fc7ada"
+        },
+        {
+          "path": "v6_production/journal.jsonl",
+          "sha256": "4af07fc323f4af59d9a5b5526a2570b99972e34bb049a81d7fc5274f1d22b321"
+        },
+        {
+          "path": "v6_analysis.json",
+          "sha256": "62f3604dbd80cbb7e6c128d625fa62fd615fdb9157c7355e20d424992b4e6b2c"
+        },
+        {
+          "path": "EXPORT_PROVENANCE.json",
+          "sha256": "15eb38910c6c6cc2b8b254ed3e8531863f3fbd41b08b23fd88382d7d14519135"
+        }
+      ],
+      "saved_replay_binding": {
+        "path": "V6_PUBLIC_REPRODUCTION_VERIFICATION.json",
+        "sha256": "b52141e0d629eb4b689d09446e5b5091640406247992cbc0100c48283182454b"
+      },
+      "execution_this_revision": 0
+    },
+    "V7": {
+      "task_units": 32,
+      "planned_calls": 1536,
+      "observed_terminal_records": 1344,
+      "scope": "Eight descriptive completed cells, four HOLD cells; partial coverage is not a performance estimate.",
+      "command": "python3 scripts/analyze_v7.py --root v7_frozen --run v7_production --out local-reproduction/context.json",
+      "source_bindings": [
+        {
+          "path": "v7_frozen/manifest.json",
+          "sha256": "d2d6225a84c637c9d5a85867604e04aa2137060b3c3c3911897f4d6c0ef05ee9"
+        },
+        {
+          "path": "v7_frozen/configs.json",
+          "sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534"
+        },
+        {
+          "path": "v7_frozen/items.jsonl",
+          "sha256": "b761b67f5284e7adf71df73df119bffe8e4057d9622f25a8cae360f8d10b870c"
+        },
+        {
+          "path": "v7_frozen/schedule.jsonl",
+          "sha256": "ed7dabbda38bd217ac9b65f67287310c8e20c35f8afe88f978b5dfc00bc63c5e"
+        },
+        {
+          "path": "v7_production/journal.jsonl",
+          "sha256": "a42d2d07caa459f018a68eb016389d18ec9223d463bc5a694e8e52e9a4d4d582"
+        },
+        {
+          "path": "v7_analysis.json",
+          "sha256": "02e18e50bc904b85122b8555c8b1677bbfaec204ea946943c9568c8680b14abd"
+        },
+        {
+          "path": "EXPORT_PROVENANCE.json",
+          "sha256": "15eb38910c6c6cc2b8b254ed3e8531863f3fbd41b08b23fd88382d7d14519135"
+        }
+      ],
+      "saved_replay_binding": {
+        "path": "V7_PUBLIC_REPRODUCTION_VERIFICATION.json",
+        "sha256": "b2cf9c86d022a462d84770fbf5dfd58d51647902246721ec64c8cc1c4bdba50d"
+      },
+      "execution_this_revision": 0
+    },
+    "V8": {
+      "task_units": 102,
+      "planned_calls": 1224,
+      "observed_terminal_records": 1224,
+      "scope": "New calls on the same V5 rows, separate configuration bridge; not fresh items or pooled evidence.",
+      "command": "python3 v8_statistical/analyze_v8_public.py --root v8_statistical --run v8_statistical --out local-reproduction/configuration-bridge.json",
+      "source_bindings": [
+        {
+          "path": "v8_statistical/manifest.json",
+          "sha256": "28537f1ee41e6d80ee5640c0febc649511f6df747330dab4bf5086544dec8148"
+        },
+        {
+          "path": "v8_statistical/journal.jsonl",
+          "sha256": "23f7b183409ad342dec289e83deb74465e17da9212932aeb2f5aca906fef97f9"
+        },
+        {
+          "path": "v8_statistical/calls_metadata.jsonl",
+          "sha256": "b33fc810151f2e3997e0df9e41a4ee2ec7a03b92e969e31fcc56e6cf41a33337"
+        },
+        {
+          "path": "v8_statistical/expected_analysis.json",
+          "sha256": "7310f5f9a76360c6aa152118a2ca2c8e79c419f74f7d506cff05ac826fe5a32a"
+        },
+        {
+          "path": "v8_statistical/EXPORT_PROVENANCE.json",
+          "sha256": "47d1715e301ea676d301ed869523fd9a35f62a8d0d6aa31de984105f313b0443"
+        }
+      ],
+      "saved_replay_binding": {
+        "path": "DAYTIME_PUBLIC_REPLAY_RECEIPT.json",
+        "sha256": "10ed77eddb2de391b7c7c69ba95b06861222a6de85f67eb8787959de392bc006"
+      },
+      "execution_this_revision": 0
+    },
+    "local_output_hold": {
+      "task_units": 102,
+      "planned_calls": 612,
+      "observed_terminal_records": 612,
+      "valid_outputs": 401,
+      "invalid_outputs": 211,
+      "scope": "Same V5/V8 rows, additional named local configuration; both cells operational HOLD. Not fresh tasks, not a model-family/backend causal contrast.",
+      "source_bindings": [
+        {
+          "path": "local_output_hold/CONFIGURATION_AND_GATE.json",
+          "sha256": "c1ed0fddaba18f95ed900e3582618da8feca47adc132b633578a186eee427b37"
+        },
+        {
+          "path": "local_output_hold/OBSERVED_ANALYSIS.json",
+          "sha256": "3965d4a61496ea2c71433967b12b38436a94d7e59b338adca769f914b4f42387"
+        },
+        {
+          "path": "local_output_hold/verify_recorded.py",
+          "sha256": "b68d22b167cd89781b39646709d8e51d1bee4cb53fa9c26bbb1b95dcf15e08ab"
+        }
+      ],
+      "command": "python3 local_output_hold/verify_recorded.py",
+      "execution_this_revision": 0
+    },
+    "held_source485": {
+      "task_units": 485,
+      "planned_calls": 2910,
+      "observed_terminal_records": 2910,
+      "scope": "Fixed gate-surviving RB2 source mixture; semantic independence/human truth/contamination unresolved; one installed raw consumer; clone Holm only",
+      "command": "python3 held_source485/verify_recorded.py",
+      "source_bindings": [
+        {
+          "path": "held_source485/CONFIGURATION_AND_GATE.json",
+          "sha256": "8da3fb9f2526994d00bb308c8c37c5b047019b76d00bec130082bd6ef419d707"
+        },
+        {
+          "path": "held_source485/OBSERVED_ANALYSIS.json",
+          "sha256": "abf9435a3e4166d098ea3acba7ac73e647d6ec9fc203432149076d54d5740e28"
+        },
+        {
+          "path": "held_source485/records.jsonl",
+          "sha256": "3b48658c5efe5eae9f61c5451238cdcd22ea3d4b26adc37e2e52a93de057528e"
+        },
+        {
+          "path": "held_source485/calls_metadata.jsonl",
+          "sha256": "de5ed0414b67fcd96c6b4b557ed7f33a6ea2823a89cbc268ee73e934adf0e2c9"
+        },
+        {
+          "path": "held_source485/selected_metadata.jsonl",
+          "sha256": "d5f398ea98eca5e51e97da61001004a54a334459b36f594a65ba87b43ef776b3"
+        },
+        {
+          "path": "held_source485/proxy_metadata.jsonl",
+          "sha256": "f2b9935a2160126fa114a37a1e05113e56ad3cc020934ddd1c9e02f6d61c4b15"
+        },
+        {
+          "path": "held_source485/SOURCE_MAPPING.json",
+          "sha256": "8c2f3d897ea4418baa5c5906b3376a9c1e07a02851665c8d93fff9af62e7ab88"
+        }
+      ],
+      "reproduction_status": "SAVED_COUNT_HASH_CHECK_ONLY; BOOTSTRAP_OWNER_ONCE_INDEPENDENT_REDRAW0; RAW_EXCLUDED",
+      "execution_this_revision": 0
+    }
+  },
+  "entries": [
+    {
+      "label": "fig:protocol",
+      "location": {
+        "file": "paper/main.tex",
+        "line": 61
+      },
+      "paper_source": {
+        "path": "paper/main.tex",
+        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+      },
+      "studies": [
+        "V5",
+        "V6"
+      ],
+      "scope": "Conceptual workflow, including historical and excluded branches; not numerical observations.",
+      "source_bindings": [
+        {
+          "path": "paper/figures/fig1_causal_design.dot",
+          "sha256": "b4e18a6db7a32fa7c3b0e57cb33fa71649fb6dfb9717727e9fc1b5ed59802e47"
+        }
+      ],
+      "reproduction_status": "SOURCE_TO_RENDER_VERIFIED_PIXEL_AND_TEXT_MATCH_RETAINED_PDF_BYTES_UNCHANGED",
+      "included_pdf": {
+        "path": "paper/figures/fig1_causal_design.pdf",
+        "sha256": "a026f4c3880f726efd85c08240f60deebc546b231a296127cf44bb263859ff69"
+      },
+      "build_verification": {
+        "path": "FIGURE_BUILD_VERIFICATION.json",
+        "sha256": "818be969636d50e96d36ea4868e1e75f6d40373e21751b092599fe46f208bf4e"
+      }
+    },
+    {
+      "label": "tab:exploratory",
+      "location": {
+        "file": "paper/main.tex",
+        "line": 180
+      },
+      "paper_source": {
+        "path": "paper/main.tex",
+        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+      },
+      "studies": [],
+      "scope": "A0/A1 corrected point estimates; legacy primary-record and tabulation command not mapped in this public root.",
+      "source_bindings": [],
+      "reproduction_status": "LEGACY_PRIMARY_REPRODUCTION_GAP"
+    },
+    {
+      "label": "fig:null-order-parser",
+      "location": {
+        "file": "paper/main.tex",
+        "line": 202
+      },
+      "paper_source": {
+        "path": "paper/main.tex",
+        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+      },
+      "studies": [],
+      "scope": "A0/A1 strata and legacy reused-item parser diagnostic; not the V8 parser result.",
+      "source_bindings": [
+        {
+          "path": "paper/figures/fig2_null_order_parser.tex",
+          "sha256": "9a6675009328e0b2c74f349b1ebe0797331684a97e1894b7cc1a8c6dc58a324c"
+        }
+      ],
+      "reproduction_status": "ARCHIVED_TEX_COMPILES_LAYOUT_MISMATCH_REVISED_PDF_HOLD",
+      "included_pdf": {
+        "path": "paper/figures/fig2_null_order_parser_revised.pdf",
+        "sha256": "359d275b9784d12a56ffb19cad79caecea4942b47aaffcdcc2110bb581f44c08"
+      },
+      "build_verification": {
+        "path": "FIGURE_BUILD_VERIFICATION.json",
+        "sha256": "818be969636d50e96d36ea4868e1e75f6d40373e21751b092599fe46f208bf4e"
+      }
+    },
+    {
+      "label": "tab:fresh-primary",
+      "location": {
+        "file": "paper/generated/holdout_results.tex",
+        "line": 5
+      },
+      "paper_source": {
+        "path": "paper/generated/holdout_results.tex",
+        "sha256": "82f84e63e013eada19619f6e9d674f16a685bcf6d520654c5aa341fd4bc59ff9"
+      },
+      "studies": [
+        "V5"
+      ],
+      "scope": "Four configuration/criterion cells on 102 matched benchmark tasks.",
+      "source_bindings": [
+        {
+          "path": "paper/generated/holdout_results.tex",
+          "sha256": "82f84e63e013eada19619f6e9d674f16a685bcf6d520654c5aa341fd4bc59ff9"
+        }
+      ],
+      "reproduction_status": "SAVED_STATISTICAL_REPLAY_AVAILABLE"
+    },
+    {
+      "label": "fig:joint-gates",
+      "location": {
+        "file": "paper/main.tex",
+        "line": 221
+      },
+      "paper_source": {
+        "path": "paper/main.tex",
+        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+      },
+      "studies": [
+        "V5"
+      ],
+      "scope": "Primary V5 four configuration/criterion cells; plotted table-rounded point estimates and marginal one-sided bounds; not simultaneous confidence bands or new model observations.",
+      "source_bindings": [
+        {
+          "path": "figure_reproduction/dark/dark_figure_data.json",
+          "sha256": "84ab542cc06103bf6b1151d04bfd2a95b943f70cac0e67eb34d5849ad5a58bb2"
+        },
+        {
+          "path": "figure_reproduction/dark/render_dark.py",
+          "sha256": "02404a3ed9b17610ace416192ce29341bc04aa122ac95a8d3b97062ebbf57073"
+        },
+        {
+          "path": "figure_reproduction/requirements.lock.txt",
+          "sha256": "d9b99c015074df5d87c1875cde7c4729dd917d5e5a2c2a5c242439989d96b658"
+        },
+        {
+          "path": "paper/generated/holdout_results.tex",
+          "sha256": "82f84e63e013eada19619f6e9d674f16a685bcf6d520654c5aa341fd4bc59ff9"
+        }
+      ],
+      "reproduction_status": "PARENT_FIGURE_BUILD_VERIFIED_ROUNDED_PRIMARY_TABLE_VALUES; NOT_REBUILT_THIS_REVISION",
+      "included_pdf": {
+        "path": "paper/figures/dark_joint_gates.pdf",
+        "sha256": "dfa32c7290ccbfa611964ee7f9ccd8978a912138413d1927227fd9e57e048e03"
+      },
+      "editable_vector": {
+        "path": "figure_reproduction/dark/dark_joint_gates.svg",
+        "sha256": "d3181627cef645f58304e18140d14ae2155d7bd8a8fe2c041149c4a799cb2047"
+      }
+    },
+    {
+      "label": "tab:v6-results",
+      "location": {
+        "file": "paper/generated/v6_results.tex",
+        "line": 30
+      },
+      "paper_source": {
+        "path": "paper/generated/v6_results.tex",
+        "sha256": "6319804b37a985b9668eac1a2e7ab659b6b3ea87eb600223fbae2928d7d35e0f"
+      },
+      "studies": [
+        "V6"
+      ],
+      "scope": "Six completed cells; finite equivalence and signal domains.",
+      "source_bindings": [],
+      "reproduction_status": "SAVED_STATISTICAL_REPLAY_AVAILABLE"
+    },
+    {
+      "label": "tab:v7-results",
+      "location": {
+        "file": "paper/generated/v7_results.tex",
+        "line": 30
+      },
+      "paper_source": {
+        "path": "paper/generated/v7_results.tex",
+        "sha256": "6a47edaca4ef11307450642c45c1181d6dbb6291c9f29d4c925ba2da14b2b181"
+      },
+      "studies": [
+        "V7"
+      ],
+      "scope": "Twelve cells including four explicitly held cells.",
+      "source_bindings": [],
+      "reproduction_status": "SAVED_STATISTICAL_REPLAY_AVAILABLE"
+    },
+    {
+      "label": "tab:v8-results",
+      "location": {
+        "file": "paper/generated/v8_results.tex",
+        "line": 26
+      },
+      "paper_source": {
+        "path": "paper/generated/v8_results.tex",
+        "sha256": "d911d2a65fb9bedf4366155d51411ff74471e067d23f54dcadde7c05ea0c5cea"
+      },
+      "studies": [
+        "V8"
+      ],
+      "scope": "Four same-row bridge cells; three joint passes, neutral gpt-oss not certified.",
+      "source_bindings": [],
+      "reproduction_status": "SAVED_STATISTICAL_REPLAY_AVAILABLE"
+    },
+    {
+      "label": "tab:signal-decomposition",
+      "location": {
+        "file": "paper/main.tex",
+        "line": 275
+      },
+      "paper_source": {
+        "path": "paper/main.tex",
+        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+      },
+      "studies": [
+        "V5",
+        "V8"
+      ],
+      "scope": "Saved-journal descriptive correct/tie/wrong/invalid counts; 204 calls per row, 102 paired task units; no new analysis.",
+      "source_bindings": [],
+      "reproduction_status": "SAVED_JOURNAL_COUNT_CHECK_AVAILABLE"
+    },
+    {
+      "label": "tab:local-output-hold",
+      "location": {
+        "file": "paper/main.tex",
+        "line": 441
+      },
+      "paper_source": {
+        "path": "paper/main.tex",
+        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+      },
+      "studies": [
+        "local_output_hold"
+      ],
+      "scope": "Same102 task rows; additional configuration612 outputs,211 invalid; both criteria HOLD under original whole-campaign1percent invalid ceiling. No clone/utility scientific certificate.",
+      "source_bindings": [
+        {
+          "path": "local_output_hold/CONFIGURATION_AND_GATE.json",
+          "sha256": "c1ed0fddaba18f95ed900e3582618da8feca47adc132b633578a186eee427b37"
+        },
+        {
+          "path": "local_output_hold/OBSERVED_ANALYSIS.json",
+          "sha256": "3965d4a61496ea2c71433967b12b38436a94d7e59b338adca769f914b4f42387"
+        },
+        {
+          "path": "local_output_hold/records.jsonl",
+          "sha256": "199d80175221ee0de7a197714baa4d40017fc1d7d1a5d3da26bcc19290a5d3ae"
+        }
+      ],
+      "reproduction_status": "TEXT_FREE_RECORDED_COUNT_CHECK_ONLY; ORIGINAL_RAW_RESPONSES_EXCLUDED",
+      "command": "python3 local_output_hold/verify_recorded.py"
+    },
+    {
+      "label": "tab:held485",
+      "location": {
+        "file": "paper/main.tex",
+        "line": 308
+      },
+      "paper_source": {
+        "path": "paper/main.tex",
+        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+      },
+      "studies": [
+        "held_source485"
+      ],
+      "scope": "Two aggregate working passes; 485 clone units and970 paired-order signal calls per criterion; marginal bounds and clone-only Holm; no simultaneous guarantee",
+      "source_bindings": [
+        {
+          "path": "held_source485/OBSERVED_ANALYSIS.json",
+          "sha256": "abf9435a3e4166d098ea3acba7ac73e647d6ec9fc203432149076d54d5740e28"
+        },
+        {
+          "path": "held_source485/records.jsonl",
+          "sha256": "3b48658c5efe5eae9f61c5451238cdcd22ea3d4b26adc37e2e52a93de057528e"
+        }
+      ],
+      "reproduction_status": "RECORDED_SOURCE_COUNT_DATA_RENDER_BINDING_ONLY_NO_BOOTSTRAP_REPLAY",
+      "command": "python3 held_source485/verify_recorded.py"
+    },
+    {
+      "label": "fig:held485-subsets",
+      "location": {
+        "file": "paper/main.tex",
+        "line": 325
+      },
+      "paper_source": {
+        "path": "paper/main.tex",
+        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+      },
+      "studies": [
+        "held_source485"
+      ],
+      "scope": "6subset descriptive rates with2n_h denominator; strict PreciseIF58/154; no subgroup tests or certificates",
+      "source_bindings": [
+        {
+          "path": "figure_reproduction/held485/HELD485_FIGURE_DATA.json",
+          "sha256": "65bec821e1c274c42aa3731e882796ad5fbc5a596213ece14003fd28e116be4c"
+        },
+        {
+          "path": "figure_reproduction/held485/render_held485.py",
+          "sha256": "d0ec7e0c8cfb7e096e7e496a58c58cb696899668a222b8ec3f3f649f2de49765"
+        },
+        {
+          "path": "figure_reproduction/held485/held485_subset_alignment.pdf",
+          "sha256": "ba90ab66ae7ecaa5fd0217cf0a05c6f93c9e40a8339999e47b043dd70b30f49d"
+        }
+      ],
+      "reproduction_status": "RECORDED_SOURCE_COUNT_DATA_RENDER_BINDING_ONLY_NO_BOOTSTRAP_REPLAY",
+      "command": "python3 held_source485/verify_recorded.py",
+      "included_pdf": {
+        "path": "paper/figures/held485_subset_alignment.pdf",
+        "sha256": "ba90ab66ae7ecaa5fd0217cf0a05c6f93c9e40a8339999e47b043dd70b30f49d"
+      }
+    },
+    {
+      "label": "tab:configuration-overview",
+      "location": {
+        "file": "paper/main.tex",
+        "line": 96
+      },
+      "paper_source": {
+        "path": "paper/main.tex",
+        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+      },
+      "studies": [],
+      "scope": "Study-specific artifact and served-ID overview; not a model comparison or weight-byte certificate",
+      "source_bindings": [
+        {
+          "path": "STUDY_CONFIGURATION_MAP.json",
+          "sha256": "dc102fc00b6636427e179107447d874e7cc71aa5714d19382390b343302cbc88"
+        }
+      ],
+      "reproduction_status": "AUTHOR_CONFIGURATION_OVERVIEW_NO_NEW_SCIENCE"
+    }
+  ],
+  "a2": {
+    "source": {
+      "path": "paper/generated/a2_release_status.tex",
+      "sha256": "d08ebfe987e5f424a86a8ac7785b9c3e6e31af936724b01f643bdf17b13e71e8"
+    },
+    "status": "PENDING_OR_INVALID",
+    "human_labels": 0,
+    "scope": "No human-equivalence inference is certified."
+  },
+  "paper_pdf": {
+    "path": "paper/main.pdf",
+    "sha256": "52543e0cc05f5e8c234eb0161baa0fb7b9107b95142929ae25ba1b2a86df4ef5"
+  },
+  "this_revision": {
+    "scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
+    "scientific_model_native_bootstrap": 0,
+    "manuscript_compile_render": 0,
+    "published": false,
+    "coauthor_MHI_permission": "USER_REPORTED_OBTAINED",
+    "external_terms_outgoing_license_final_release": "PENDING"
+  },
+  "no_new_scientific_statistics_or_model_calls": true,
+  "this_reader_revision": {
+    "scope": "Reader-facing terminology and archive-ID clarification; no new scientific outcome",
+    "scientific_execution": 0,
+    "manuscript_builds_here": 0,
+    "publication": "NOT_PUBLIC"
+  },
+  "this_final_edition": {
+    "scope": "abstract/paper source/PDF and source-label lines only; no new scientific reanalysis",
+    "paper_figures": 4,
+    "paper_tables": 9,
+    "scientific_calls": 0,
+    "figure_builds": 0,
+    "published": false
+  }
+}

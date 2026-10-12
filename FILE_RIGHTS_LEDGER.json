@@ -1,0 +1,1132 @@
+{
+  "files": [
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": ".gitignore",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "275afe5fdbd8c4849cc9a020b706225d1bbfd53fdab285b28af6e73db97b6a71"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "ANALYZER_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d58c7faf1d19fffa701c51815ed1dc61d769d7d26c6fd68952ca5d9ef548ccb1"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "ARTIFACT_CARD.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "71427f1d9ade6f8a184dfa917e9e6575a195ced4bc86306966f4c8a8fa218370"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "ARTIFACT_READINESS_PROVENANCE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "19f40802da0f624ad81875ef85ca4e4ac8027e3e26c2cb595a4d1dfc06c2dfcc"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "CITATION.cff",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "4b5d88de35d9af297e0dcb4a4ba5d1b07e7db780f3f9a7812a308df4d7d0f739"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "COLD_DIRECTORY_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "1c3f5a14da0890a7a6da6cbc38c76777f8f899e949166ba612ac5c0298dfc30c"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "COMPONENTS.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "9fe2ee73cf35ce26de25a1fe1132da71c82c359e3288b4754e2c6b10f1868689"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "CONFIGURATION_MAP_PROVENANCE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "034cefbb15342932470fac2ec3be6bed28ca82e5adb405a208c80eedcf691f72"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "CONTROLLED_GATES_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "2572c4c01ec4855d342ee801d5d43788052e1a8ea5e5115164ebdeb175847129"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "CURRENT_READER_MAP_PROVENANCE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "3bec07dea076d0df1fb501945edca42d746118106999c2da0bb35b40852abe2e"
+    },
+    {
+      "path": "CURRENT_READING_REVISION.json",
+      "component": "reader_documentation",
+      "additional_scope": "Authored version-binding metadata only; no new scientific observation",
+      "public_decision": "PENDING_FINAL_RELEASE_AND_APPLICABLE_RIGHTS",
+      "sha256": "1334e45a0cdbdb7ef24efc9610f4c589eb94deeeb4eb19541a566e9b9169f4ce"
+    },
+    {
+      "additional_scope": "Reader documentation; not a scientific validation or rights grant.",
+      "component": "readiness_metadata",
+      "path": "DATASHEET.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "810e584855825c9d4558a2e0a5297404ec05b00d1fd6eae737d442b1eb626604"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "DATA_CARD.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "f4e406a97cd3e2ec42ba2b5c1801c05a6f7f718d47a217b4891228933cb5c7de"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "DAYTIME_PUBLIC_REPLAY_RECEIPT.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "10ed77eddb2de391b7c7c69ba95b06861222a6de85f67eb8787959de392bc006"
+    },
+    {
+      "additional_scope": "Reader documentation; not a scientific validation or rights grant.",
+      "component": "readiness_metadata",
+      "path": "EVALUATION_DATASHEET_TEMPLATE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "fcb17b2d4bc052498d0cbcb9ac2f8da6877ffc6de177fa079b7c3e8da4946bbf"
+    },
+    {
+      "additional_scope": "New author-controlled environment-scope prose; no raw data, weights or private operational traces",
+      "component": "new_research_assets",
+      "path": "EXPERIMENT_ENVIRONMENT.md",
+      "public_decision": "OUTGOING_LICENSE_EXTERNAL_SCOPE_FINAL_RELEASE_PENDING",
+      "sha256": "1f4de0c7ce9df8c27b5dafc18816ed7253351ccb061891a7a919d42d13f38226"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "EXPORT_PROVENANCE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "15eb38910c6c6cc2b8b254ed3e8531863f3fbd41b08b23fd88382d7d14519135"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "EXPORT_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "21433763a96675c5150db1eafd61f9f26cbf1c2bf1a806f9286a195aaea6839a"
+    },
+    {
+      "additional_scope": "No weights, raw benchmark responses, credentials or partner data; author-selected outgoing licence still required.",
+      "component": "owned_static_reproduction_documentation",
+      "path": "FIGURE_BUILD_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "9c822149b8a4fb5e5656ed25a92556f4e2e0b1a57aea2b5195cae737de04b845"
+    },
+    {
+      "additional_scope": "Figure source/vector derivative; licence pending; no new scientific measurements.",
+      "component": "new_research_assets",
+      "path": "FIGURE_REVISION_PROVENANCE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "a8c98ffd6114d94c98d1588854210f39d026249e9a5ad802557b552d72e475f0"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "LICENSE_NOT_SELECTED.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "1d0b7f7dee6d73351f091a6fb0d94b975c38503392529fbd1a8fdc199a162054"
+    },
+    {
+      "additional_scope": "Text-free author-created metadata only; no model weights or upstream raw benchmark/response text.",
+      "component": "local_operational_metadata",
+      "path": "LOCAL_HOLD_DELTA_PROVENANCE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "28f9615ba6605805e6d5a5fb6a082371b95396fb2e636829b35b7fa3aa3e9c1c"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "PAPER_EVIDENCE_MAP.csv",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "51083e6d02d592c930472362edf119a92472214cf67b6626bd387b190868aff5"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "PAPER_EVIDENCE_MAP.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "519b03edce27fddb2969922c3ad210dcb19a2da3ba310b8d60856f57aba58bbb"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "PUBLIC_COMPARATOR_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "98a99379cd8495e003e400e452c4572dcb6102d618dadf5ae07c72ff40c08120"
+    },
+    {
+      "additional_scope": "Reader documentation; not a scientific validation or rights grant.",
+      "component": "readiness_metadata",
+      "path": "READER_REVISION_PROVENANCE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "869c466f0613f5f78a4aa973211dc2db6ee440d1fd4fdfa61f50a9cd6b52a4d1"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "README.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "cb680cbc30b1ec6f549fc6f90da72a57039c06fb5df07de327d508ea620b2f04"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "REPRODUCTION_MAP.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "7fa801e890eac65dfd908a0cec9feda23181be30c9a5a09af46901bdbf6f6758"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "REVIEW_REVISION_PROVENANCE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "2fcbb06fd8b5aa3cd34f9766323fcff672e4ad8308810b7c2c78f7c999adbd7d"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "RUNNER_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "c688edda9d174b2179e7ed02737c6e851e7675a25b960e512495296364e50d26"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "bf819f3440202e388556b67bb423560c0910fa9e418dab75b2870a476077c2d3",
+      "component": "reader_documentation",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "additional_scope": "Author-written reader guide; no new raw dataset or result payload"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "STUDY_CONFIGURATION_MAP.csv",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "8a721771dd58724a7eb88b345fa6c281f691b86640a3df858219d53ed0f7e09d"
+    },
+    {
+      "additional_scope": null,
+      "component": "readiness_metadata",
+      "path": "STUDY_CONFIGURATION_MAP.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "dc102fc00b6636427e179107447d874e7cc71aa5714d19382390b343302cbc88"
+    },
+    {
+      "additional_scope": null,
+      "component": "prior_public_preprint",
+      "path": "UPSTREAM_LICENSES.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "607898e8edb3243ed820ba524451eaa91de8c733c3453bd52da8ced62fb38429"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "V6_ACTUAL_JOURNAL_AUDIT.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "e89321994dd5985f4e5e6a46bdf71563ab37f57fa068bd9bcdeb01f4f1781775"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "V6_PROTOCOL.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "b7ff9180d8fa2935815b0cd06c34cc3a86cc2ffb2a14c22ddd1649cafada4277"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "V6_PUBLIC_REPRODUCTION_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "b52141e0d629eb4b689d09446e5b5091640406247992cbc0100c48283182454b"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "V7_ACTUAL_JOURNAL_AUDIT.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "8f20f0f701c33a3c761a7e4a2ceb166c71817eac5442ccf36ef9f01da5400ed3"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "V7_ANALYZER_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "67928fd88252f17d2aae774c6f1a4cae36a61574cb283eaf6bd0dec8e464e444"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "V7_PROTOCOL.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "cf8be981089589c42cd04ad868e9e9514a1fe492e23d5d9b98a1f3d23f8f76c0"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "V7_PUBLIC_REPRODUCTION_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "b2cf9c86d022a462d84770fbf5dfd58d51647902246721ec64c8cc1c4bdba50d"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "V7_RUNNER_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "26e2b1b3d161fa01c99f84912ab92ebe9a92b93324d0c56aef9c5b19b947aeba"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "controlled_gates_results/candidates.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "a150ba224da0d9df5d417ececf4abc0ebf59b38b1785ca848196509db3132d10"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "controlled_gates_results/oracle_audit.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "25de432c895c0188462b350faaf067b3a73a9ba2bb3546bf8b3ff6538c9fd2ea"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "controlled_gates_results/summary.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "b96ad8031f4ed5104b9ba9aef99249c815193d3612ab5b8dcff122bdac6de72a"
+    },
+    {
+      "additional_scope": "Figure source/vector derivative; licence pending; no new scientific measurements.",
+      "component": "new_research_assets",
+      "path": "figure_reproduction/LICENSE_SCOPE.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "9c223f90704d8cb0c99db8eb4aea84fef35194e54438c01d4696208c4c78da53"
+    },
+    {
+      "additional_scope": "Figure source/vector derivative; licence pending; no new scientific measurements.",
+      "component": "new_research_assets",
+      "path": "figure_reproduction/README.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "309dab9d43eb558ec23ece22e92128cb737643ed37e2b811ccb6f3cf4eacc895"
+    },
+    {
+      "additional_scope": "No weights, raw benchmark responses, credentials or partner data; author-selected outgoing licence still required.",
+      "component": "owned_static_reproduction_documentation",
+      "path": "figure_reproduction/dark/PROTOCOL_FIGURE_BUILD.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "aa0c66276d5a5e87896a44e2e75456658893e1f2639311f92708c937fc55a09a"
+    },
+    {
+      "additional_scope": "Figure source/vector derivative; licence pending; no new scientific measurements.",
+      "component": "new_research_assets",
+      "path": "figure_reproduction/dark/dark_figure_data.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "84ab542cc06103bf6b1151d04bfd2a95b943f70cac0e67eb34d5849ad5a58bb2"
+    },
+    {
+      "additional_scope": "Figure source/vector derivative; licence pending; no new scientific measurements.",
+      "component": "new_research_assets",
+      "path": "figure_reproduction/dark/dark_joint_gates.pdf",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "dfa32c7290ccbfa611964ee7f9ccd8978a912138413d1927227fd9e57e048e03"
+    },
+    {
+      "additional_scope": "Figure source/vector derivative; licence pending; no new scientific measurements.",
+      "component": "new_research_assets",
+      "path": "figure_reproduction/dark/dark_joint_gates.svg",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d3181627cef645f58304e18140d14ae2155d7bd8a8fe2c041149c4a799cb2047"
+    },
+    {
+      "additional_scope": "Figure source/vector derivative; licence pending; no new scientific measurements.",
+      "component": "new_research_assets",
+      "path": "figure_reproduction/dark/render_dark.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "02404a3ed9b17610ace416192ce29341bc04aa122ac95a8d3b97062ebbf57073"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "figure_reproduction/held485/FIGURE_ENVIRONMENT.json",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "aafb3f0989058ae2833aa2ce071d24524372898f0d20d242c2d5da7ff4a7de5d"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "figure_reproduction/held485/HELD485_FIGURE_DATA.json",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "65bec821e1c274c42aa3731e882796ad5fbc5a596213ece14003fd28e116be4c"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "figure_reproduction/held485/README.md",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "a164b389f5fa5fcc51edaa2fd825d37649861225d5353add23ec2c6e16d90e99"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "figure_reproduction/held485/held485_subset_alignment.pdf",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "ba90ab66ae7ecaa5fd0217cf0a05c6f93c9e40a8339999e47b043dd70b30f49d"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "figure_reproduction/held485/held485_subset_alignment.png",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "12c9023d99f3aff2b73314a594db6ce4de174f752f4dac20b9f390ca7a975e9c"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "figure_reproduction/held485/held485_subset_alignment.svg",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "3e26a6ec14f6c94fd5df4f3c3714fb0022206f0bc5c8b969f3dd5ca3f15af49d"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "figure_reproduction/held485/render_held485.py",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "d0ec7e0c8cfb7e096e7e496a58c58cb696899668a222b8ec3f3f649f2de49765"
+    },
+    {
+      "additional_scope": "Figure source/vector derivative; licence pending; no new scientific measurements.",
+      "component": "new_research_assets",
+      "path": "figure_reproduction/requirements.lock.txt",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d9b99c015074df5d87c1875cde7c4729dd917d5e5a2c2a5c242439989d96b658"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/CONFIGURATION_AND_GATE.json",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "8da3fb9f2526994d00bb308c8c37c5b047019b76d00bec130082bd6ef419d707"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/EXPORT_AND_METADATA_VERIFICATION.json",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "47978f1e03867d83cfb6f5a3ee2d13ce2702d4915507fbd49f0bffb0cb5bc97b"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/OBSERVED_ANALYSIS.json",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "abf9435a3e4166d098ea3acba7ac73e647d6ec9fc203432149076d54d5740e28"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/PROTOCOL_AND_LIMITS.md",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "02b467b71db5d6b9e8ce8fc0d8233d02bce2180bbda91abf2a5706ee82279bb6"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/README.md",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "c70e7f1fe0295df2280ae2d64773ea6f2e4b3dea648c4330b10524bda25d51c5"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/SOURCE_MAPPING.json",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "8c2f3d897ea4418baa5c5906b3376a9c1e07a02851665c8d93fff9af62e7ab88"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/calls_metadata.jsonl",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "de5ed0414b67fcd96c6b4b557ed7f33a6ea2823a89cbc268ee73e934adf0e2c9"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/proxy_metadata.jsonl",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "f2b9935a2160126fa114a37a1e05113e56ad3cc020934ddd1c9e02f6d61c4b15"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/records.jsonl",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "3b48658c5efe5eae9f61c5451238cdcd22ea3d4b26adc37e2e52a93de057528e"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/selected_metadata.jsonl",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "d5f398ea98eca5e51e97da61001004a54a334459b36f594a65ba87b43ef776b3"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "held_source485/verify_recorded.py",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "f84a2b71abc7e3343c6af17c9ac60866f0dc96b786e405d5017308a53bb0cf31"
+    },
+    {
+      "additional_scope": null,
+      "component": "historical_derivatives",
+      "path": "historical_code_audit/CAPTURE_CORRECTION_JOIN.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "636d17324cae6a3faed550488493354a55caa3c3b35f5a5b49d777d7eb325714"
+    },
+    {
+      "additional_scope": null,
+      "component": "historical_derivatives",
+      "path": "historical_code_audit/ORACLE_DIAGNOSTIC_REANALYSIS.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "299f333b7775758c1523116231b72c9cb61a14f65ef274bc4ac9b4e0a65d8794"
+    },
+    {
+      "additional_scope": null,
+      "component": "historical_derivatives",
+      "path": "historical_code_audit/REANALYSIS.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "84af9ca917044afb88016aed848188f963a6a113a20ef9c5c0edf607f33d6cc6"
+    },
+    {
+      "additional_scope": null,
+      "component": "historical_derivatives",
+      "path": "historical_code_audit/sanitized_oracle_diagnostic.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "ce2ff6a03fc6ac32a93d18ff1ab6a23ece3c25265745204eea7676d6c25d7c11"
+    },
+    {
+      "additional_scope": null,
+      "component": "historical_derivatives",
+      "path": "historical_code_audit/sanitized_rows.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "340d211a81f181c6f7710dcdb0dedd7ab0ec31f15085326fa7c234c9ebe962e9"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/analysis/analyze_v5.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "11ff5476b098133a37b77dedcf63ddb80f5b65a2fedde7b25c4862d4ce9fea82"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/analysis/reanalyze_public_v5.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "4c4c2550c299ebbb7892eb88707beb7fbe150611ad0551f191b2dfc91fbdb4f3"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/analysis/release/public_provenance_receipt_v5.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "ca3a05bcfcd53b94c81e0a8604f3afa990f52e4385a66d8141c3f0e426e3b228"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/analysis/release/public_release_manifest_v5.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "e70e8c1bcc8da6a26b568784f0b2941f3ab1878ff5098ce1207e07cf39006732"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/analysis/release/public_schedule_v5.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "9370f6019cf133a901e892a955780d0164bc9d572b15fd9457b635edf519baf4"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/analysis/release/public_terminal_records_v5.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "5e74de53068bdd914b745d76434bec0bd6b304d02da17d4b932338f8feabdb48"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/analysis/release/test_public_provenance_v5.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "bc87468d79c322ec9ec0115bc725e422e3ee61dde29079ca02eccd8dc566fa07"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/analysis/release/verify_and_reanalyze_public_v5.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "634aa752f19c5e9adf18cc2c3d567b60518185e694552617c2ce8e2a7df716d6"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/analysis/ri_reassign_v5.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "be8ddc02c517c9d9566407a3da7ce4e2fd237c93fac916d840cb49b46d661781"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/analysis/run_v5.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "68f7568e3ea563f4ae0e9b216a22f8190ad7226b0079efe1a047c1ab39668424"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "legacy_v5/holdout_harness/harness.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "6015ddeab1cb926dc64bb3b23824c98de62edcf0d26b962ac323d2ed877632e1"
+    },
+    {
+      "additional_scope": "Text-free author-created metadata only; no model weights or upstream raw benchmark/response text.",
+      "component": "local_operational_metadata",
+      "path": "local_output_hold/CONFIGURATION_AND_GATE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "c1ed0fddaba18f95ed900e3582618da8feca47adc132b633578a186eee427b37"
+    },
+    {
+      "additional_scope": "Text-free author-created metadata only; no model weights or upstream raw benchmark/response text.",
+      "component": "local_operational_metadata",
+      "path": "local_output_hold/OBSERVED_ANALYSIS.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "3965d4a61496ea2c71433967b12b38436a94d7e59b338adca769f914b4f42387"
+    },
+    {
+      "additional_scope": "Text-free author-created metadata only; no model weights or upstream raw benchmark/response text.",
+      "component": "local_operational_metadata",
+      "path": "local_output_hold/README.md",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "f2fd7685bdb81e56b54959fb6124b887619b3a330b047c0c2373a220f55cd912"
+    },
+    {
+      "additional_scope": "Text-free author-created metadata only; no model weights or upstream raw benchmark/response text.",
+      "component": "local_operational_metadata",
+      "path": "local_output_hold/SOURCE_MAPPING.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "2f420d7370123362eb37e6b89b82623991b2872925095f411d4a23cae6dde188"
+    },
+    {
+      "additional_scope": "Text-free author-created metadata only; no model weights or upstream raw benchmark/response text.",
+      "component": "local_operational_metadata",
+      "path": "local_output_hold/records.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "199d80175221ee0de7a197714baa4d40017fc1d7d1a5d3da26bcc19290a5d3ae"
+    },
+    {
+      "additional_scope": "Text-free author-created metadata only; no model weights or upstream raw benchmark/response text.",
+      "component": "local_operational_metadata",
+      "path": "local_output_hold/verify_recorded.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "b68d22b167cd89781b39646709d8e51d1bee4cb53fa9c26bbb1b95dcf15e08ab"
+    },
+    {
+      "path": "paper/TEMPLATE_NOTICES.md",
+      "sha256": "ae6c3694b780321562023b7132873ce18a3e702ec943aee20415aa89bbe0b832",
+      "component": "readiness_metadata",
+      "additional_scope": "Retained source notice only; no blanket license or release grant",
+      "public_decision": "PENDING_TERMS_AND_FINAL_RELEASE_SCOPE"
+    },
+    {
+      "path": "paper/fancyhdr.sty",
+      "sha256": "3d2922548e0e5f1a6c5676eda6ebb6dc20d7d305b4d8c2be5f1c833fb1084e6d",
+      "component": "manuscript_template",
+      "additional_scope": "Retained source notice only; no blanket license or release grant",
+      "public_decision": "PENDING_TERMS_AND_FINAL_RELEASE_SCOPE"
+    },
+    {
+      "additional_scope": "Figure source/vector derivative; licence pending; no new scientific measurements.",
+      "component": "new_research_assets",
+      "path": "paper/figures/dark_joint_gates.pdf",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "dfa32c7290ccbfa611964ee7f9ccd8978a912138413d1927227fd9e57e048e03"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig1_causal_design.dot",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "b4e18a6db7a32fa7c3b0e57cb33fa71649fb6dfb9717727e9fc1b5ed59802e47"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig1_causal_design.pdf",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "a026f4c3880f726efd85c08240f60deebc546b231a296127cf44bb263859ff69"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig1_causal_design.png",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "132c41e744a573593154536abeb80393d993629fe85c743f2e66be46259b19d2"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig1_metrology_axes_direction_stable.png",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "6365409e2b6e033d857a70802f07613c27fb287c35105d96e14a047235f485b6"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig2_canonical_composition.pdf",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "21dda29ddbc9205ebe76a51c99e70b207c6b443b67067ae5dd604276d3a1142c"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig2_null_order_parser.pdf",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "c58dcd11ac3da1d5e229d98703c45a59daf30c426635e6035b2eecc759fb3907"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig2_null_order_parser.tex",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "9a6675009328e0b2c74f349b1ebe0797331684a97e1894b7cc1a8c6dc58a324c"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig2_null_order_parser_revised.pdf",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "359d275b9784d12a56ffb19cad79caecea4942b47aaffcdcc2110bb581f44c08"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig2_psychometric_curves.png",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "6f8c55a829d218719356c9cd088853072585bd2d6ff267fe9856db2536858fbe"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig3_criterion_shift_tradeoff.png",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "c3201cb19f42b812f8ca74a1171f1a721b72763e765dd1be17c160f26d4f290e"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig3_joint_gates.pdf",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "6f1ec7bec89ac85a7a0f3381dc997cbf52b54d791a232cd71a391c2a25ef1e4f"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig3_joint_gates.tex",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "bfd1733853344bb318de33c3af0a228e412107f21d3d9fe632759ff77a71c540"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig3_joint_gates_revised.pdf",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d1949ae6e9e0202a3900937c0478e2c2adf24ab8a5a49974108d91a4b7d8499a"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig3_sensitivity_curve.pdf",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d77dc83bdf29e6d50ae20c14005080ae765cbdcbdb41d5b7b85848f56583fb52"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/figures/fig4_delta0_decomposition_stacked_bar.png",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "877318f1e4b9a8eac869b8dc7b9a516fc983c15aafc60e760fdb4daee9384787"
+    },
+    {
+      "additional_scope": "Metadata derivatives include source IDs and output verdicts; no outbound rights grant is asserted.",
+      "component": "held_source_metadata_or_research_figure",
+      "path": "paper/figures/held485_subset_alignment.pdf",
+      "public_decision": "PENDING_AUTHOR_MHI_APPROVAL_AND_LICENSE_SCOPE",
+      "sha256": "ba90ab66ae7ecaa5fd0217cf0a05c6f93c9e40a8339999e47b043dd70b30f49d"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/generated/a2_release_status.tex",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d08ebfe987e5f424a86a8ac7785b9c3e6e31af936724b01f643bdf17b13e71e8"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/generated/holdout_results.tex",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "82f84e63e013eada19619f6e9d674f16a685bcf6d520654c5aa341fd4bc59ff9"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/generated/v6_results.tex",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "6319804b37a985b9668eac1a2e7ab659b6b3ea87eb600223fbae2928d7d35e0f"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/generated/v7_results.tex",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "6a47edaca4ef11307450642c45c1181d6dbb6291c9f29d4c925ba2da14b2b181"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/generated/v8_results.tex",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d911d2a65fb9bedf4366155d51411ff74471e067d23f54dcadde7c05ea0c5cea"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/main.bbl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d18c04b0259881f9095c088d1077b82e72d6ca91a7f228b0223cdbfd101b9345"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/main.pdf",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "52543e0cc05f5e8c234eb0161baa0fb7b9107b95142929ae25ba1b2a86df4ef5"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/main.tex",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+    },
+    {
+      "additional_scope": null,
+      "component": "manuscript_revision",
+      "path": "paper/references.bib",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "83b24ef5e3d3968fd64d8243b53865775adbe12edd9c57f36bec93ab03409aac"
+    },
+    {
+      "path": "paper/tmlr.bst",
+      "sha256": "306fd454cf40771bee01293eeb98d2c1cd5f4e11ed0cd7296b335f354fc45206",
+      "component": "manuscript_template",
+      "additional_scope": "Retained source notice only; no blanket license or release grant",
+      "public_decision": "PENDING_TERMS_AND_FINAL_RELEASE_SCOPE"
+    },
+    {
+      "path": "paper/tmlr.sty",
+      "sha256": "816214ff5919aa457b6b443bee52b15d9561421417b7f8a50cc84651519f0002",
+      "component": "manuscript_template",
+      "additional_scope": "Retained source notice only; no blanket license or release grant",
+      "public_decision": "PENDING_TERMS_AND_FINAL_RELEASE_SCOPE"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "scripts/analyze_v6.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "100a942d8b2827c2006da6b636b1c19722783fe383b0ea2fde6204e9f2b4c6a7"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "scripts/analyze_v7.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d926e87f6a60cf2c16f2b02f081f10a48328a1b20373b3c2d542959b553a89e5"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "scripts/build_oracle_suite.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "5db237335afe9ba7f3aee52aee89dc987f398261f7dc4f34063263a5b9a00947"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "scripts/controlled_code_gates.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "f996a079b4d2fd0892facef76eb878c7e34b3c96b6871fb21644de22f27644b1"
+    },
+    {
+      "additional_scope": null,
+      "component": "historical_derivatives",
+      "path": "scripts/reaggregate_historical.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "8f86655700fbbda67c4822a12b0c31977e59ff53104a51a7c1a76507e774aca3"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "scripts/run_v6.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "704d46e4587cece06cfe921855ca77d4341c665ad95cd3028215033eaa9b0aae"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "scripts/run_v7.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "49091e779bd76c8faa1d0b5bd165dae2641c1843da6b6bbf32c01585e08df142"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "scripts/verify_controlled_gates.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "2deb502d035e94f4cc6b337c1b1b3370f8ccef3e30d98026a353bead5067b125"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "scripts/verify_export.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "8607cc999113a22ea318ae77c5aa90e265f2cda4746d4e87280dcd0cb4898822"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "scripts/verify_oracle_suite.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "651350c4136232195dc1b91eb63b881624366b90938ef204a99a14ce9714cb60"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "scripts/verify_reproduced_analysis.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "8df195ff271fd1bd0324714e7e6ce0f84bf335159917217171c0ea44872a1696"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "v6_analysis.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "62f3604dbd80cbb7e6c128d625fa62fd615fdb9157c7355e20d424992b4e6b2c"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "v6_frozen/INDEPENDENT_ORACLE_RECEIPT.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "eceeeba84d46675762b37b60791688283bf172ae4bf7b0223b208bccda20692d"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "v6_frozen/configs.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "v6_frozen/items.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "38185717cbeba2f5a1306d7bb71ae59323082b7fd2f596d0bc61f892f9f82242"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "v6_frozen/manifest.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "a33d0910a495f12683bb955b8774a2cdffc31ee15a6ee632719a65ce0a2e369d"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "v6_frozen/oracle_audit.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "934d0ef392abc50292f65205d0ef92ba202a288158b35b262395d7ca891f7f50"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "v6_frozen/schedule.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "1ec560664881006f51fffb5b04e3fd4e7df8fb7d1a1aa241f5af769295fc7ada"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "v6_frozen/summary.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d0247ac64536a78a3158655f04bc6a4df191f59abbbabfec584e2c5a849175ea"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "judge_output_metadata",
+      "path": "v6_production/journal.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "4af07fc323f4af59d9a5b5526a2570b99972e34bb049a81d7fc5274f1d22b321"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "judge_output_metadata",
+      "path": "v6_production/progress.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "1bb4eaba6b85e4fc7c439c00853e7b241eb7d652b3b8114dc13d54d6929ca080"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "v7_analysis.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "02e18e50bc904b85122b8555c8b1677bbfaec204ea946943c9568c8680b14abd"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "judge_output_metadata",
+      "path": "v7_frozen/configs.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "v7_frozen/items.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "b761b67f5284e7adf71df73df119bffe8e4057d9622f25a8cae360f8d10b870c"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "judge_output_metadata",
+      "path": "v7_frozen/manifest.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "d2d6225a84c637c9d5a85867604e04aa2137060b3c3c3911897f4d6c0ef05ee9"
+    },
+    {
+      "additional_scope": null,
+      "component": "owned_finite_assets",
+      "path": "v7_frozen/schedule.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "ed7dabbda38bd217ac9b65f67287310c8e20c35f8afe88f978b5dfc00bc63c5e"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "judge_output_metadata",
+      "path": "v7_production/journal.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "a42d2d07caa459f018a68eb016389d18ec9223d463bc5a694e8e52e9a4d4d582"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "judge_output_metadata",
+      "path": "v7_production/progress.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "e945fbe2b71ed4527f6fb758c9e091730d191e41c6dc34d6cc834e4b3dd69cf6"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "v8_statistical/EXPORT_PROVENANCE.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "47d1715e301ea676d301ed869523fd9a35f62a8d0d6aa31de984105f313b0443"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "v8_statistical/analyze_v8_public.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "39d0bbdedda99ff96395732286dfa00916039ef313bb1cb29985f9e9d3ff8d3b"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "v8_statistical/calls_metadata.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "b33fc810151f2e3997e0df9e41a4ee2ec7a03b92e969e31fcc56e6cf41a33337"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "v8_statistical/expected_analysis.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "7310f5f9a76360c6aa152118a2ca2c8e79c419f74f7d506cff05ac826fe5a32a"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "v8_statistical/journal.jsonl",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "23f7b183409ad342dec289e83deb74465e17da9212932aeb2f5aca906fef97f9"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "v8_statistical/manifest.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "28537f1ee41e6d80ee5640c0febc649511f6df747330dab4bf5086544dec8148"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "v8_statistical/progress.json",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "5e49e6a7a58d0ec54cb31cb7eee2dc5c421306341a9517f2415442296d82c198"
+    },
+    {
+      "additional_scope": "Composite research records may include external task content and model-derived data; mapping is not blanket permission.",
+      "component": "rewardbench_metadata",
+      "path": "v8_statistical/v8_stats_helpers.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "85792690921837557ef52898a43ece4042c1127b69497260f75e88fe8d6554e6"
+    },
+    {
+      "additional_scope": null,
+      "component": "new_research_assets",
+      "path": "verify_release.py",
+      "public_decision": "PENDING_AUTHOR_APPROVAL",
+      "sha256": "6346f7595421484a3443cd774f80312e3bd5e678ccad32795bcd1e5a554bff26"
+    }
+  ],
+  "hash_binding": "All non-self files carry their current SHA256. The release manifest hashes this ledger; its own hash is in the external terminal receipt.",
+  "revision_scope": "Private review presentation only: reader prose and neutral labels for internal reviews; scientific records unchanged",
+  "schema": "file-rights-review-v1",
+  "self_hash_exceptions": [
+    "FILE_RIGHTS_LEDGER.json",
+    "RELEASE_MANIFEST.json"
+  ],
+  "status": "COMPLETE_FILE_COVERAGE_PENDING_RIGHTS_DECISIONS"
+}

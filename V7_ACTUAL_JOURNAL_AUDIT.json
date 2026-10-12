@@ -1,0 +1,189 @@
+{
+  "status": "PASS",
+  "scope": "Independent composite-intent identity, strict JSON parsing, all12 coverage/context-invalid counts; all8 complete cells canonical context adversity and means/paired deltas; all4 partial cells retain null performance fields. No bootstrap rerun.",
+  "journal_sha256": "a42d2d07caa459f018a68eb016389d18ec9223d463bc5a694e8e52e9a4d4d582",
+  "analysis_sha256": "02e18e50bc904b85122b8555c8b1677bbfaec204ea946943c9568c8680b14abd",
+  "intents": 1344,
+  "terminals": 1344,
+  "cells": [
+    {
+      "config_id": "flash",
+      "criterion": "neutral",
+      "arm": "equivalence",
+      "calls": 128,
+      "complete_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "status": "COMPLETE_DESCRIPTIVE"
+    },
+    {
+      "config_id": "flash",
+      "criterion": "neutral",
+      "arm": "signal",
+      "calls": 128,
+      "complete_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "status": "COMPLETE_DESCRIPTIVE"
+    },
+    {
+      "config_id": "flash",
+      "criterion": "strict",
+      "arm": "equivalence",
+      "calls": 128,
+      "complete_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "status": "COMPLETE_DESCRIPTIVE"
+    },
+    {
+      "config_id": "flash",
+      "criterion": "strict",
+      "arm": "signal",
+      "calls": 128,
+      "complete_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "status": "COMPLETE_DESCRIPTIVE"
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "neutral",
+      "arm": "equivalence",
+      "calls": 128,
+      "complete_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "status": "COMPLETE_DESCRIPTIVE"
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "neutral",
+      "arm": "signal",
+      "calls": 128,
+      "complete_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "status": "COMPLETE_DESCRIPTIVE"
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "strict",
+      "arm": "equivalence",
+      "calls": 128,
+      "complete_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "status": "COMPLETE_DESCRIPTIVE"
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "strict",
+      "arm": "signal",
+      "calls": 128,
+      "complete_tasks": 32,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "status": "COMPLETE_DESCRIPTIVE"
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "arm": "equivalence",
+      "calls": 86,
+      "complete_tasks": 6,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "status": "HOLD"
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "arm": "signal",
+      "calls": 78,
+      "complete_tasks": 4,
+      "invalid_by_context": {
+        "absent": 1,
+        "present": 0
+      },
+      "status": "HOLD"
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "strict",
+      "arm": "equivalence",
+      "calls": 78,
+      "complete_tasks": 5,
+      "invalid_by_context": {
+        "absent": 0,
+        "present": 0
+      },
+      "status": "HOLD"
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "strict",
+      "arm": "signal",
+      "calls": 78,
+      "complete_tasks": 4,
+      "invalid_by_context": {
+        "absent": 1,
+        "present": 0
+      },
+      "status": "HOLD"
+    }
+  ],
+  "invalid_records": [
+    {
+      "slot_id": "v7-0300",
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "arm": "signal",
+      "context": "absent",
+      "item_id": "rotate_left_9",
+      "order": "BA",
+      "content": "",
+      "finish_reason": "length",
+      "error_class": null,
+      "served_model": "nemotron-3-super",
+      "timestamp_utc": "2026-10-08T15:35:40.194670+00:00",
+      "latency_seconds": 89.7668100829469
+    },
+    {
+      "slot_id": "v7-0319",
+      "config_id": "nemotron",
+      "criterion": "strict",
+      "arm": "signal",
+      "context": "absent",
+      "item_id": "interval_contains_3",
+      "order": "AB",
+      "content": null,
+      "finish_reason": null,
+      "error_class": "TimeoutError",
+      "served_model": null,
+      "timestamp_utc": "2026-10-08T15:40:02.668776+00:00",
+      "latency_seconds": 2.0917191659100354
+    }
+  ],
+  "elapsed_first_dispatch_to_last_completion_seconds": 5400.02436416591,
+  "terminal_status": "PARTIAL_HOLD_TRANSPORT_OR_MODEL",
+  "stop_observation": "Last call TimeoutError after2.09seconds, totalelapsed approximately90minutes. Runner bounds request timeout byremaining90minute window; consistentwithtimebox expiration, not proof of serviceoutage."
+}

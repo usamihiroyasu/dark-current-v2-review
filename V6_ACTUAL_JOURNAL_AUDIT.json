@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "scope": "Independent raw-intent/terminal reconciliation with config-and-slot identity, strict duplicate-key JSON parsing, six-cell counts and per-order successes, closed-form zero-event CP/binomial/Holm; bootstrap not rerun.",
+  "journal_sha256": "4af07fc323f4af59d9a5b5526a2570b99972e34bb049a81d7fc5274f1d22b321",
+  "analysis_sha256": "62f3604dbd80cbb7e6c128d625fa62fd615fdb9157c7355e20d424992b4e6b2c",
+  "intents": 2880,
+  "terminals": 2880,
+  "cells": [
+    {
+      "config_id": "flash",
+      "criterion": "neutral",
+      "equivalence_calls": 192,
+      "invalid": 0,
+      "equivalence_adverse_calls": 0,
+      "signal_calls": 192,
+      "success_BA": 90,
+      "success_AB": 95,
+      "clone_calls": 96,
+      "clone_adverse_calls": 0
+    },
+    {
+      "config_id": "flash",
+      "criterion": "strict",
+      "equivalence_calls": 192,
+      "invalid": 0,
+      "equivalence_adverse_calls": 0,
+      "signal_calls": 192,
+      "success_BA": 89,
+      "clone_calls": 96,
+      "clone_adverse_calls": 0,
+      "success_AB": 94
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "neutral",
+      "equivalence_calls": 192,
+      "invalid": 0,
+      "equivalence_adverse_calls": 0,
+      "signal_calls": 192,
+      "success_BA": 96,
+      "success_AB": 96,
+      "clone_calls": 96,
+      "clone_adverse_calls": 0
+    },
+    {
+      "config_id": "gpt-oss",
+      "criterion": "strict",
+      "equivalence_calls": 192,
+      "invalid": 0,
+      "equivalence_adverse_calls": 0,
+      "signal_calls": 192,
+      "success_BA": 96,
+      "clone_calls": 96,
+      "clone_adverse_calls": 0,
+      "success_AB": 96
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "equivalence_calls": 192,
+      "invalid": 1,
+      "equivalence_adverse_calls": 0,
+      "signal_calls": 192,
+      "success_BA": 96,
+      "success_AB": 95,
+      "clone_calls": 96,
+      "clone_adverse_calls": 0
+    },
+    {
+      "config_id": "nemotron",
+      "criterion": "strict",
+      "equivalence_calls": 192,
+      "invalid": 0,
+      "equivalence_adverse_calls": 0,
+      "signal_calls": 192,
+      "success_BA": 94,
+      "clone_calls": 96,
+      "clone_adverse_calls": 0,
+      "success_AB": 96
+    }
+  ],
+  "invalid_records": [
+    {
+      "slot_id": "v6-0751",
+      "config_id": "nemotron",
+      "criterion": "neutral",
+      "arm": "signal",
+      "item_id": "rotate_left_4",
+      "order": "AB",
+      "content": "",
+      "finish_reason": "length"
+    }
+  ]
+}

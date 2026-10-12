@@ -1,0 +1,166 @@
+{
+  "contributors": "CITATION.cff preserves the four author names and order confirmed by the author; contributions, affiliations and consent remain separate pending declarations.",
+  "created_date": "2026-10-09",
+  "current_manuscript": {
+    "figures": 4,
+    "pages": 20,
+    "pdf_sha256": "fc00a128944ca53136238b8900012db67721bac78d7d0de70f546d481de68b31",
+    "source_sha256": "b76ffca0a3c29c2e1ff9382070dc52bb818916636bb4e09edff81c4965bc465e",
+    "tables": 8,
+    "parent_scientific_receipt_sha256": "ec05342958f70e0efb8a3d59c8b362e47333a2dbb1029731b749ef0ce37aa230",
+    "editorial_scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
+    "template": "TMLR preprint style"
+  },
+  "excluded": [
+    "Credentials and private service routes",
+    "Personal/career correspondence",
+    "Human coordinator mappings",
+    "Model weights"
+  ],
+  "held_source485": {
+    "metadata": "held_source485/README.md",
+    "model_comparisons": 2910,
+    "redistribution": "text-free derivative; scope and outgoing license pending",
+    "reproduction": "count/hash verification only; owner bootstrap once, independent redraw0",
+    "tasks": 485,
+    "truth": "source preference only; not independent human truth",
+    "unit": "source row; AB/BA paired within task"
+  },
+  "integrity_entrypoint": {
+    "command": "python3 verify_release.py",
+    "expected": "PASS_RELEASE_FILE_HASHES",
+    "scope": "Listed file hashes only; no model calls, candidate execution or permission check."
+  },
+  "invalid_policy": "Invalid responses are retained in planned denominators as specified by the frozen analyses; partial configurations remain HOLD.",
+  "limitations": [
+    "No low-null-to-high-utility guarantee",
+    "No latent geometric mechanism or population-wide judge ranking",
+    "No new model or statistical experiment from this documentation update"
+  ],
+  "model_identity_limit": "Named configurations only; held-source installed tag/blob digests observed，upstream checkpoint/vendor/full license chain unverified．Earlier served labels alone do not certify identity．",
+  "name": "Dark Current",
+  "new_experiments_for_this_card": 0,
+  "outgoing_code_data_license": "NOT_SELECTED",
+  "paper_location": "paper/main.tex and paper/main.pdf; named and anonymous manuscripts are different format variants of the same study.",
+  "publication_approval": "Coauthor and MHI permission have been reported by the corresponding author; external redistribution scope, outgoing licensing and final release confirmation remain pending.",
+  "purpose": "Reproduce recorded stratified clone-null and target-utility audits for the Dark Current replacement candidate.",
+  "release_contains": "Saved verdict metadata, finite owned code stimuli, source, figures, analyses and provenance. Original benchmark prompts/responses are excluded.",
+  "release_omits": [
+    "Raw RewardBench prompts/responses",
+    "Book-derived raw code",
+    "Human-equivalence labels: 51 annotation candidates, zero human labels"
+  ],
+  "schema": "research-artifact-card-v1",
+  "shared_material": "The controlled 456-program demonstration and sanitized historical 580-row audit are shared supporting material with Code Evidence, not independent replications.",
+  "source_groups": [
+    {
+      "configurations": 2,
+      "entrypoint": "legacy_v5/analysis/release/verify_and_reanalyze_public_v5.py",
+      "evidence": [
+        {
+          "path": "legacy_v5/analysis/release/public_provenance_receipt_v5.json",
+          "sha256": "ca3a05bcfcd53b94c81e0a8604f3afa990f52e4385a66d8141c3f0e426e3b228"
+        }
+      ],
+      "id": "benchmark_original",
+      "planned_per_configuration": 612,
+      "split": "Existing frozen original cohort; no new split introduced by this card.",
+      "terminal_records": 1224,
+      "truth": "Upstream benchmark labels, not independent human re-annotation.",
+      "unit": "102 previously selected RewardBench 2 rows"
+    },
+    {
+      "configurations": 3,
+      "entrypoint": "scripts/analyze_v6.py",
+      "evidence": [
+        {
+          "path": "v6_frozen/summary.json",
+          "sha256": "d0247ac64536a78a3158655f04bc6a4df191f59abbbabfec584e2c5a849175ea"
+        },
+        {
+          "path": "v6_frozen/INDEPENDENT_ORACLE_RECEIPT.json",
+          "sha256": "eceeeba84d46675762b37b60791688283bf172ae4bf7b0223b208bccda20692d"
+        },
+        {
+          "events": {
+            "intent": 2880,
+            "terminal": 2880
+          },
+          "path": "v6_production/journal.jsonl",
+          "physical_lines": 5760,
+          "sha256": "4af07fc323f4af59d9a5b5526a2570b99972e34bb049a81d7fc5274f1d22b321"
+        }
+      ],
+      "id": "finite_code",
+      "planned_records": 2880,
+      "split": "Fixed finite suite; subsequent reuse is not fresh task sampling.",
+      "terminal_records": 2880,
+      "truth": "Existing independently verified exhaustive oracle over the declared finite domains; no universal program-equivalence claim.",
+      "unit": "96 constructed finite-domain items in eight families"
+    },
+    {
+      "configurations": 3,
+      "entrypoint": "scripts/analyze_v7.py",
+      "evidence": [
+        {
+          "path": "v7_frozen/manifest.json",
+          "sha256": "d2d6225a84c637c9d5a85867604e04aa2137060b3c3c3911897f4d6c0ef05ee9"
+        },
+        {
+          "events": {
+            "intent": 1344,
+            "terminal": 1344
+          },
+          "path": "v7_production/journal.jsonl",
+          "physical_lines": 2688,
+          "sha256": "a42d2d07caa459f018a68eb016389d18ec9223d463bc5a694e8e52e9a4d4d582"
+        }
+      ],
+      "id": "reference_context",
+      "planned_records": 1536,
+      "split": "Exploratory reused subset.",
+      "state": "PARTIAL_HOLD_TRANSPORT_OR_MODEL",
+      "terminal_records": 1344,
+      "truth": "Inherited finite-domain oracle; an ineligible reference is not automatically a known incorrect candidate.",
+      "unit": "32 selected finite-code items reused from the original suite"
+    },
+    {
+      "configurations": 2,
+      "entrypoint": "v8_statistical/analyze_v8_public.py",
+      "evidence": [
+        {
+          "path": "v8_statistical/manifest.json",
+          "sha256": "28537f1ee41e6d80ee5640c0febc649511f6df747330dab4bf5086544dec8148"
+        },
+        {
+          "events": {
+            "intent": 1224,
+            "terminal": 1224
+          },
+          "path": "v8_statistical/journal.jsonl",
+          "physical_lines": 2448,
+          "sha256": "23f7b183409ad342dec289e83deb74465e17da9212932aeb2f5aca906fef97f9"
+        }
+      ],
+      "id": "configuration_bridge",
+      "planned_records": 1224,
+      "split": "Cross-configuration bridge on prior-outcome items, not a fresh-item study.",
+      "terminal_records": 1224,
+      "truth": "Same upstream labels; different recorded served configurations.",
+      "unit": "The same 102 RewardBench 2 rows as benchmark_original"
+    }
+  ],
+  "state": "PRIVATE_AUTHOR_REVIEW_CANDIDATE_NOT_PUBLIC",
+  "statistical_unit": "Two display orders and repeated criteria belong to the same item; terminal calls are not independent task samples. Clone-core certification is nominal and marginal over a finite template set.",
+  "upstream": [
+    "rewardbench_card_current"
+  ],
+  "editorial_revision": {
+    "scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
+    "scientific_model_native_bootstrap": 0,
+    "manuscript_compile_render": 0,
+    "published": false,
+    "coauthor_MHI_permission": "USER_REPORTED_OBTAINED",
+    "external_terms_outgoing_license_final_release": "PENDING"
+  }
+}

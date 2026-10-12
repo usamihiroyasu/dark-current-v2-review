@@ -1,0 +1,41 @@
+{
+  "schema": "dark-static-map-provenance-v1",
+  "parent_manifest_sha256": "6ab3b3c86d671016ed0cbd1fa84bbc6e159361ca46e8ed783d01474c128750a8",
+  "recovered_source": {
+    "path": "paper/figures/fig1_causal_design.dot",
+    "sha256": "b4e18a6db7a32fa7c3b0e57cb33fa71649fb6dfb9717727e9fc1b5ed59802e47"
+  },
+  "recovery_source": "Archived TAE release figure source",
+  "archived_pdf_identity": [
+    {
+      "paper_pdf": {
+        "path": "paper/figures/fig1_causal_design.pdf",
+        "sha256": "a026f4c3880f726efd85c08240f60deebc546b231a296127cf44bb263859ff69"
+      },
+      "archived_pdf_sha256": "a026f4c3880f726efd85c08240f60deebc546b231a296127cf44bb263859ff69",
+      "byte_identity": true
+    },
+    {
+      "paper_pdf": {
+        "path": "paper/figures/fig2_null_order_parser_revised.pdf",
+        "sha256": "359d275b9784d12a56ffb19cad79caecea4942b47aaffcdcc2110bb581f44c08"
+      },
+      "archived_pdf_sha256": "359d275b9784d12a56ffb19cad79caecea4942b47aaffcdcc2110bb581f44c08",
+      "byte_identity": true
+    },
+    {
+      "paper_pdf": {
+        "path": "paper/figures/fig3_joint_gates_revised.pdf",
+        "sha256": "d1949ae6e9e0202a3900937c0478e2c2adf24ab8a5a49974108d91a4b7d8499a"
+      },
+      "archived_pdf_sha256": "d1949ae6e9e0202a3900937c0478e2c2adf24ab8a5a49974108d91a4b7d8499a",
+      "byte_identity": true
+    }
+  ],
+  "source_to_pdf_build_executed": false,
+  "paper_modified": false,
+  "new_model_calls": 0,
+  "new_native_executions": 0,
+  "new_statistical_replays": 0,
+  "publication": "PREPARED_NOT_PUBLIC_AUTHOR_REVIEW_REQUIRED"
+}

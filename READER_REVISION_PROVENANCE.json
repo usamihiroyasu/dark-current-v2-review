@@ -1,0 +1,17 @@
+{
+  "schema": "public-reader-overlay-v1",
+  "parent_release_manifest_sha256": "44f6b4f4510d86e99903ce397a7705f0c53150ff75a0989fd22432d8ae2bd4f2",
+  "parent_files_byte_equal_before_inventory_update": 122,
+  "explicit_parent_edits": [
+    "README.md"
+  ],
+  "new_documentation": [
+    "DATASHEET.md",
+    "EVALUATION_DATASHEET_TEMPLATE.json"
+  ],
+  "scope": "Reader documentation and explicit stale historical-card/page count correction. No manuscript/source/PDF/figure/scientific record/program/analyzer changes.",
+  "new_model_calls": 0,
+  "new_native_calls": 0,
+  "new_statistical_replays": 0,
+  "publication": "NOT_PUBLIC_AUTHOR_APPROVAL_AND_RIGHTS_PENDING"
+}

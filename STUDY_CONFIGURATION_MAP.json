@@ -1,0 +1,317 @@
+{
+  "configurations": [
+    {
+      "configuration_id": "flash",
+      "declared_served_model": "qwen3.8-flash-next",
+      "profile_evidence": {
+        "path": "v6_frozen/configs.json",
+        "sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534"
+      },
+      "profile_status": "FIXED_PUBLIC_REQUEST_PARAMETERS",
+      "request_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false,
+          "reasoning_effort": "none",
+          "thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "flash",
+        "reasoning_effort": "none",
+        "stream": false,
+        "temperature": 0
+      },
+      "scope": "Rubric, items and schedule remain study-specific; matching parameters are not a causal model-only comparison.",
+      "study": "V6",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "gpt-oss",
+      "declared_served_model": "openai/gpt-oss-120b",
+      "profile_evidence": {
+        "path": "v6_frozen/configs.json",
+        "sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534"
+      },
+      "profile_status": "FIXED_PUBLIC_REQUEST_PARAMETERS",
+      "request_parameters": {
+        "max_tokens": 2048,
+        "model": "gpt-oss",
+        "reasoning_effort": "low",
+        "stream": false,
+        "temperature": 0
+      },
+      "scope": "Rubric, items and schedule remain study-specific; matching parameters are not a causal model-only comparison.",
+      "study": "V6",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "nemotron",
+      "declared_served_model": "nemotron-3-super",
+      "profile_evidence": {
+        "path": "v6_frozen/configs.json",
+        "sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534"
+      },
+      "profile_status": "FIXED_PUBLIC_REQUEST_PARAMETERS",
+      "request_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "nemotron",
+        "stream": false,
+        "temperature": 0
+      },
+      "scope": "Rubric, items and schedule remain study-specific; matching parameters are not a causal model-only comparison.",
+      "study": "V6",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "flash",
+      "declared_served_model": "qwen3.8-flash-next",
+      "profile_evidence": {
+        "path": "v7_frozen/configs.json",
+        "sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534"
+      },
+      "profile_status": "FIXED_PUBLIC_REQUEST_PARAMETERS",
+      "request_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false,
+          "reasoning_effort": "none",
+          "thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "flash",
+        "reasoning_effort": "none",
+        "stream": false,
+        "temperature": 0
+      },
+      "scope": "Rubric, items and schedule remain study-specific; matching parameters are not a causal model-only comparison.",
+      "study": "V7",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "gpt-oss",
+      "declared_served_model": "openai/gpt-oss-120b",
+      "profile_evidence": {
+        "path": "v7_frozen/configs.json",
+        "sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534"
+      },
+      "profile_status": "FIXED_PUBLIC_REQUEST_PARAMETERS",
+      "request_parameters": {
+        "max_tokens": 2048,
+        "model": "gpt-oss",
+        "reasoning_effort": "low",
+        "stream": false,
+        "temperature": 0
+      },
+      "scope": "Rubric, items and schedule remain study-specific; matching parameters are not a causal model-only comparison.",
+      "study": "V7",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "nemotron",
+      "declared_served_model": "nemotron-3-super",
+      "profile_evidence": {
+        "path": "v7_frozen/configs.json",
+        "sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534"
+      },
+      "profile_status": "FIXED_PUBLIC_REQUEST_PARAMETERS",
+      "request_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "nemotron",
+        "stream": false,
+        "temperature": 0
+      },
+      "scope": "Rubric, items and schedule remain study-specific; matching parameters are not a causal model-only comparison.",
+      "study": "V7",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "flash",
+      "declared_served_model": "qwen3.8-flash-next",
+      "profile_evidence": {
+        "path": "v8_statistical/manifest.json",
+        "sha256": "28537f1ee41e6d80ee5640c0febc649511f6df747330dab4bf5086544dec8148"
+      },
+      "profile_status": "FIXED_PUBLIC_REQUEST_PARAMETERS",
+      "request_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false,
+          "reasoning_effort": "none",
+          "thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "flash",
+        "reasoning_effort": "none",
+        "stream": false,
+        "temperature": 0
+      },
+      "scope": "Rubric, items and schedule remain study-specific; matching parameters are not a causal model-only comparison.",
+      "study": "V8",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "gpt-oss",
+      "declared_served_model": "openai/gpt-oss-120b",
+      "profile_evidence": {
+        "path": "v8_statistical/manifest.json",
+        "sha256": "28537f1ee41e6d80ee5640c0febc649511f6df747330dab4bf5086544dec8148"
+      },
+      "profile_status": "FIXED_PUBLIC_REQUEST_PARAMETERS",
+      "request_parameters": {
+        "max_tokens": 2048,
+        "model": "gpt-oss",
+        "reasoning_effort": "low",
+        "stream": false,
+        "temperature": 0
+      },
+      "scope": "Rubric, items and schedule remain study-specific; matching parameters are not a causal model-only comparison.",
+      "study": "V8",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "qwen25_32b_awq_remote",
+      "declared_served_model": "Qwen2.5-32B-Instruct-AWQ",
+      "profile_evidence": {
+        "path": "legacy_v5/analysis/release/public_provenance_receipt_v5.json",
+        "sha256": "ca3a05bcfcd53b94c81e0a8604f3afa990f52e4385a66d8141c3f0e426e3b228"
+      },
+      "profile_status": "NAME_AND_JOURNAL_CHAIN_PRESENT_FULL_REQUEST_PROFILE_NOT_IN_PUBLIC_PROJECTION",
+      "request_parameters": null,
+      "scope": "Names are reported in the manuscript. Public verdict reanalysis does not need the excluded request payload.",
+      "study": "V5",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "qwen36_mlx_local",
+      "declared_served_model": "Qwen3.6-35B-A3B-OptiQ-4bit",
+      "profile_evidence": {
+        "path": "legacy_v5/analysis/release/public_provenance_receipt_v5.json",
+        "sha256": "ca3a05bcfcd53b94c81e0a8604f3afa990f52e4385a66d8141c3f0e426e3b228"
+      },
+      "profile_status": "NAME_AND_JOURNAL_CHAIN_PRESENT_FULL_REQUEST_PROFILE_NOT_IN_PUBLIC_PROJECTION",
+      "request_parameters": null,
+      "scope": "Names are reported in the manuscript. Public verdict reanalysis does not need the excluded request payload.",
+      "study": "V5",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "Llama-3.1-8B",
+      "declared_served_model": "Llama-3.1-8B",
+      "profile_evidence": {
+        "path": "paper/main.tex",
+        "sha256": "5d89b6646de11b4a0cf36cf8e63e83ef9e01de21976ab8b467a2c9ac0b52dc2b"
+      },
+      "profile_status": "MANUSCRIPT_REPORTED_PARTIAL_PROFILE_PRIMARY_RECORDS_NOT_MAPPED",
+      "request_parameters": {
+        "seed": 42,
+        "temperature": 0
+      },
+      "scope": "These two parameters are manuscript declarations, not a verified full request profile or reconstruction of legacy measurements.",
+      "study": "A0/A1",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "Qwen2.5-14B-AWQ",
+      "declared_served_model": "Qwen2.5-14B-AWQ",
+      "profile_evidence": {
+        "path": "paper/main.tex",
+        "sha256": "5d89b6646de11b4a0cf36cf8e63e83ef9e01de21976ab8b467a2c9ac0b52dc2b"
+      },
+      "profile_status": "MANUSCRIPT_REPORTED_PARTIAL_PROFILE_PRIMARY_RECORDS_NOT_MAPPED",
+      "request_parameters": {
+        "seed": 42,
+        "temperature": 0
+      },
+      "scope": "These two parameters are manuscript declarations, not a verified full request profile or reconstruction of legacy measurements.",
+      "study": "A0/A1",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "Qwen2.5-32B-AWQ",
+      "declared_served_model": "Qwen2.5-32B-AWQ",
+      "profile_evidence": {
+        "path": "paper/main.tex",
+        "sha256": "5d89b6646de11b4a0cf36cf8e63e83ef9e01de21976ab8b467a2c9ac0b52dc2b"
+      },
+      "profile_status": "MANUSCRIPT_REPORTED_PARTIAL_PROFILE_PRIMARY_RECORDS_NOT_MAPPED",
+      "request_parameters": {
+        "seed": 42,
+        "temperature": 0
+      },
+      "scope": "These two parameters are manuscript declarations, not a verified full request profile or reconstruction of legacy measurements.",
+      "study": "A0/A1",
+      "weight_identity": "NOT_VERIFIED_BY_THIS_MAP"
+    },
+    {
+      "configuration_id": "devstral-small2-ollama-q4km",
+      "declared_served_model": "devstral-small-2:latest",
+      "invalid": 211,
+      "model_blob_sha256": "c580819bed79c92d01a42227bd6d8fd66b9ec60d5329f5eb73f812f156af7807",
+      "operational_status": "HOLD",
+      "planned": 612,
+      "profile_evidence": {
+        "path": "local_output_hold/CONFIGURATION_AND_GATE.json",
+        "sha256": "c1ed0fddaba18f95ed900e3582618da8feca47adc132b633578a186eee427b37"
+      },
+      "profile_status": "FROZEN_REQUEST_AND_LOCAL_TAG_BLOB_OBSERVED; CAMPAIGN_OPERATIONAL_HOLD",
+      "request_parameters": {
+        "keep_alive": "1m",
+        "model": "devstral-small-2:latest",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026101001,
+          "temperature": 0
+        },
+        "stream": false
+      },
+      "scope": "Named quantized local re-evaluation on same102rows; no scientific criterion estimate or model-only causal effect.",
+      "study": "local_output_hold",
+      "weight_identity": "LOCAL_BLOB_HASH_OBSERVED; UPSTREAM_CHECKPOINT_IDENTITY_AND_LICENSE_CHAIN_UNVERIFIED"
+    },
+    {
+      "configuration_id": "qwen35-local-q4km-raw",
+      "declared_served_model": "qwen3.5:35b-a3b",
+      "invalid": 0,
+      "model_blob_sha256": "2abd0d805943fa113f934d1ae4f2d5a749b5d4fe2a0a9c64b645c1df15868da7",
+      "operational_status": "PASS",
+      "planned": 2910,
+      "profile_evidence": {
+        "path": "held_source485/CONFIGURATION_AND_GATE.json",
+        "sha256": "8da3fb9f2526994d00bb308c8c37c5b047019b76d00bec130082bd6ef419d707"
+      },
+      "profile_status": "FIXED_INSTALLED_RAW_CONSUMER;2910VALID_TERMINALS",
+      "request_parameters": {
+        "keep_alive": "1m",
+        "model": "qwen3.5:35b-a3b",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026101002,
+          "temperature": 0
+        },
+        "raw": true,
+        "stream": false,
+        "think": false
+      },
+      "scope": "One fixed unequal485row source mixture; neither direct model rank nor backend cause.",
+      "study": "held_source485",
+      "weight_identity": "INSTALLED_TAG_BLOB_DIGEST_OBSERVED; UPSTREAM_VENDOR_LICENSE_UNVERIFIED"
+    }
+  ],
+  "criteria_scope": "V5-V8 each include neutral and strict. Historical A0/A1 uses its reported rubric; its restricted strict probe is not a complete second criterion arm.",
+  "current_paper": {
+    "path": "paper/main.tex",
+    "sha256": "5d89b6646de11b4a0cf36cf8e63e83ef9e01de21976ab8b467a2c9ac0b52dc2b"
+  },
+  "limits": [
+    "A0/A1 profiles are partial declarations.",
+    "V5 full request profiles are outside the current public projection.",
+    "Matching served identifiers do not certify continuity of weight bytes."
+  ],
+  "schema": "dark-study-configuration-map-v2",
+  "status": "STATIC_SOURCE_MAP_NOT_NEW_RUNTIME_VALIDATION"
+}

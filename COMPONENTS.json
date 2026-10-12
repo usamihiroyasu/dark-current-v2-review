@@ -1,0 +1,92 @@
+{
+  "schema": "artifact-component-review-v1",
+  "state": "AUTHOR_REVIEW_PENDING_NOT_LEGAL_CLEARANCE",
+  "mapping_basis": "Conservative directory/provenance assignment; component origin is not a finding of sole ownership. Composite files may contain multiple origins.",
+  "components": {
+    "new_research_assets": {
+      "label": "New research code, documentation and numerical derivatives",
+      "origin": "Prepared research assets; contributor and derivative scope must be confirmed",
+      "observed_license_or_notice": "Outgoing code/data license NOT_SELECTED",
+      "remaining_review": "Author/coauthor contributions, new license selection and publication consent",
+      "evidence": [],
+      "release_decision": "NOT_AUTHORIZED_FOR_PUBLICATION"
+    },
+    "manuscript_revision": {
+      "label": "Current manuscript, figures and bibliography",
+      "origin": "Current author-review candidate",
+      "observed_license_or_notice": "No new blanket license selected for this revision",
+      "remaining_review": "Current manuscript publication consent and figure/reference reuse; earlier preprint licensing does not authorize every new asset",
+      "evidence": [],
+      "release_decision": "NOT_AUTHORIZED_FOR_PUBLICATION"
+    },
+    "owned_finite_assets": {
+      "label": "Constructed finite functions and controls",
+      "origin": "Declared owned finite research stimuli; content and source hashes preserved",
+      "observed_license_or_notice": "Outgoing license NOT_SELECTED",
+      "remaining_review": "Confirm authorship, shared-asset attribution and outgoing code/data license",
+      "evidence": [],
+      "release_decision": "NOT_AUTHORIZED_FOR_PUBLICATION"
+    },
+    "historical_derivatives": {
+      "label": "Sanitized historical audit",
+      "origin": "Book-derived original experiments; raw book text and raw code excluded",
+      "observed_license_or_notice": "No blanket redistribution license inferred",
+      "remaining_review": "Review rights for retained identifiers/statistical derivatives; retain exclusions",
+      "evidence": [],
+      "release_decision": "NOT_AUTHORIZED_FOR_PUBLICATION"
+    },
+    "readiness_metadata": {
+      "label": "Artifact cards and rights inventory",
+      "origin": "New documentation derived from preserved records and observed notices",
+      "observed_license_or_notice": "Outgoing license NOT_SELECTED",
+      "remaining_review": "Author review of component mapping and final scope",
+      "evidence": [],
+      "release_decision": "NOT_AUTHORIZED_FOR_PUBLICATION"
+    },
+    "rewardbench_metadata": {
+      "label": "RewardBench 2 statistical projection",
+      "origin": "allenai/reward-bench-2; saved verdict metadata without raw benchmark prompts/responses",
+      "observed_license_or_notice": "Current upstream card: odc-by; historical revision not established by current card",
+      "remaining_review": "Confirm historical source revision/attribution and derivative-output release scope",
+      "evidence": [
+        {
+          "id": "rewardbench_card_current",
+          "url": "https://huggingface.co/datasets/allenai/reward-bench-2/raw/main/README.md",
+          "sha256": "4f9f92600767160c6b7b1a3c822361dabfea9ac254f8a152a02cb96ab0650911",
+          "bytes": 8661,
+          "retrieved_jst": "2026-10-09T17:40:52.748486+09:00",
+          "version_scope": "current main dataset card; not proof of historical study revision",
+          "observed_license": "odc-by"
+        }
+      ],
+      "release_decision": "NOT_AUTHORIZED_FOR_PUBLICATION"
+    },
+    "judge_output_metadata": {
+      "label": "Served judge verdict metadata",
+      "origin": "Recorded served profiles and parser outputs; no weights redistributed",
+      "observed_license_or_notice": "Model/output terms NOT_VERIFIED by this card",
+      "remaining_review": "Review output-release scope separately from model labels/weight licenses",
+      "evidence": [],
+      "release_decision": "NOT_AUTHORIZED_FOR_PUBLICATION"
+    },
+    "prior_public_preprint": {
+      "label": "Earlier Dark Current preprint provenance",
+      "origin": "arXiv:2606.15610v1",
+      "observed_license_or_notice": "CC-BY-4.0 as recorded in UPSTREAM_LICENSES.md",
+      "remaining_review": "Do not apply this recorded v1 license automatically to new code/data or assume replacement consent",
+      "evidence": [
+        {
+          "path": "UPSTREAM_LICENSES.md",
+          "sha256": "607898e8edb3243ed820ba524451eaa91de8c733c3453bd52da8ced62fb38429",
+          "url": "https://arxiv.org/abs/2606.15610v1"
+        }
+      ],
+      "release_decision": "NOT_AUTHORIZED_FOR_PUBLICATION"
+    },
+    "manuscript_template": {
+      "origin": "Unmodified bundled TMLR/fancyhdr source package",
+      "observed_license_or_notice": "See paper/TEMPLATE_NOTICES.md; selected LPPL notices retained, tmlr.sty complete chain unresolved",
+      "release_decision": "PENDING_TERMS_AND_FINAL_RELEASE_SCOPE"
+    }
+  }
+}

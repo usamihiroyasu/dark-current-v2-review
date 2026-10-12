@@ -1,0 +1,14 @@
+# V6：有限領域の独立oracleによるjudge測定
+
+状態：追加実験案．元TAEのV3/V4/V5と混合しない．本ファイルとitems/schedule/config/実行sourceを結果確認前にhash固定する．公式の第三者preregistrationとは呼ばない．
+目的：exact-clone nullだけでは，既知の有限領域上で正しいコードを選ぶ能力と，関数的に等価な異なるコードへtieを返す能力を保証しないかを調べる．
+構成：8種類の固定template×12パラメータ課題=96．独立oracleによる宣言領域の全数検査．人間の選好，無限領域のPython意味等価性，実際のユーザー分布は測らない．同一templateの課題は構造を共有し，96種類の独立した構成概念とは呼ばない．
+比較：clone＝good/good，各criterion1call．equivalence＝good/equivalent，各criterion×AB/BA．signal＝good/verified-bad，各criterion×AB/BA．1item10calls，1configuration960calls．最大3つのservice-reported model構成を，別fixtureのsmokeで結果を見ずに選び，固定する．候補flash，gpt-oss，nemotron．同一実体のalias重複は数えない．全リクエストを直列とし，DGXnode同時1件．
+判定criterion：functional correctness on ALL explicitly stated valid inputsのみ．速度・style・長さは評価対象にしない．neutralとstrictは同じtargetでtieの保守性だけを指示上変えるが，結果の因果解釈にはstable-serving/no-interference仮定が必要．
+一次family：3configs×2criteriaのclone adverse率．invalidもadverse．固定m=6，H0:p>=.05，片側exactbinomial低尾p，Holm alpha.05．0/96ならsinglecell95%上限約.0307であり，0riskを意味しない．config未完はHOLD，familyは縮めない．これは固定96itemsに対するworking operational gateであり母集団推測ではない．
+utility：signalAB/BAをtask内平均，tie/wrong/invalidを0．8family内各12taskを20,000回resampleし等重み平均，固定seed由来片側95%下限>=.75をusefulgate．codeoracle性能の限定結果でありhumanpreference予測とは呼ばない．
+equivalence：pair内2orderのいずれかnon-tie/invalidをadverse=1とする．96taskの率と片側95%上限，order-canonical分類を記述．初回結果ではconfirmatoryな第2familyを追加しない．
+secondary：pairedstrict-neutral utility，order差，stylelength差を固定family/criterion/config全セルで記述し，subset最良セルをheadlineにしない．既存V5への追試はconfig/target/datasetが違うため別表．
+欠損：requestintentをdispatch前にdurableappendし，1slot1attempt，retryなし．empty/schema/finish_reason!=stop/modelmismatchはinvalid．HTTP/transport障害はcampaignを停止しpartialHOLDにする．結果を見た項目除外・seed変更・プロンプト変更なし．起動中に中断されたintentはambiguousとしてHOLD，再送しない．全960slots完了，servedmodel一致，invalid<=1%をoperationalgateとする．
+予算：2026-10-09 05:35 JSTに新規dispatch停止，05:35-06:00は解析・原稿・packaging．cutoff時partialを完成扱いにしない．強い新規claimは2つ以上の異なる実体configと全領域oracleの合格を条件に，最終reviewで選ぶ．
+残る資産：items，独立oracle全数検査，凍結scheduleとsourcehash，terminalcontentとusage，解析source，sanitized公開bundle．モデルweightdigestはgatewayで取得できなければ未検証．

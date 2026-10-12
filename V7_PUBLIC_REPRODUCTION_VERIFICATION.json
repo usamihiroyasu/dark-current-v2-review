@@ -1,0 +1,14 @@
+{
+  "status": "PASS_REPRODUCED_ANALYSIS",
+  "version": "v7",
+  "fixture": false,
+  "replicates_per_admitted_cell": 20000,
+  "admitted_cells": 8,
+  "held_cells": 4,
+  "expected_analysis_sha256": "02e18e50bc904b85122b8555c8b1677bbfaec204ea946943c9568c8680b14abd",
+  "reproduced_analysis_sha256": "9782bda8ac91cec6c8e997bc76ee06053e862db9ca0e9ee8c23d33e24b97c87f",
+  "journal_sha256": "a42d2d07caa459f018a68eb016389d18ec9223d463bc5a694e8e52e9a4d4d582",
+  "export_provenance_sha256": "15eb38910c6c6cc2b8b254ed3e8531863f3fbd41b08b23fd88382d7d14519135",
+  "float_tolerance": 1e-12,
+  "scope": "All12 cells, fields, types, coverage, HOLD/null values, counts, verdicts, input hashes and numerics checked; only verified analyzer-source substitution excluded. No model call or V6 analysis repeated."
+}

@@ -1,0 +1,84 @@
+{
+  "fig1": {
+    "current_size": [
+      1632,
+      607
+    ],
+    "rebuilt_size": [
+      1632,
+      607
+    ],
+    "identical_pixels": true,
+    "current_pdf_sha256": "a026f4c3880f726efd85c08240f60deebc546b231a296127cf44bb263859ff69",
+    "rebuilt_pdf_sha256": "8943c3895bf641c00b925c4cd59a12ae92765cb6a3d49965529406eb29e40140",
+    "current_png_sha256": "60e99fbaaec2bab313724119b767067de1c69a5092d1a4993cd09c31e54118ae",
+    "rebuilt_png_sha256": "60e99fbaaec2bab313724119b767067de1c69a5092d1a4993cd09c31e54118ae",
+    "text_equal": true,
+    "status": "SOURCE_TO_RENDER_PASS",
+    "pdf_byte_identity": false
+  },
+  "fig2": {
+    "current_size": [
+      1775,
+      578
+    ],
+    "rebuilt_size": [
+      1086,
+      325
+    ],
+    "identical_pixels": false,
+    "current_pdf_sha256": "359d275b9784d12a56ffb19cad79caecea4942b47aaffcdcc2110bb581f44c08",
+    "rebuilt_pdf_sha256": "aaccd63e2521145094a070f69e298eccfa71278c50f226c406f3272585b80864",
+    "current_png_sha256": "1d346df1de8ddf471daa330c510b224f6de76eb6b3c52dd2bd659872435dfc8e",
+    "rebuilt_png_sha256": "077c187b873d73e38881cde01891734a76c64b12935ee5ff91f3e205e2a42799",
+    "text_equal": false,
+    "status": "HOLD_ARCHIVED_SOURCE_DOES_NOT_REPRODUCE_PUBLISHED_LAYOUT",
+    "visual_difference": "Archived TeX rebuild has crowded/overlapping panel headings and a different font, page size and layout; no replacement accepted.",
+    "scientific_values": "Printed 80/120,0/40,40/40,40/40,1.000,.992,.258,98.0%,33/612 remain on both renders; this does not validate the missing primary tabulation."
+  },
+  "commands": {
+    "fig1": [
+      "dot",
+      "-Tpdf",
+      "paper/figures/fig1_causal_design.dot",
+      "-o",
+      "fig1_rebuilt.pdf"
+    ],
+    "fig2": [
+      "pdflatex",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "paper/figures/fig2_null_order_parser.tex"
+    ],
+    "render": [
+      "pdftoppm",
+      "-singlefile",
+      "-r",
+      "150",
+      "-png"
+    ]
+  },
+  "versions": {
+    "dot": "dot - graphviz version 14.1.1 (20251213.1925)",
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.27 (TeX Live 2025)",
+    "pdftoppm": "pdftoppm version 26.07.0"
+  },
+  "unchanged_inputs": {
+    "paper/main.tex": "ac5d987b2719a89b0bade5feaa2db7f1acacc7dde8050d1f029413bf0a104b7c",
+    "paper/figures/fig1_causal_design.dot": "b4e18a6db7a32fa7c3b0e57cb33fa71649fb6dfb9717727e9fc1b5ed59802e47",
+    "paper/figures/fig1_causal_design.pdf": "a026f4c3880f726efd85c08240f60deebc546b231a296127cf44bb263859ff69",
+    "paper/figures/fig2_null_order_parser.tex": "9a6675009328e0b2c74f349b1ebe0797331684a97e1894b7cc1a8c6dc58a324c",
+    "paper/figures/fig2_null_order_parser_revised.pdf": "359d275b9784d12a56ffb19cad79caecea4942b47aaffcdcc2110bb581f44c08"
+  },
+  "visual_review": {
+    "fig1": "Actual current/rebuild renders inspected; same image bytes; boxes/arrows/labels legible.",
+    "fig2": "Actual current/rebuild inspected; reconstruction HOLD, unpublished rebuild excluded."
+  },
+  "schema": "dark-figure-build-verification-v1",
+  "scope": "One new static graph build and one archived-TeX build; no new observations/statistical replay.",
+  "publication": "PREPARED_NOT_PUBLIC_AUTHOR_AND_RIGHTS_APPROVAL_REQUIRED",
+  "parent_manifest_sha256": "4f0e2e100bcb2be199bcd2e67c54bd1012cd0a07e64536cd7bcc8bffcac932d4",
+  "paper_modified": false,
+  "scientific_calls": 0,
+  "external_figure_review": 0
+}

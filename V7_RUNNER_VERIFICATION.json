@@ -1,0 +1,10 @@
+{
+  "status": "PASS_INDEPENDENT_V7_RUNNER",
+  "simulated_terminals": 1536,
+  "same_system_and_AB_prefix_across_contexts": true,
+  "oracle_excluded": true,
+  "invalid_parser_checked": true,
+  "partial_and_no_rerequest": true,
+  "manifest_sha256": "d2d6225a84c637c9d5a85867604e04aa2137060b3c3c3911897f4d6c0ef05ee9",
+  "production_outcomes_inspected": false
+}

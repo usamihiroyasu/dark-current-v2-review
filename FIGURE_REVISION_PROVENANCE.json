@@ -1,0 +1,47 @@
+{
+  "external_new_visual_review": "HOLD_FILE_ATTACHMENT_PERMISSION_ZERO_UPLOAD_ZERO_PROMPT",
+  "changed_before_metadata_refresh": [
+    "README.md",
+    "paper/main.pdf",
+    "paper/main.tex"
+  ],
+  "historical_manuscripts": {
+    "dark_preprint": {
+      "pdf_sha256": "52cb33af495cea5d1e6825a94cde8f2306b4e01fd4fbd03f5bc178823d7cdacc",
+      "source_sha256": "f8d26811a14e515a804af157527d87b3abb8a542a9cf4b5bc442e81f2f11aec5"
+    }
+  },
+  "manuscripts": {
+    "dark_preprint": {
+      "figures": 4,
+      "pages": 22,
+      "pdf_sha256": "4f3993207ec84cdba9fe9389ec258020f0089d81106d756603d5fac13715d906",
+      "source_sha256": "6546646cd1651b6d5577eb43128db6fba3bb09e2f4109b2927ce57db8d670a56",
+      "source_stage_receipt_sha256": "ec05342958f70e0efb8a3d59c8b362e47333a2dbb1029731b749ef0ce37aa230",
+      "tables": 8
+    }
+  },
+  "new_files": [
+    "figure_reproduction/LICENSE_SCOPE.md",
+    "figure_reproduction/README.md",
+    "figure_reproduction/dark/dark_figure_data.json",
+    "figure_reproduction/dark/dark_joint_gates.pdf",
+    "figure_reproduction/dark/dark_joint_gates.svg",
+    "figure_reproduction/dark/render_dark.py",
+    "figure_reproduction/requirements.lock.txt",
+    "paper/figures/dark_joint_gates.pdf"
+  ],
+  "new_held485_overlay": {
+    "figure2_layout_HOLD_retained": true,
+    "figure_data_sha256": "65bec821e1c274c42aa3731e882796ad5fbc5a596213ece14003fd28e116be4c",
+    "included_figure4_sha256": "ba90ab66ae7ecaa5fd0217cf0a05c6f93c9e40a8339999e47b043dd70b30f49d",
+    "new_render_in_this_packaging_stage": 0,
+    "prior_render_stage": "qwen_actual_reconciliation_1244",
+    "render_source_sha256": "d0ec7e0c8cfb7e096e7e496a58c58cb696899668a222b8ec3f3f649f2de49765"
+  },
+  "new_model_native_statistics": 0,
+  "parent_manifest_sha256": "3271f671ab8d1ac0e7018e2ede36e502a7e29508e1167eafced4600fdf0f8a40",
+  "previous_source_maps": "Frozen parent version; this overlay binds revised paper/figures.",
+  "rights": "PENDING_AUTHOR_APPROVAL_NOT_LEGAL_CLEARANCE",
+  "status": "LOCAL_CANDIDATE_NOT_PUBLIC"
+}

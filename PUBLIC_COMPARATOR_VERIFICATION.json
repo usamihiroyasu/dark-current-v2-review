@@ -1,0 +1,38 @@
+{
+  "status": "PASS_EXPLICIT_REPRODUCTION_COMPARATOR",
+  "checks": [
+    {
+      "version": "v6",
+      "matching_full_fixture": "PASS",
+      "replicates": 20,
+      "scope": "new export comparator test; not scientific inference",
+      "mutants_rejected": [
+        "terminal_count",
+        "journal_hash",
+        "analyzer_hash",
+        "fixture_label",
+        "extra_field",
+        "count_type",
+        "operational_verdict",
+        "numerical_value"
+      ]
+    },
+    {
+      "version": "v7",
+      "matching_full_fixture": "PASS",
+      "replicates": 20,
+      "scope": "new export comparator test; not scientific inference",
+      "mutants_rejected": [
+        "terminal_count",
+        "journal_hash",
+        "analyzer_hash",
+        "fixture_label",
+        "extra_field",
+        "count_type",
+        "operational_verdict",
+        "numerical_value"
+      ]
+    }
+  ],
+  "scope": "All fixed fields compared; only original/public analyzer hash substitution verified separately. 20 bootstrap replicas are fixtures, not model performance or confirmatory scientific analysis."
+}

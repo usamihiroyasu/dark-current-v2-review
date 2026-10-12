@@ -1,0 +1,19 @@
+{
+  "status": "PASS_EXPORT_NUMERICAL_IDENTITY",
+  "checks": [
+    {
+      "version": "v6",
+      "same_fixture_terminal_count": 2880,
+      "deep_equal_except_analyzer_source_hash": true,
+      "replicates": 20,
+      "purpose": "export transformation check only; full20000 scientific analyzer already tested"
+    },
+    {
+      "version": "v7",
+      "same_fixture_terminal_count": 1536,
+      "deep_equal_except_analyzer_source_hash": true,
+      "replicates": 20,
+      "purpose": "export transformation check only; full20000 scientific analyzer already tested"
+    }
+  ]
+}

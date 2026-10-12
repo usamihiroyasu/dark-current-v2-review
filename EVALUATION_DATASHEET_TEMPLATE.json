@@ -1,0 +1,64 @@
+{
+  "schema": "evaluation-datasheet-template-v0.1",
+  "status": "DESIGN_TEMPLATE_NOT_A_NEW_VALIDATED_STANDARD",
+  "identity": {
+    "artifact_name": null,
+    "version": null,
+    "source_content_sha256": null,
+    "approval_state": "NOT_PUBLIC"
+  },
+  "purpose": {
+    "intended_decision": null,
+    "intended_users": [],
+    "excluded_uses": []
+  },
+  "units": {
+    "independent_unit": null,
+    "cluster_unit": null,
+    "planned_items": null,
+    "planned_calls": null,
+    "completed_calls": null,
+    "invalid_and_missing_policy": null
+  },
+  "reference": {
+    "truth_definition": null,
+    "reference_source": null,
+    "reference_revision": null,
+    "independence_from_evaluated_model": null,
+    "health_and_discrimination_controls": null
+  },
+  "conditions": {
+    "model_family": null,
+    "served_label": null,
+    "weight_digest": null,
+    "prompt_and_rubric_hash": null,
+    "decode_parameters": null,
+    "input_modality": [],
+    "candidate_modality": [],
+    "requested_output_modality": null,
+    "preprocessing_and_pooling": null,
+    "score_normalization": null,
+    "calibration_split": null,
+    "evaluation_split": null
+  },
+  "results": {
+    "estimand_and_denominator": null,
+    "uncertainty_unit": null,
+    "abstention_and_coverage": null,
+    "quality_loss": null,
+    "runtime_and_cost": null,
+    "holds": []
+  },
+  "reproduction": {
+    "entrypoint": null,
+    "expected_output": null,
+    "tested_environment": null,
+    "known_platform_limits": []
+  },
+  "rights_and_maintenance": {
+    "upstream_notices": [],
+    "outgoing_license": null,
+    "excluded_content": [],
+    "maintainer_and_change_policy": null
+  }
+}

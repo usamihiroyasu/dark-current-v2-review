@@ -1,0 +1,98 @@
+{
+  "status": "PREPARED_NOT_PUBLIC",
+  "scope": "Original manifest bytes retained. Changed public sources are explicitly mapped; original runner byte identity is not asserted. Statistical formulas, schedule, items, response parsing and bootstrap seed namespace are unchanged.",
+  "commitments": {
+    "v6_frozen": {
+      "original_manifest_sha256": "a33d0910a495f12683bb955b8774a2cdffc31ee15a6ee632719a65ce0a2e369d",
+      "files": {
+        "../V6_PROTOCOL.md": {
+          "original_sha256": "23270b4423aabc6b08960c4a1dd05dee4c2e5051f8448cab879c3ca43a152943",
+          "exported_sha256": "23270b4423aabc6b08960c4a1dd05dee4c2e5051f8448cab879c3ca43a152943",
+          "transformation": "UNCHANGED"
+        },
+        "../scripts/build_oracle_suite.py": {
+          "original_sha256": "5db237335afe9ba7f3aee52aee89dc987f398261f7dc4f34063263a5b9a00947",
+          "exported_sha256": "5db237335afe9ba7f3aee52aee89dc987f398261f7dc4f34063263a5b9a00947",
+          "transformation": "UNCHANGED"
+        },
+        "../scripts/run_v6.py": {
+          "original_sha256": "62426e0488330d86d07f84dba4bb226bdfd5fe81dc9897b33797420f48d992aa",
+          "exported_sha256": "704d46e4587cece06cfe921855ca77d4341c665ad95cd3028215033eaa9b0aae",
+          "transformation": "OFFLINE_ONLY_RUNNER; private endpoint removed; simulation ignores expired date; export-aware source verification"
+        },
+        "../scripts/verify_oracle_suite.py": {
+          "original_sha256": "651350c4136232195dc1b91eb63b881624366b90938ef204a99a14ce9714cb60",
+          "exported_sha256": "651350c4136232195dc1b91eb63b881624366b90938ef204a99a14ce9714cb60",
+          "transformation": "UNCHANGED"
+        },
+        "INDEPENDENT_ORACLE_RECEIPT.json": {
+          "original_sha256": "eceeeba84d46675762b37b60791688283bf172ae4bf7b0223b208bccda20692d",
+          "exported_sha256": "eceeeba84d46675762b37b60791688283bf172ae4bf7b0223b208bccda20692d",
+          "transformation": "UNCHANGED"
+        },
+        "configs.json": {
+          "original_sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534",
+          "exported_sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534",
+          "transformation": "UNCHANGED"
+        },
+        "items.jsonl": {
+          "original_sha256": "38185717cbeba2f5a1306d7bb71ae59323082b7fd2f596d0bc61f892f9f82242",
+          "exported_sha256": "38185717cbeba2f5a1306d7bb71ae59323082b7fd2f596d0bc61f892f9f82242",
+          "transformation": "UNCHANGED"
+        },
+        "schedule.jsonl": {
+          "original_sha256": "1ec560664881006f51fffb5b04e3fd4e7df8fb7d1a1aa241f5af769295fc7ada",
+          "exported_sha256": "1ec560664881006f51fffb5b04e3fd4e7df8fb7d1a1aa241f5af769295fc7ada",
+          "transformation": "UNCHANGED"
+        }
+      }
+    },
+    "v7_frozen": {
+      "original_manifest_sha256": "d2d6225a84c637c9d5a85867604e04aa2137060b3c3c3911897f4d6c0ef05ee9",
+      "files": {
+        "../V7_PROTOCOL.md": {
+          "original_sha256": "cf8be981089589c42cd04ad868e9e9514a1fe492e23d5d9b98a1f3d23f8f76c0",
+          "exported_sha256": "cf8be981089589c42cd04ad868e9e9514a1fe492e23d5d9b98a1f3d23f8f76c0",
+          "transformation": "UNCHANGED"
+        },
+        "../scripts/run_v7.py": {
+          "original_sha256": "626a78967a56d8f3d1ecca27354a55c1f995b09ceae9089b950f1bf04f6bd5a8",
+          "exported_sha256": "49091e779bd76c8faa1d0b5bd165dae2641c1843da6b6bbf32c01585e08df142",
+          "transformation": "OFFLINE_ONLY_RUNNER; private endpoint removed; simulation ignores expired date; export-aware source verification"
+        },
+        "../v6_frozen/INDEPENDENT_ORACLE_RECEIPT.json": {
+          "original_sha256": "eceeeba84d46675762b37b60791688283bf172ae4bf7b0223b208bccda20692d",
+          "exported_sha256": "eceeeba84d46675762b37b60791688283bf172ae4bf7b0223b208bccda20692d",
+          "transformation": "UNCHANGED"
+        },
+        "configs.json": {
+          "original_sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534",
+          "exported_sha256": "6c0676f893b5afdd95d0068855ecf07d754387e623e306a963f5af04ed848534",
+          "transformation": "UNCHANGED"
+        },
+        "items.jsonl": {
+          "original_sha256": "b761b67f5284e7adf71df73df119bffe8e4057d9622f25a8cae360f8d10b870c",
+          "exported_sha256": "b761b67f5284e7adf71df73df119bffe8e4057d9622f25a8cae360f8d10b870c",
+          "transformation": "UNCHANGED"
+        },
+        "schedule.jsonl": {
+          "original_sha256": "ed7dabbda38bd217ac9b65f67287310c8e20c35f8afe88f978b5dfc00bc63c5e",
+          "exported_sha256": "ed7dabbda38bd217ac9b65f67287310c8e20c35f8afe88f978b5dfc00bc63c5e",
+          "transformation": "UNCHANGED"
+        }
+      }
+    }
+  },
+  "analysis_sources": {
+    "v6": {
+      "original_sha256": "3373faee858f1fd913047f8f840b40a5e7d39722e320d417676b6a3b7f41841e",
+      "public_sha256": "100a942d8b2827c2006da6b636b1c19722783fe383b0ea2fde6204e9f2b4c6a7",
+      "transformation": "Only original-source verification replaced with explicit public-export mapping; statistical code unchanged."
+    },
+    "v7": {
+      "original_sha256": "fce0dae9d6b2837387f7ee48a33c565a0357fa776b42ef93f804fcf9c2ba3f70",
+      "public_sha256": "d926e87f6a60cf2c16f2b02f081f10a48328a1b20373b3c2d542959b553a89e5",
+      "transformation": "Only original-source verification replaced with explicit public-export mapping; statistical code unchanged."
+    }
+  }
+}
