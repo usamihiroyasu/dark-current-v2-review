@@ -1,0 +1,29 @@
+{
+  "status": "PASS_CONTROLLED_GATE_PREDICTIONS",
+  "items": 96,
+  "candidates": 456,
+  "group_counts": {
+    "good_spec": 96,
+    "equivalent_spec": 96,
+    "bad_self_consistent": 96,
+    "bad_independent_witness": 96,
+    "bad_weak_spec_consistent": 72
+  },
+  "GS_GE_table": {
+    "GS=1,GE=1": 360,
+    "GS=1,GE=0": 96
+  },
+  "GE_semantic_table": {
+    "GE=1,semantic=1": 192,
+    "GE=1,semantic=0": 168,
+    "GE=0,semantic=0": 96
+  },
+  "weak_spec_ineligible": 24,
+  "independent_domain_vectors": 51960,
+  "candidate_oracle_checks": 155880,
+  "items_sha256": "38185717cbeba2f5a1306d7bb71ae59323082b7fd2f596d0bc61f892f9f82242",
+  "candidates_sha256": "a150ba224da0d9df5d417ececf4abc0ebf59b38b1785ca848196509db3132d10",
+  "script_sha256": "f996a079b4d2fd0892facef76eb878c7e34b3c96b6871fb21644de22f27644b1",
+  "scope": "Planted finite-domain errors and deliberately selected tests; not natural LLM error prevalence or a secure sandbox benchmark.",
+  "execution": "Trusted synthetic programs in Python -I subprocess, external completion marker; not the original Docker environment."
+}
