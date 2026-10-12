@@ -2,7 +2,9 @@
 
 **Passing an exact-clone check does not establish useful target selection.**
 
-This repository accompanies *LLM Judges Have Dark Current: Stratified Null and Utility Tests for LLM Judge Reliability*. Here, dark current means a non-tie preference between byte-identical answers. A configuration comprises the declared model profile, prompt, decoder, parser, and backend. Neutral and strict are the two declared grading criteria. The audit separates output validity, preferences between identical answers, and selection of a declared target. Each is a different question; evidence for one does not answer the others.
+This repository accompanies *LLM Judges Have Dark Current: Stratified Null and Utility Tests for LLM Judge Reliability*. It audits output validity, preferences between identical answers, and selection of a declared target.
+
+Dark current means a non-tie preference between byte-identical answers. The configuration includes the model profile, prompt, decoder, parser, and backend; neutral and strict are the two declared grading criteria.
 
 [Manuscript (PDF)](paper/main.pdf) · [Read the findings](START_HERE.md) · [Reproduce an audit](REPRODUCTION_MAP.md) · [Data and scope](DATASHEET.md)
 
@@ -26,9 +28,9 @@ A separate neutral configuration also passes the utility gate but has two clone 
 
 1. Fix the configuration, consumer, target, working thresholds, and application loss before looking at the results.
 2. Check output validity, exact-clone behavior, and target-selection utility as separate stages.
-3. Report the aggregate and intended task subsets. Preserve invalid outputs and incomplete studies instead of repairing them after the outcome.
+3. Report the aggregate and intended task subsets. Retain invalid outputs and incomplete studies under their original contracts.
 
-These distinctions identify gaps in an evaluation. A reduction in deployment loss has not been measured.
+The audit identifies which additional evidence a selection decision needs. Deployment-loss reduction remains unmeasured.
 
 ## Check the saved artifact
 

@@ -2,11 +2,11 @@
   "current_manuscript": {
     "figures": 4,
     "pages": 21,
-    "pdf_sha256": "52543e0cc05f5e8c234eb0161baa0fb7b9107b95142929ae25ba1b2a86df4ef5",
-    "source_sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc",
+    "pdf_sha256": "cecdf42cd7644bad377d60e26cd868a9b2c4ec121917ecba57680c1051b5e17f",
+    "source_sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507",
     "tables": 9,
     "parent_scientific_receipt_sha256": "ec05342958f70e0efb8a3d59c8b362e47333a2dbb1029731b749ef0ce37aa230",
-    "editorial_scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
+    "editorial_scope": "Five prose passages condensed; data, equations, references and figures unchanged; changed-edition PDFs compiled",
     "template": "TMLR preprint style"
   },
   "figures": 4,
@@ -40,12 +40,10 @@
     "completed_parent_abstract_edition_renders": 4
   },
   "current_reading_edition": {
-    "scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
-    "scientific_model_native_bootstrap": 0,
-    "manuscript_compile_render": 0,
-    "published": false,
-    "coauthor_MHI_permission": "USER_REPORTED_OBTAINED",
-    "external_terms_outgoing_license_final_release": "PENDING"
+    "scope": "Reader prose and current source/PDF binding; no conversation labels; scientific scope retained",
+    "source_sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507",
+    "pdf_sha256": "cecdf42cd7644bad377d60e26cd868a9b2c4ec121917ecba57680c1051b5e17f",
+    "pages": 21
   },
   "current_Dark_paper_receipt_sha256": "b4923b0492da60bf11cf07ed8ee0a088cab70c4f03b0dde863f0856990b2ecce",
   "current_visual_limit": "Inherited dedicated final appendix table page; unchanged existing layout HOLD",

@@ -68,7 +68,7 @@
       "component": "readiness_metadata",
       "path": "CURRENT_READER_MAP_PROVENANCE.json",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "3bec07dea076d0df1fb501945edca42d746118106999c2da0bb35b40852abe2e"
+      "sha256": "d1d837d0591dcf7bce65f8bc0fa0401f94020ff07856689e24dfe7641b895f7f"
     },
     {
       "path": "CURRENT_READING_REVISION.json",
@@ -159,14 +159,14 @@
       "component": "readiness_metadata",
       "path": "PAPER_EVIDENCE_MAP.csv",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "51083e6d02d592c930472362edf119a92472214cf67b6626bd387b190868aff5"
+      "sha256": "e767a1c9742631ac8b4d01035a52821893a498c2d0e5f5793fdb77f6fb0081bc"
     },
     {
       "additional_scope": null,
       "component": "readiness_metadata",
       "path": "PAPER_EVIDENCE_MAP.json",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "519b03edce27fddb2969922c3ad210dcb19a2da3ba310b8d60856f57aba58bbb"
+      "sha256": "5c6bc25b25a04e93671e4a646cf2340d9aefc87b41746a4cd57e73563ac47b63"
     },
     {
       "additional_scope": null,
@@ -187,14 +187,14 @@
       "component": "new_research_assets",
       "path": "README.md",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "cb680cbc30b1ec6f549fc6f90da72a57039c06fb5df07de327d508ea620b2f04"
+      "sha256": "65d4b813bb4e430c6d94313042d9075b08db5c8c56759dbf07ec990f52609f53"
     },
     {
       "additional_scope": null,
       "component": "readiness_metadata",
       "path": "REPRODUCTION_MAP.md",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "7fa801e890eac65dfd908a0cec9feda23181be30c9a5a09af46901bdbf6f6758"
+      "sha256": "3bed43b66125d494293b2d0cdd1e8845415a5e979c27a0ddec70a5950485008c"
     },
     {
       "additional_scope": null,
@@ -212,7 +212,7 @@
     },
     {
       "path": "START_HERE.md",
-      "sha256": "bf819f3440202e388556b67bb423560c0910fa9e418dab75b2870a476077c2d3",
+      "sha256": "59160153eed0b0e2cdb4b394132295bfe064f08ae98b91f788796e78b248cd7a",
       "component": "reader_documentation",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
       "additional_scope": "Author-written reader guide; no new raw dataset or result payload"
@@ -831,14 +831,14 @@
       "component": "manuscript_revision",
       "path": "paper/main.pdf",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "52543e0cc05f5e8c234eb0161baa0fb7b9107b95142929ae25ba1b2a86df4ef5"
+      "sha256": "cecdf42cd7644bad377d60e26cd868a9b2c4ec121917ecba57680c1051b5e17f"
     },
     {
       "additional_scope": null,
       "component": "manuscript_revision",
       "path": "paper/main.tex",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+      "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
     },
     {
       "additional_scope": null,

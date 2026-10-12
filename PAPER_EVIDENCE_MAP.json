@@ -3,7 +3,7 @@
   "status": "CURRENT_13_OBJECTS_INDEXED_WITH_EXPLICIT_GAPS",
   "paper": {
     "path": "paper/main.tex",
-    "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+    "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
   },
   "studies": {
     "V5": {
@@ -227,7 +227,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
       },
       "studies": [
         "V5",
@@ -247,7 +247,7 @@
       },
       "build_verification": {
         "path": "FIGURE_BUILD_VERIFICATION.json",
-        "sha256": "818be969636d50e96d36ea4868e1e75f6d40373e21751b092599fe46f208bf4e"
+        "sha256": "9c822149b8a4fb5e5656ed25a92556f4e2e0b1a57aea2b5195cae737de04b845"
       }
     },
     {
@@ -258,7 +258,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
       },
       "studies": [],
       "scope": "A0/A1 corrected point estimates; legacy primary-record and tabulation command not mapped in this public root.",
@@ -273,7 +273,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
       },
       "studies": [],
       "scope": "A0/A1 strata and legacy reused-item parser diagnostic; not the V8 parser result.",
@@ -290,7 +290,7 @@
       },
       "build_verification": {
         "path": "FIGURE_BUILD_VERIFICATION.json",
-        "sha256": "818be969636d50e96d36ea4868e1e75f6d40373e21751b092599fe46f208bf4e"
+        "sha256": "9c822149b8a4fb5e5656ed25a92556f4e2e0b1a57aea2b5195cae737de04b845"
       }
     },
     {
@@ -323,7 +323,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
       },
       "studies": [
         "V5"
@@ -416,7 +416,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
       },
       "studies": [
         "V5",
@@ -434,7 +434,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
       },
       "studies": [
         "local_output_hold"
@@ -465,7 +465,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
       },
       "studies": [
         "held_source485"
@@ -492,7 +492,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
       },
       "studies": [
         "held_source485"
@@ -527,7 +527,7 @@
       },
       "paper_source": {
         "path": "paper/main.tex",
-        "sha256": "917f0c6b28eef8e5e169d9770622e9e341257c831aae83fe65a833d3d78697bc"
+        "sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507"
       },
       "studies": [],
       "scope": "Study-specific artifact and served-ID overview; not a model comparison or weight-byte certificate",
@@ -551,7 +551,7 @@
   },
   "paper_pdf": {
     "path": "paper/main.pdf",
-    "sha256": "52543e0cc05f5e8c234eb0161baa0fb7b9107b95142929ae25ba1b2a86df4ef5"
+    "sha256": "cecdf42cd7644bad377d60e26cd868a9b2c4ec121917ecba57680c1051b5e17f"
   },
   "this_revision": {
     "scope": "Human reading route and completed TMLR-style Dark paper binding; no new science or build",
@@ -569,11 +569,12 @@
     "publication": "NOT_PUBLIC"
   },
   "this_final_edition": {
-    "scope": "abstract/paper source/PDF and source-label lines only; no new scientific reanalysis",
-    "paper_figures": 4,
-    "paper_tables": 9,
-    "scientific_calls": 0,
-    "figure_builds": 0,
-    "published": false
+    "scope": "Five prose passages shortened with scientific scope retained; named/anonymous changed PDFs compiled; current reader bindings updated",
+    "source_sha256": "85c51c4d4c341ba6dfc75cfd3510c69f8b59d5e048b865e58756cfad4d346507",
+    "pdf_sha256": "cecdf42cd7644bad377d60e26cd868a9b2c4ec121917ecba57680c1051b5e17f",
+    "pages": 21,
+    "new_science": 0,
+    "figure_changes": 0,
+    "conversation_labels": 0
   }
 }
