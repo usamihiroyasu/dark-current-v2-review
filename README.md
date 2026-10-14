@@ -51,7 +51,7 @@ Clone binomial summaries use their stated Bernoulli working model; utility inter
 
 ## Reuse and release
 
-The revised manuscript was submitted to TMLR on 13 October 2026. The replacement of [arXiv:2606.15610](https://arxiv.org/abs/2606.15610) was submitted as v2 and is awaiting announcement. The named PDF in this repository is the submitted preprint edition.
+The revised manuscript was submitted to TMLR on 13 October 2026. The [arXiv v2 preprint](https://arxiv.org/abs/2606.15610v2) is publicly available. The named PDF in this repository is the submitted preprint edition.
 
 Author-owned research code is distributed under the MIT License. The manuscript, author-created figures, explanatory text and author-owned numerical records are available under CC BY 4.0. Third-party materials retain their own terms; see [license scope](LICENSE_SCOPE.md). See [upstream notices](UPSTREAM_LICENSES.md), the [file rights ledger](FILE_RIGHTS_LEDGER.json), and [template notices](paper/TEMPLATE_NOTICES.md). Raw benchmark text, candidate bodies, raw responses, weights, and private operating information are excluded.
 

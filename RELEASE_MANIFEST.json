@@ -39,14 +39,14 @@
     "PAPER_EVIDENCE_MAP.json": "061ea64650c199ad19552b9e60c6bee5fbe7981c7aeb2066742ca8d5ba76849d",
     "PUBLIC_COMPARATOR_VERIFICATION.json": "98a99379cd8495e003e400e452c4572dcb6102d618dadf5ae07c72ff40c08120",
     "READER_REVISION_PROVENANCE.json": "869c466f0613f5f78a4aa973211dc2db6ee440d1fd4fdfa61f50a9cd6b52a4d1",
-    "README.md": "73a27a7a4043e6a328b0e91ce15636f8a513ae62b39c8c6348b2b7bb25cfe54f",
+    "README.md": "5ef39b2ba8601971dcc0750981ace365af80e1c51300c7f6eb29397eb94b7db2",
     "REPRODUCTION_MAP.md": "f5125d699f6bc0107b8d76e7ce317b6836c5f4d8554e2d7f9cce329567a93903",
     "REVIEW_REVISION_PROVENANCE.json": "2fcbb06fd8b5aa3cd34f9766323fcff672e4ad8308810b7c2c78f7c999adbd7d",
     "RUNNER_VERIFICATION.json": "c688edda9d174b2179e7ed02737c6e851e7675a25b960e512495296364e50d26",
     "START_HERE.md": "590c2fce9443393a32052ab97e6e0513f0c3095ba984e5f5d8ca4ac8ae8c5d86",
     "STUDY_CONFIGURATION_MAP.csv": "8a721771dd58724a7eb88b345fa6c281f691b86640a3df858219d53ed0f7e09d",
     "STUDY_CONFIGURATION_MAP.json": "dc102fc00b6636427e179107447d874e7cc71aa5714d19382390b343302cbc88",
-    "SUBMISSION_STATUS.json": "70bf6bc9b0fda8f536b48fab9d77a7d05950e1680ff7a6527ded543638df562b",
+    "SUBMISSION_STATUS.json": "8ce6d5b4e98741b0527145a4e2d49e48b1edebced5cf336da8acc84a8d85c300",
     "UPSTREAM_LICENSES.md": "c5518647bf9be0f12c441c41d1e3c6c104c42f501b6b8a7a0489ee5080a9f638",
     "V6_ACTUAL_JOURNAL_AUDIT.json": "e89321994dd5985f4e5e6a46bdf71563ab37f57fa068bd9bcdeb01f4f1781775",
     "V6_PROTOCOL.md": "b7ff9180d8fa2935815b0cd06c34cc3a86cc2ffb2a14c22ddd1649cafada4277",
@@ -177,7 +177,7 @@
   },
   "parent_manifest_sha256": "07a85859cdba492f67a6874af52723ee6c8ae5150fcca00af6dec9086d780a0d",
   "phase": "PUBLIC_RELEASE_CANDIDATE_SUBMITTED_MANUSCRIPT",
-  "publication": "Repository visibility PUBLIC, verified without sign-in on 13 October 2026 JST; arXiv v2 announcement remains pending; no journal decision claimed",
+  "publication": "Repository visibility PUBLIC, verified without sign-in on 13 October 2026 JST; arXiv v2 public availability observed at 2026-10-14T05:43:59.854Z via https://arxiv.org/abs/2606.15610v2; no journal decision claimed",
   "reader_only_final": "Rename misleading published_figure4 metadata key to included_figure4; candidate remains unpublished; all science/checker bytes unchanged.",
   "reader_only_v2": "Corrected stale object counts and separated concise reader/data/reproduction roles; science/checker bytes unchanged from cold-checked v1.",
   "status": "PUBLIC_REPOSITORY_VERIFIED_AUTHOR_APPROVED",
@@ -201,10 +201,28 @@
     "named_anonymous_new_compiles": 2,
     "science_execution": 0
   },
-  "current_reading_edition": {
+  "reading_edition_metadata_at_base_head": {
     "scope": "Updated173word abstract and matched source/PDF",
     "new_science": 0,
     "published": false,
     "rights_and_final_release": "PENDING"
+  },
+  "current_publication_observation": {
+    "scope": "Repository and arXiv availability observations only. reading_edition_metadata_at_base_head retains the verbatim original metadata state, not current publication or rights certification.",
+    "repository": {
+      "url": "https://github.com/usamihiroyasu/dark-current-v2-review",
+      "base_head_sha": "636bb79e395a4a801c243007ebf091d2a3395c6f",
+      "public_observed_utc": "2026-10-14T06:13:05.135Z"
+    },
+    "arxiv": {
+      "id": "2606.15610",
+      "version": 2,
+      "url": "https://arxiv.org/abs/2606.15610v2",
+      "public_observed_utc": "2026-10-14T05:43:59.854Z"
+    },
+    "named_manuscript_hashes_basis": "Declared in SUBMISSION_STATUS.json at the pinned base HEAD; actual PDF bytes and repository/arXiv PDF identity not rechecked.",
+    "release_authority_basis": "SUBMISSION_STATUS.json records dated author approval of the original repository scope; this local candidate conveys no new approval.",
+    "new_release_authority": false,
+    "scientific_execution_this_update": 0
   }
 }

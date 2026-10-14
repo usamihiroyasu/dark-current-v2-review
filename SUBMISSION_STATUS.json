@@ -8,7 +8,9 @@
   "arxiv": {
     "id": "2606.15610",
     "intended_version": 2,
-    "status": "Replacement submitted; announcement pending"
+    "status": "Public arXiv version 2 available",
+    "observed_public_url": "https://arxiv.org/abs/2606.15610v2",
+    "observed_public_checked_utc": "2026-10-14T05:43:59.854Z"
   },
   "named_manuscript": {
     "source": "paper/main.tex",
