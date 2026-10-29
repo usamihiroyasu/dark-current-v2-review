@@ -8,6 +8,18 @@ Dark current means a non-tie preference between byte-identical answers. The conf
 
 [Manuscript (PDF)](paper/main.pdf) · [Read the findings](START_HERE.md) · [Reproduce an audit](REPRODUCTION_MAP.md) · [Data and scope](DATASHEET.md)
 
+## Research overview video
+
+[![Watch the Dark Current research overview](assets/research-overview.png)](media/Dark_Current_Research_Overview_Silent_1080p.mp4)
+
+**1:59 · 1080p · Silent · English on-screen text.** Click the thumbnail to open the MP4. This author-created overview explains findings from the existing [public preprint](https://arxiv.org/abs/2606.15610v2).
+
+- **Why:** A clean exact-clone result does not establish useful target selection, and an aggregate result need not cover the intended application subset.
+- **How:** Check output validity first; assess exact-clone preferences and declared-target utility separately; then inspect relevant subgroups.
+- **What:** Identify the additional evidence needed before relying on a judge under the declared configuration, criteria, and working thresholds. Deployment-loss reduction remains unmeasured.
+
+The video's **58/154** is source-label alignment for **77 tasks in two dependent presentation orders**. It is not general accuracy or 154 independent tasks. The illustrative layouts are not additional experimental observations.
+
 ## Findings
 
 | Question | Observation | Evaluation consequence |

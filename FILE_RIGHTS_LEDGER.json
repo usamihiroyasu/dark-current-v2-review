@@ -187,7 +187,7 @@
       "component": "new_research_assets",
       "path": "README.md",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "73a27a7a4043e6a328b0e91ce15636f8a513ae62b39c8c6348b2b7bb25cfe54f"
+      "sha256": "89fa202d560fe0cce1f7264296598a4ac334975ad059d6a6b1bb6c98aaccec96"
     },
     {
       "additional_scope": null,
@@ -293,6 +293,14 @@
       "path": "V7_RUNNER_VERIFICATION.json",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
       "sha256": "26e2b1b3d161fa01c99f84912ab92ebe9a92b93324d0c56aef9c5b19b947aeba"
+    },
+    {
+      "additional_scope": "Author-created thumbnail from the research overview. CC BY 4.0 covers only this explanatory-media asset; it does not relicense upstream material or establish new scientific evidence.",
+      "component": "author_created_explanatory_media",
+      "path": "assets/research-overview.png",
+      "public_decision": "AUTHOR_APPROVED_FOR_PUBLIC_RELEASE_UNDER_CC_BY_4_0",
+      "license": "CC-BY-4.0",
+      "sha256": "de496b0ef0047437e5a09615d319cff39a3aace5625bdba72a108b7a032ac713"
     },
     {
       "additional_scope": null,
@@ -650,6 +658,14 @@
       "path": "local_output_hold/verify_recorded.py",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
       "sha256": "b68d22b167cd89781b39646709d8e51d1bee4cb53fa9c26bbb1b95dcf15e08ab"
+    },
+    {
+      "additional_scope": "Author-created silent English research overview of findings in the existing public preprint. CC BY 4.0 covers only this explanatory-media asset; illustrative layouts are not new experiments or a grant over upstream materials.",
+      "component": "author_created_explanatory_media",
+      "path": "media/Dark_Current_Research_Overview_Silent_1080p.mp4",
+      "public_decision": "AUTHOR_APPROVED_FOR_PUBLIC_RELEASE_UNDER_CC_BY_4_0",
+      "license": "CC-BY-4.0",
+      "sha256": "7d7baec1ec9aa8f6559dc9ebf49906d09b7a3747c1b0a643c8c0ba99a9c1f388"
     },
     {
       "path": "paper/TEMPLATE_NOTICES.md",
