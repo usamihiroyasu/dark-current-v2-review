@@ -187,7 +187,7 @@
       "component": "new_research_assets",
       "path": "README.md",
       "public_decision": "PENDING_AUTHOR_APPROVAL",
-      "sha256": "89fa202d560fe0cce1f7264296598a4ac334975ad059d6a6b1bb6c98aaccec96"
+      "sha256": "8b14065f06ab3e38ad9a0089d4e0f9616fbad9dc65d2d7ad4de070592b62dfd1"
     },
     {
       "additional_scope": null,
@@ -1156,6 +1156,14 @@
       "component": "readiness_metadata",
       "public_decision": "PENDING_EXACT_PUBLIC_RELEASE_CONFIRMATION",
       "additional_scope": "Current scoped author-owned licenses/submission status; third-party terms retained"
+    },
+    {
+      "additional_scope": "Animated GIF conversion of media/Dark_Current_Research_Overview_Silent_1080p.mp4; the same CC BY 4.0 scope applies.",
+      "component": "author_created_explanatory_media",
+      "path": "media/research-overview.gif",
+      "public_decision": "AUTHOR_APPROVED_FOR_PUBLIC_RELEASE_UNDER_CC_BY_4_0",
+      "license": "CC-BY-4.0",
+      "sha256": "e8a4e91f943c5a21dbfe9a2c9b78d8cdd248333b7c5813d01190b71b933d377a"
     }
   ],
   "hash_binding": "All non-self files carry their current SHA256. The release manifest hashes this ledger; its own hash is in the external terminal receipt.",
